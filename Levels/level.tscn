@@ -4,8 +4,9 @@
 [ext_resource type="PackedScene" uid="uid://c78ysdddvspsp" path="res://props/assets/prop/prop.gltf" id="3_uhyyw"]
 [ext_resource type="PackedScene" uid="uid://buyhyq3of31kf" path="res://Player/character_body_3d.tscn" id="3_xto7t"]
 [ext_resource type="PackedScene" uid="uid://c5yut3t1pcqw7" path="res://props/assets/maps/maps.gltf" id="4_t80w2"]
-[ext_resource type="Texture2D" uid="uid://gmuroxlv2inw" path="res://icon.svg" id="5_uhyyw"]
+[ext_resource type="PackedScene" uid="uid://hix13sq2goi5" path="res://NPC/npc.tscn" id="6_8a2b0"]
 [ext_resource type="PackedScene" uid="uid://25l57ns5uehp" path="res://Hud/hud_main.tscn" id="6_t80w2"]
+[ext_resource type="PackedScene" uid="uid://cvl8l0c50qawg" path="res://Interact/rock.tscn" id="7_8a2b0"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_xto7t"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -18,7 +19,7 @@ sky_material = SubResource("ProceduralSkyMaterial_xto7t")
 background_mode = 2
 sky = SubResource("Sky_uhyyw")
 
-[node name="Level" type="Node3D" unique_id=54963042]
+[node name="Level" type="Node3D" unique_id=54963042 groups=["level"]]
 script = ExtResource("1_s41d2")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=829663699]
@@ -28,7 +29,7 @@ environment = SubResource("Environment_t80w2")
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
 shadow_enabled = true
 
-[node name="Player" parent="." unique_id=1208725648 instance=ExtResource("3_xto7t")]
+[node name="Player" parent="." unique_id=1208725648 groups=["player"] instance=ExtResource("3_xto7t")]
 
 [node name="maps" parent="." unique_id=1486431311 instance=ExtResource("4_t80w2")]
 
@@ -79,12 +80,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.586222, 0, -39.457897)
 [node name="prop15" parent="props" unique_id=757730222 instance=ExtResource("3_uhyyw")]
 transform = Transform3D(0.9573541, 0, 0.28891698, 0, 1, 0, -0.28891698, 0, 0.9573541, 20.586222, 0, -15.747698)
 
-[node name="Sprite3D" type="Sprite3D" parent="." unique_id=409904064]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.771999, 1.3043056, 0)
-texture = ExtResource("5_uhyyw")
-
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1565789844]
 
 [node name="HudMain" parent="CanvasLayer" unique_id=448475395 instance=ExtResource("6_t80w2")]
 unique_name_in_owner = true
 process_mode = 3
+
+[node name="NPC" parent="." unique_id=658801131 instance=ExtResource("6_8a2b0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2736478, -2.3841858e-07, -5.787223)
+
+[node name="Rock" parent="." unique_id=1794994350 instance=ExtResource("7_8a2b0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6565275, 0.5, -4.4679937)

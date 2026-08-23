@@ -73,3 +73,4 @@ layout_mode = 2
 text = "Return to the game"
 
 [connection signal="drag_ended" from="PauseMenu/VBoxContainer/Sensitivity/SensitivitySlider" to="." method="_on_sensitivity_slider_drag_ended"]
+[connection signal="pressed" from="PauseMenu/VBoxContainer/ReturnToGameButton" to="." method="_on_return_to_game_button_pressed"]
