@@ -7,12 +7,14 @@ func _ready() -> void:
 	
 func _process(delta: float) -> void:
 	if is_colliding():
-		print("interact")
 		var collider = get_collider()
 		if collider is Interactible:
 			label.text = collider.int_name
 			if Input.is_action_just_pressed("interaction"):
-				collider.interact.emit()
-			
+				if collider is StoryInteractible:
+					Story.manage_story_interaction(collider.interact_identifier)
+				else:
+					collider.interact.emit()
+
 	else:
 		label.text = ""

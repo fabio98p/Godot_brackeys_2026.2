@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cvl8l0c50qawg"]
 
-[ext_resource type="Script" uid="uid://gn2abvdfhrdh" path="res://Interact/interact.gd" id="1_mfhal"]
+[ext_resource type="Script" uid="uid://byce0w8s3kddb" path="res://Interact/story_interact.gd" id="1_mfhal"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_es3ee"]
 
@@ -11,6 +11,7 @@ albedo_color = Color(0.5132329, 0.5132329, 0.5132329, 1)
 collision_layer = 4097
 collision_mask = 4097
 script = ExtResource("1_mfhal")
+interact_identifier = "rock"
 int_name = "blarrr"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=367381162]

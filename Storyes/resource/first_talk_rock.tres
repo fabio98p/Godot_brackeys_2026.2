@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="StoryInteractionResource" format=3 uid="uid://c6oefdswvr02i"]
+
+[ext_resource type="Resource" uid="uid://08rixts5ymv8" path="res://Storyes/resource/second_talk_npc1.tres" id="1_iob5k"]
+[ext_resource type="Script" uid="uid://dcrevu1wvc1uq" path="res://Storyes/story_actions.gd" id="1_kqb5p"]
+[ext_resource type="Resource" uid="uid://b6sldd7ikvqd" path="res://dialogs/2.dialogue" id="1_lhgle"]
+
+[resource]
+script = ExtResource("1_kqb5p")
+need_intercated_by = "rock"
+next_interaction = ExtResource("1_iob5k")
+is_dialogue_interaction = true
+dialog_interaction = ExtResource("1_lhgle")
+metadata/_custom_type_script = "uid://dcrevu1wvc1uq"

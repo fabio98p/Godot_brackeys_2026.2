@@ -1,0 +1,3 @@
+extends Interactible
+
+class_name StoryInteractible

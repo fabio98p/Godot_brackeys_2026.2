@@ -1,0 +1,12 @@
+~ start
+Me: Hi Rook.
+Rook: ...
+Me: Can you hear me?
+Rook: ...
+- Try Again
+	Me: Hello?
+	Rook: ...
+- Go Away
+	Me: Good bye
+
+=> END

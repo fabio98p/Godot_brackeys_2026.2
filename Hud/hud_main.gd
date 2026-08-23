@@ -10,6 +10,7 @@ func _ready() -> void:
 	sensitivity_slider.value = GS.mouse_sensitivity
 
 func _process(delta: float) -> void:
+	
 	# Handle Pause Menu
 	if Input.is_action_just_pressed("pause_menu"):
 
