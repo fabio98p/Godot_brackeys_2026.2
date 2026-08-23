@@ -1,0 +1,12 @@
+{
+    "asset_2a77e955-b8b0-4a35-b3d7-2270eb953f2d": {
+        "relative_path": "props/assets/prop/prop.gltf",
+        "content_hash": "c18580e37232a50174719c47735d681a674213d29f0078dbb663fdfeb916a03d",
+        "source_blend_file": "terrain.blend"
+    },
+    "asset_2cfd551c-6cb1-43d8-b002-af72852e748b": {
+        "relative_path": "props/assets/maps/maps.gltf",
+        "content_hash": "f3a2860c621604f80e3b711e257036791063f965bf31e709d2b41143a19ee706",
+        "source_blend_file": "terrain.blend"
+    }
+}

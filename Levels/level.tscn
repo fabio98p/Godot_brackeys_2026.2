@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://c3v6q2r4nnik7"]
+
+[ext_resource type="Script" uid="uid://b58uy8x4v63js" path="res://Levels/level.gd" id="1_s41d2"]
+[ext_resource type="PackedScene" uid="uid://c78ysdddvspsp" path="res://props/assets/prop/prop.gltf" id="3_uhyyw"]
+[ext_resource type="PackedScene" uid="uid://buyhyq3of31kf" path="res://Player/character_body_3d.tscn" id="3_xto7t"]
+[ext_resource type="PackedScene" uid="uid://c5yut3t1pcqw7" path="res://props/assets/maps/maps.gltf" id="4_t80w2"]
+[ext_resource type="Texture2D" uid="uid://gmuroxlv2inw" path="res://icon.svg" id="5_uhyyw"]
+[ext_resource type="PackedScene" uid="uid://25l57ns5uehp" path="res://Hud/hud_main.tscn" id="6_t80w2"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_xto7t"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_uhyyw"]
+sky_material = SubResource("ProceduralSkyMaterial_xto7t")
+
+[sub_resource type="Environment" id="Environment_t80w2"]
+background_mode = 2
+sky = SubResource("Sky_uhyyw")
+
+[node name="Level" type="Node3D" unique_id=54963042]
+script = ExtResource("1_s41d2")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=829663699]
+environment = SubResource("Environment_t80w2")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=882846500]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Player" parent="." unique_id=1208725648 instance=ExtResource("3_xto7t")]
+
+[node name="maps" parent="." unique_id=1486431311 instance=ExtResource("4_t80w2")]
+
+[node name="props" type="Node3D" parent="." unique_id=2026359470]
+
+[node name="prop" parent="props" unique_id=784367479 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -21.636562)
+
+[node name="prop2" parent="props" unique_id=1839236932 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.536093, 0, -21.636562)
+
+[node name="prop3" parent="props" unique_id=247756017 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.536093, 0, 20.061085)
+
+[node name="prop4" parent="props" unique_id=1676138999 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.536093, 0, 32.29018)
+
+[node name="prop5" parent="props" unique_id=1174020624 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.536093, 0, 40.316647)
+
+[node name="prop6" parent="props" unique_id=87302957 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.641266, 0, 40.316647)
+
+[node name="prop7" parent="props" unique_id=2092262076 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.641266, 0, 17.4827)
+
+[node name="prop8" parent="props" unique_id=1479146832 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.641266, 0, 5.9346237)
+
+[node name="prop9" parent="props" unique_id=2118948959 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.631874, 0, 5.9346237)
+
+[node name="prop10" parent="props" unique_id=1574791305 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.315033, 0, 5.9346237)
+
+[node name="prop11" parent="props" unique_id=313129138 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.315033, 0, -39.457897)
+
+[node name="prop12" parent="props" unique_id=394179899 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.010681, 0, -39.457897)
+
+[node name="prop13" parent="props" unique_id=374390866 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.864487, 0, -39.457897)
+
+[node name="prop14" parent="props" unique_id=1685210751 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.586222, 0, -39.457897)
+
+[node name="prop15" parent="props" unique_id=757730222 instance=ExtResource("3_uhyyw")]
+transform = Transform3D(0.9573541, 0, 0.28891698, 0, 1, 0, -0.28891698, 0, 0.9573541, 20.586222, 0, -15.747698)
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=409904064]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.771999, 1.3043056, 0)
+texture = ExtResource("5_uhyyw")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1565789844]
+
+[node name="HudMain" parent="CanvasLayer" unique_id=448475395 instance=ExtResource("6_t80w2")]
+unique_name_in_owner = true
+process_mode = 3

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cqetpvse0s3ue"]
+
+[ext_resource type="PackedScene" uid="uid://c5yut3t1pcqw7" path="res://props/assets/maps/maps.gltf" id="1_oma0o"]
+
+[node name="maps" type="Node3D" unique_id=1100632147]
+
+[node name="maps" parent="." unique_id=1486431311 instance=ExtResource("1_oma0o")]

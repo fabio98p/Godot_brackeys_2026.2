@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c128d0wev7itg"]
+
+[ext_resource type="PackedScene" uid="uid://c78ysdddvspsp" path="res://props/assets/prop/prop.gltf" id="1_gdhjp"]
+
+[node name="prop" type="Node3D" unique_id=805141742]
+
+[node name="prop" parent="." unique_id=784367479 instance=ExtResource("1_gdhjp")]

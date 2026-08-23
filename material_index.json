@@ -1,0 +1,23 @@
+{
+    "mat_b5473a41-507a-4239-b96a-6654176af812": {
+        "name": "Grass",
+        "relative_path": "props/materials/Grass/Grass.tres",
+        "content_hash": "ef099032984865c1c630c059f4c630a89332622d8fa808894143df2297d53cbc",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_e3f30a44-582b-4ccd-acff-cc1bc055ea3c": {
+        "name": "tree_color_brown",
+        "relative_path": "props/materials/tree_color_brown/tree_color_brown.tres",
+        "content_hash": "56ee8da76e79cdb6f3401ab7d6bbfb7d5e15674faf4d8b9264fbb9ae5f65a7d1",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_81850032-a0e8-4228-9b3c-1c3459f97e9d": {
+        "name": "tree_color_green",
+        "relative_path": "props/materials/tree_color_green/tree_color_green.tres",
+        "content_hash": "820bdad0a6dcac35d33e523ad9a560f84cc2af4f4237258a07100d0daddfd049",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    }
+}
