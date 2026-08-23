@@ -6,6 +6,9 @@ func _ready() -> void:
 	label.text= ""
 	
 func _process(delta: float) -> void:
+	if GS.dialog_is_open:
+		return
+	
 	if is_colliding():
 		var collider = get_collider()
 		if collider is Interactible:

@@ -7,6 +7,8 @@ var mouse_input: Vector2
 
 
 func _input(event: InputEvent) -> void:
+	if GS.dialog_is_open:
+		return
 		
 	if event is InputEventMouseMotion:
 		var relative_movement = event.screen_relative

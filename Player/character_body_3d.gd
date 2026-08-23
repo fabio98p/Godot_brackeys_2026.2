@@ -7,6 +7,9 @@ const JUMP_VELOCITY = 4.5
 @onready var head: Node3D = %Head
 
 func _physics_process(delta: float) -> void:
+	if GS.dialog_is_open:
+		return
+	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta

@@ -81,6 +81,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.586222, 0, -39.457897)
 transform = Transform3D(0.9573541, 0, 0.28891698, 0, 1, 0, -0.28891698, 0, 0.9573541, 20.586222, 0, -15.747698)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1565789844]
+layer = 100
 
 [node name="HudMain" parent="CanvasLayer" unique_id=448475395 instance=ExtResource("6_t80w2")]
 unique_name_in_owner = true

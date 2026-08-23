@@ -19,6 +19,7 @@ text = "L'hud E' attivo"
 
 [node name="PauseMenu" type="Panel" parent="." unique_id=2133788885]
 visible = false
+z_index = 4096
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

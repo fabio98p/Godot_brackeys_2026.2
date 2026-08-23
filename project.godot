@@ -25,6 +25,10 @@ Utils="*res://GlobalScripts/Utils.gd"
 DialogueManager="*uid://c3rodes2l3gxb"
 Story="*uid://cglf02seovrc8"
 
+[dialogue_manager]
+
+runtime/balloon_path="res://dialogs/style/balloon.tscn"
+
 [display]
 
 window/size/resizable=false
