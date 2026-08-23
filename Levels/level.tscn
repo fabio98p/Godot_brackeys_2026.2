@@ -17,6 +17,7 @@ sky_material = SubResource("ProceduralSkyMaterial_xto7t")
 
 [sub_resource type="Environment" id="Environment_t80w2"]
 background_mode = 2
+background_energy_multiplier = 0.15
 sky = SubResource("Sky_uhyyw")
 
 [node name="Level" type="Node3D" unique_id=54963042 groups=["level"]]
@@ -26,7 +27,10 @@ script = ExtResource("1_s41d2")
 environment = SubResource("Environment_t80w2")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=882846500]
-transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+transform = Transform3D(-0.83524275, 0.22460255, -0.50191957, 0.05045288, 0.94022983, 0.33678237, 0.5475619, 0.25597173, -0.7966521, 0, 24.614683, 0)
+light_color = Color(0.21230483, 0.21230483, 0.21230483, 1)
+light_energy = 1.95
+light_volumetric_fog_energy = 2.33
 shadow_enabled = true
 
 [node name="Player" parent="." unique_id=1208725648 groups=["player"] instance=ExtResource("3_xto7t")]
@@ -91,4 +95,16 @@ process_mode = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2736478, -2.3841858e-07, -5.787223)
 
 [node name="Rock" parent="." unique_id=1794994350 instance=ExtResource("7_8a2b0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6565275, 0.5, -4.4679937)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6565275, 0.028469086, -4.4679937)
+
+[node name="AreaLight3D" type="AreaLight3D" parent="." unique_id=261072306]
+transform = Transform3D(1, 0, 0, 0, -0.009694826, 0.99995303, 0, -0.99995303, -0.009694826, -1.1905532, 5.5448036, -5.7798066)
+light_color = Color(1, 0.30588236, 0.28235295, 1)
+area_range = 6.3
+area_attenuation = -0.242
+
+[node name="AreaLight3D2" type="AreaLight3D" parent="." unique_id=1538048182]
+transform = Transform3D(1, 0, 0, 0, -0.009694826, 0.99995303, 0, -0.99995303, -0.009694826, 4.9436264, 5.5448036, -4.977202)
+light_color = Color(1, 0.30588236, 0.28235295, 1)
+area_range = 6.3
+area_attenuation = -0.242
