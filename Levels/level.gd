@@ -5,4 +5,8 @@ extends Node3D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	pass
+	#await get_tree().create_timer(1).timeout
+	#get_tree().get_first_node_in_group("player").head.watch_in_direction_of("Ettore")
+	#await get_tree().create_timer(1).timeout
+	#get_tree().get_first_node_in_group("player").head.watch_in_direction_of("Karen")

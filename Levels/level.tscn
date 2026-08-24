@@ -36,6 +36,7 @@ light_volumetric_fog_energy = 2.33
 shadow_enabled = true
 
 [node name="Player" parent="." unique_id=1208725648 groups=["player"] instance=ExtResource("3_xto7t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.41566968, 0, -2.4752414)
 
 [node name="maps" parent="." unique_id=1486431311 instance=ExtResource("4_t80w2")]
 
@@ -93,9 +94,6 @@ layer = 100
 unique_name_in_owner = true
 process_mode = 3
 
-[node name="NPC" parent="." unique_id=658801131 instance=ExtResource("6_8a2b0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2736478, -2.3841858e-07, -5.787223)
-
 [node name="Rock" parent="." unique_id=1794994350 instance=ExtResource("7_8a2b0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6565275, 0.028469086, -4.4679937)
 
@@ -111,14 +109,17 @@ light_color = Color(1, 0.30588236, 0.28235295, 1)
 area_range = 6.3
 area_attenuation = -0.242
 
-[node name="JonnyBravo" parent="." unique_id=668593638 instance=ExtResource("8_ugh17")]
+[node name="Ettore" parent="." unique_id=658801131 groups=["npc"] instance=ExtResource("6_8a2b0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2736478, -2.3841858e-07, -5.787223)
+
+[node name="JonnyBravo" parent="." unique_id=668593638 groups=["npc"] instance=ExtResource("8_ugh17")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9306155, 5.9604645e-08, -5.0642133)
 
-[node name="Karen" parent="." unique_id=1497548778 instance=ExtResource("9_eabcg")]
+[node name="Karen" parent="." unique_id=1497548778 groups=["npc"] instance=ExtResource("9_eabcg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7512224, 0, -4.8633866)
 
-[node name="MohamedAlibaba" parent="." unique_id=2006021036 instance=ExtResource("10_dvejp")]
+[node name="MohamedAlibaba" parent="." unique_id=2006021036 groups=["npc"] instance=ExtResource("10_dvejp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7432427, 5.9604645e-08, -3.18676)
 
-[node name="Wednesday" parent="." unique_id=1727122051 instance=ExtResource("11_3hgmi")]
+[node name="Wednesday" parent="." unique_id=1727122051 groups=["npc"] instance=ExtResource("11_3hgmi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1252837, 5.9604645e-08, -3.6462243)

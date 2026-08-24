@@ -2,15 +2,16 @@ extends Node
 
 var current_story_interaction: StoryInteractionResource
 
+func watch_to_npc(npc: String):
+	print("AAAA")
+	get_tree().get_first_node_in_group("player").head.watch_in_direction_of(npc)
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	DialogueManager.connect("dialogue_started", Callable(self, "dialogue_started"))
 	DialogueManager.connect("dialogue_ended", Callable(self, "dialogue_ended"))
 	current_story_interaction = preload("uid://c4dpsbltexo8p")
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
 
 func manage_story_interaction(interacted_by: String):
 	print(interacted_by, current_story_interaction.need_intercated_by)

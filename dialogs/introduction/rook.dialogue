@@ -1,5 +1,7 @@
 ~ start
-Me: Hi, do you need help with the washer?
+do watch_to_npc("Ettore")
+Me: dioooooo
 Rook: ...
+
 Me: ....
 => END

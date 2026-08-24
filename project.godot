@@ -28,6 +28,7 @@ Story="*uid://cglf02seovrc8"
 [dialogue_manager]
 
 runtime/balloon_path="res://dialogs/style/balloon.tscn"
+runtime/state_autoload_shortcuts=["Story"]
 
 [display]
 
@@ -54,6 +55,7 @@ folder_colors={
 
 level=""
 player=""
+npc=""
 
 [input]
 
