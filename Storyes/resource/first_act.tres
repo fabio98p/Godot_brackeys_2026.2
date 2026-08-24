@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="StoryInteractionResource" format=3 uid="uid://c6oefdswvr02i"]
+
+[ext_resource type="Resource" uid="uid://ce31cdhm3uuex" path="res://dialogs/first_act/rook.dialogue" id="1_f6241"]
+[ext_resource type="Resource" uid="uid://c1dhtye6cj1sk" path="res://dialogs/first_act/Ettore1.dialogue" id="2_c5r0a"]
+[ext_resource type="Resource" uid="uid://83p8k0u6skes" path="res://dialogs/first_act/Jonny1.dialogue" id="3_0348l"]
+[ext_resource type="Resource" uid="uid://d0d0j7acok55s" path="res://dialogs/first_act/Karen1.dialogue" id="4_ryxpx"]
+[ext_resource type="Resource" uid="uid://drdq47mk4fxw0" path="res://dialogs/first_act/Alibaba1.dialogue" id="5_k6ohd"]
+[ext_resource type="Resource" uid="uid://08rixts5ymv8" path="res://Storyes/resource/second_act.tres" id="6_j4i12"]
+[ext_resource type="Script" uid="uid://dcrevu1wvc1uq" path="res://Storyes/story_actions.gd" id="7_ufsa2"]
+[ext_resource type="Resource" uid="uid://c2ebqwmrdlcip" path="res://dialogs/first_act/Wendesday1.dialogue" id="8_ntdpn"]
+
+[resource]
+script = ExtResource("7_ufsa2")
+ettore_dialog_interaction = ExtResource("2_c5r0a")
+wednesday_dialog_interaction = ExtResource("8_ntdpn")
+mohamed_alibaba_dialog_interaction = ExtResource("5_k6ohd")
+jonny_bravo_dialog_interaction = ExtResource("3_0348l")
+karen_dialog_interaction = ExtResource("4_ryxpx")
+need_intercated_by = "rock"
+next_interaction = ExtResource("6_j4i12")
+is_dialogue_interaction = true
+dialog_interaction = ExtResource("1_f6241")
+metadata/_custom_type_script = "uid://dcrevu1wvc1uq"

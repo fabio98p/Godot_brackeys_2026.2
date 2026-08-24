@@ -4,9 +4,13 @@
 [ext_resource type="PackedScene" uid="uid://c78ysdddvspsp" path="res://props/assets/prop/prop.gltf" id="3_uhyyw"]
 [ext_resource type="PackedScene" uid="uid://buyhyq3of31kf" path="res://Player/character_body_3d.tscn" id="3_xto7t"]
 [ext_resource type="PackedScene" uid="uid://c5yut3t1pcqw7" path="res://props/assets/maps/maps.gltf" id="4_t80w2"]
-[ext_resource type="PackedScene" uid="uid://hix13sq2goi5" path="res://NPC/npc.tscn" id="6_8a2b0"]
+[ext_resource type="PackedScene" uid="uid://hix13sq2goi5" path="res://NPC/NpcEttore.tscn" id="6_8a2b0"]
 [ext_resource type="PackedScene" uid="uid://25l57ns5uehp" path="res://Hud/hud_main.tscn" id="6_t80w2"]
 [ext_resource type="PackedScene" uid="uid://cvl8l0c50qawg" path="res://Interact/rock.tscn" id="7_8a2b0"]
+[ext_resource type="PackedScene" uid="uid://dduq0vua4qci3" path="res://NPC/NpcJonnyBravo.tscn" id="8_ugh17"]
+[ext_resource type="PackedScene" uid="uid://bvb2sjtcktdcy" path="res://NPC/NpcKaren.tscn" id="9_eabcg"]
+[ext_resource type="PackedScene" uid="uid://cb8qhjktnf6gg" path="res://NPC/NpcMohamedAlibaba.tscn" id="10_dvejp"]
+[ext_resource type="PackedScene" uid="uid://ballgcmlwbmqo" path="res://NPC/NpcWednesday.tscn" id="11_3hgmi"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_xto7t"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -16,8 +20,6 @@ ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
 sky_material = SubResource("ProceduralSkyMaterial_xto7t")
 
 [sub_resource type="Environment" id="Environment_t80w2"]
-background_mode = 2
-background_energy_multiplier = 0.15
 sky = SubResource("Sky_uhyyw")
 
 [node name="Level" type="Node3D" unique_id=54963042 groups=["level"]]
@@ -28,7 +30,7 @@ environment = SubResource("Environment_t80w2")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=882846500]
 transform = Transform3D(-0.83524275, 0.22460255, -0.50191957, 0.05045288, 0.94022983, 0.33678237, 0.5475619, 0.25597173, -0.7966521, 0, 24.614683, 0)
-light_color = Color(0.21230483, 0.21230483, 0.21230483, 1)
+light_color = Color(0.7204674, 0.7204675, 0.7204674, 1)
 light_energy = 1.95
 light_volumetric_fog_energy = 2.33
 shadow_enabled = true
@@ -108,3 +110,15 @@ transform = Transform3D(1, 0, 0, 0, -0.009694826, 0.99995303, 0, -0.99995303, -0
 light_color = Color(1, 0.30588236, 0.28235295, 1)
 area_range = 6.3
 area_attenuation = -0.242
+
+[node name="JonnyBravo" parent="." unique_id=668593638 instance=ExtResource("8_ugh17")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9306155, 5.9604645e-08, -5.0642133)
+
+[node name="Karen" parent="." unique_id=1497548778 instance=ExtResource("9_eabcg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7512224, 0, -4.8633866)
+
+[node name="MohamedAlibaba" parent="." unique_id=2006021036 instance=ExtResource("10_dvejp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7432427, 5.9604645e-08, -3.18676)
+
+[node name="Wednesday" parent="." unique_id=1727122051 instance=ExtResource("11_3hgmi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1252837, 5.9604645e-08, -3.6462243)

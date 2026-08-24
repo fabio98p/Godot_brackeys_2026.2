@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://ck68x41u88hn5"
+path="res://.godot/imported/Ettore1.dialogue-eac4e3b467610d1bb882104cee989f6d.tres"
+
+[deps]
+
+source_file="res://dialogs/introduction/Ettore1.dialogue"
+dest_files=["res://.godot/imported/Ettore1.dialogue-eac4e3b467610d1bb882104cee989f6d.tres"]
+
+[params]
+
+defaults=true

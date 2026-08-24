@@ -14,7 +14,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="brackeys_2026.2"
+config/name="Cold Wash"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -95,7 +95,7 @@ interaction={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://dialogs/1.dialogue", "res://dialogs/2.dialogue", "res://dialogs/3.dialogue", "res://dialogs/4.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogs/introduction/Alibaba1.dialogue", "res://dialogs/introduction/Jonny1.dialogue", "res://dialogs/introduction/Karen1.dialogue", "res://dialogs/introduction/Wendesday1.dialogue", "res://dialogs/introduction/Ettore1.dialogue", "res://dialogs/introduction/rook.dialogue", "res://dialogs/first_act/Alibaba1.dialogue", "res://dialogs/first_act/Ettore1.dialogue", "res://dialogs/first_act/Karen1.dialogue", "res://dialogs/first_act/Jonny1.dialogue", "res://dialogs/first_act/rook.dialogue", "res://dialogs/first_act/Wendesday1.dialogue")
 
 [layer_names]
 

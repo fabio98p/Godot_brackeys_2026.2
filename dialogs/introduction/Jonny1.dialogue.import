@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://22qjkqr0jjvt"
+path="res://.godot/imported/Jonny1.dialogue-352e4decce573f70e0362a1e5f985fe7.tres"
+
+[deps]
+
+source_file="res://dialogs/introduction/Jonny1.dialogue"
+dest_files=["res://.godot/imported/Jonny1.dialogue-352e4decce573f70e0362a1e5f985fe7.tres"]
+
+[params]
+
+defaults=true

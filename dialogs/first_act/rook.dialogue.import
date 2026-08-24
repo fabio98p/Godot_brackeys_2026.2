@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://ce31cdhm3uuex"
+path="res://.godot/imported/rook.dialogue-79352d69c7e4b9ba7309420a2aefdbb2.tres"
+
+[deps]
+
+source_file="res://dialogs/first_act/rook.dialogue"
+dest_files=["res://.godot/imported/rook.dialogue-79352d69c7e4b9ba7309420a2aefdbb2.tres"]
+
+[params]
+
+defaults=true

@@ -9,6 +9,8 @@ e' stato ucciso da karen perche continuava a rompere i maroni, con un flacone di
 
 
 ---- PERSONAGGI ----
+GIORDANO: 
+il classico nerd universitario che vuole guadagnare qualche soldo
 
 ETTORE:
 il nero che morira per primo uomo d'affari, sempre al telefono, arrogante.
