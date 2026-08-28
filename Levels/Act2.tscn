@@ -89,7 +89,9 @@ omni_attenuation = 1.048
 transform = Transform3D(0.73845536, 0, 0.6743024, 0, 1, 0, -0.6743024, 0, 0.73845536, -3.4159656, 0, -3.994257)
 
 [node name="MohamedAlibaba" parent="." unique_id=246985718 instance=ExtResource("7_7lbcq")]
-transform = Transform3D(0.65077424, 0, -0.7592713, 0, 1, 0, 0.7592713, 0, 0.65077424, -1.8842568, 0, -3.9628534)
+transform = Transform3D(-0.55052125, 0, 0.8348211, 0, 1, 0, -0.8348211, 0, -0.55052125, -3.516563, 0, -2.8923075)
 
 [node name="Karen" parent="." unique_id=953686815 instance=ExtResource("8_7lbcq")]
 transform = Transform3D(-0.9828845, 0, 0.18422268, 0, 1, 0, -0.18422268, 0, -0.9828845, -0.9423544, 1.1920929e-07, 0.101721525)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=726637071]

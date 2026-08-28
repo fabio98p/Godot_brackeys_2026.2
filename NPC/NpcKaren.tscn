@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bvb2sjtcktdcy"]
 
 [ext_resource type="Script" uid="uid://byce0w8s3kddb" path="res://Interact/story_interact.gd" id="1_crthb"]
-[ext_resource type="Texture2D" uid="uid://jibhp4r4l0lf" path="res://Assets/Sprite/Karen.png" id="2_crthb"]
+[ext_resource type="Texture2D" uid="uid://jibhp4r4l0lf" path="res://Assets/Sprite/brutti/Karen.png" id="2_crthb"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k1h6f"]
 radius = 0.27441406
@@ -14,6 +14,7 @@ int_name = "Karen"
 
 [node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228]
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 1, 0)
+shaded = true
 double_sided = false
 texture = ExtResource("2_crthb")
 

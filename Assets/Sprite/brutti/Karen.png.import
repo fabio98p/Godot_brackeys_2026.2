@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jibhp4r4l0lf"
-path.s3tc="res://.godot/imported/Karen.png-6d8fd3e7f6672a76322572a233cd3d96.s3tc.ctex"
-path.etc2="res://.godot/imported/Karen.png-6d8fd3e7f6672a76322572a233cd3d96.etc2.ctex"
+path.s3tc="res://.godot/imported/Karen.png-a9236bc630eec7139f6d81ca603e4085.s3tc.ctex"
+path.etc2="res://.godot/imported/Karen.png-a9236bc630eec7139f6d81ca603e4085.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Sprite/Karen.png"
-dest_files=["res://.godot/imported/Karen.png-6d8fd3e7f6672a76322572a233cd3d96.s3tc.ctex", "res://.godot/imported/Karen.png-6d8fd3e7f6672a76322572a233cd3d96.etc2.ctex"]
+source_file="res://Assets/Sprite/brutti/Karen.png"
+dest_files=["res://.godot/imported/Karen.png-a9236bc630eec7139f6d81ca603e4085.s3tc.ctex", "res://.godot/imported/Karen.png-a9236bc630eec7139f6d81ca603e4085.etc2.ctex"]
 
 [params]
 

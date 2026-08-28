@@ -91,3 +91,5 @@ transform = Transform3D(0.005237035, 0, 0.9999863, 0, 1, 0, -0.9999863, 0, 0.005
 
 [node name="Ettore" parent="." unique_id=814567493 instance=ExtResource("9_xxven")]
 transform = Transform3D(0.6795503, 0, 0.7336289, 0, 1, 0, -0.7336289, 0, 0.6795503, -3.3927534, 0, -4.0362167)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=617071902]

@@ -2,9 +2,9 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d4kqotubka07d"
-path.s3tc="res://.godot/imported/NPC1.png-7460aeec4551ab3614e36fd87ab4e628.s3tc.ctex"
-path.etc2="res://.godot/imported/NPC1.png-7460aeec4551ab3614e36fd87ab4e628.etc2.ctex"
+uid="uid://4lvp33ak5ilu"
+path.s3tc="res://.godot/imported/Mohamed_Alibaba.png-651f225f724466a7a9afc90efd71f823.s3tc.ctex"
+path.etc2="res://.godot/imported/Mohamed_Alibaba.png-651f225f724466a7a9afc90efd71f823.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Sprite/NPC1.png"
-dest_files=["res://.godot/imported/NPC1.png-7460aeec4551ab3614e36fd87ab4e628.s3tc.ctex", "res://.godot/imported/NPC1.png-7460aeec4551ab3614e36fd87ab4e628.etc2.ctex"]
+source_file="res://Assets/Sprite/brutti/Mohamed_Alibaba.png"
+dest_files=["res://.godot/imported/Mohamed_Alibaba.png-651f225f724466a7a9afc90efd71f823.s3tc.ctex", "res://.godot/imported/Mohamed_Alibaba.png-651f225f724466a7a9afc90efd71f823.etc2.ctex"]
 
 [params]
 

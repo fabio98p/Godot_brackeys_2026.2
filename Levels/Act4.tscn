@@ -8,6 +8,8 @@
 [ext_resource type="PackedScene" uid="uid://bvb2sjtcktdcy" path="res://NPC/NpcKaren.tscn" id="6_1v6q0"]
 [ext_resource type="PackedScene" uid="uid://cb8qhjktnf6gg" path="res://NPC/NpcMohamedAlibaba.tscn" id="7_pcwah"]
 [ext_resource type="PackedScene" uid="uid://hix13sq2goi5" path="res://NPC/NpcEttore.tscn" id="8_pcwah"]
+[ext_resource type="PackedScene" uid="uid://dduq0vua4qci3" path="res://NPC/NpcJonnyBravo.tscn" id="9_bdlko"]
+[ext_resource type="PackedScene" uid="uid://ballgcmlwbmqo" path="res://NPC/NpcWednesday.tscn" id="10_qeh2j"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_kbe2v"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -20,6 +22,202 @@ sky_material = SubResource("ProceduralSkyMaterial_kbe2v")
 background_mode = 1
 background_energy_multiplier = 0.0
 sky = SubResource("Sky_arsda")
+
+[sub_resource type="Animation" id="Animation_dnbn1"]
+resource_name = "Alibaba_to_corner"
+length = 4.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MohamedAlibaba:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.03, 3, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.9553435, 0, 0.071068764), Vector3(0.58007765, 0, -3.1211367), Vector3(2.7034156, 0, -4.880741), Vector3(2.7460024, 0, -5.008792)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MohamedAlibaba:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 2.03, 3, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 2.9100847, 0), Vector3(0, 2.3604054, 0), Vector3(0, 2.3604057, 0), Vector3(0, -0.9930142, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_bdlko"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("JonnyBravo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-2.7409387, 0, 0.4617324)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("JonnyBravo:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 2.6988523, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Wednesday:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-2.7215295, 0.057264566, 0.33618867)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Wednesday:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 2.8277009, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("MohamedAlibaba:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-0.9553435, 0, 0.071068764)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("MohamedAlibaba:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, -2.964186, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_qeh2j"]
+resource_name = "jonny_enter_shop"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("JonnyBravo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.97, 2.99, 5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-2.7409387, 0, 0.4617324), Vector3(-1.8463302, 0, -1.0113351), Vector3(-1.8463302, 0, -1.0113351), Vector3(0.9328623, 0, -1.0113351)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("JonnyBravo:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.97, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 2.6988523, 0), Vector3(0, 2.6988523, 0), Vector3(0, 1.5490963, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_7cnic"]
+resource_name = "jonny_to_ettore"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("JonnyBravo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.9328623, 0, -1.0113351), Vector3(0.9328623, 0, -1.0113351), Vector3(-2.0015535, 0, -3.7688227)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("JonnyBravo:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 1.5490963, 0), Vector3(0, 4.0142574, 0), Vector3(0, -1.362629, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_e2wtv"]
+resource_name = "wednesday_enter_the_shop"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Wednesday:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.18, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(-2.7215295, 0.057264566, 0.33618867), Vector3(-2.4286036, 0.057264566, -0.8510684), Vector3(-0.15002441, 0.057264566, -0.73790634)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Wednesday:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.18, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 2.8277009, 0), Vector3(0, 2.1843498, 0), Vector3(0, 1.6172243, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_e2wtv"]
+_data = {
+&"Alibaba_to_corner": SubResource("Animation_dnbn1"),
+&"RESET": SubResource("Animation_bdlko"),
+&"jonny_enter_shop": SubResource("Animation_qeh2j"),
+&"jonny_to_ettore": SubResource("Animation_7cnic"),
+&"wednesday_enter_the_shop": SubResource("Animation_e2wtv")
+}
 
 [node name="Act4" type="Node3D" unique_id=2140224792 groups=["level"]]
 script = ExtResource("1_n6je3")
@@ -86,10 +284,20 @@ omni_range = 57.469
 omni_attenuation = 1.048
 
 [node name="Karen" parent="." unique_id=668593638 instance=ExtResource("6_1v6q0")]
-transform = Transform3D(-0.99447155, 0, 0.10500627, 0, 1, 0, -0.10500627, 0, -0.99447155, -1.2714403, 0, -0.096271515)
+transform = Transform3D(0.9937134, 0, -0.11195393, 0, 1, 0, 0.11195393, 0, 0.9937134, -0.13237464, 0, -4.0360126)
 
 [node name="MohamedAlibaba" parent="." unique_id=1142870142 instance=ExtResource("7_pcwah")]
-transform = Transform3D(-0.98430467, 0, -0.1764775, 0, 1, 0, 0.1764775, 0, -0.98430467, -0.03169769, 0, 0.071068764)
+transform = Transform3D(-0.9843046, 0, -0.17647755, 0, 1, 0, 0.17647755, 0, -0.9843046, -0.9553435, 0, 0.071068764)
 
 [node name="Ettore" parent="." unique_id=1344552596 instance=ExtResource("8_pcwah")]
 transform = Transform3D(0.7174959, 0, 0.6965627, 0, 1, 0, -0.6965627, 0, 0.7174959, -3.3258157, 0, -3.791215)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=150504703]
+libraries/ = SubResource("AnimationLibrary_e2wtv")
+autoplay = &"jonny_enter_shop"
+
+[node name="JonnyBravo" parent="." unique_id=1774100400 instance=ExtResource("9_bdlko")]
+transform = Transform3D(-0.9035808, 0, 0.42841712, 0, 1, 0, -0.42841712, 0, -0.9035808, -2.7409387, 0, 0.4617324)
+
+[node name="Wednesday" parent="." unique_id=2069580432 instance=ExtResource("10_qeh2j")]
+transform = Transform3D(-0.9511391, 0, 0.30876258, 0, 1, 0, -0.30876258, 0, -0.9511391, -2.7215295, 0.057264566, 0.33618867)

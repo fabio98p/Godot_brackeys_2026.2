@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="StoryInteractionResource" format=3 uid="uid://7wa46nqruyb4"]
 
 [ext_resource type="Resource" uid="uid://ce31cdhm3uuex" path="res://dialogs/Act2/rook.dialogue" id="1_7uc5a"]
-[ext_resource type="Resource" uid="uid://c1dhtye6cj1sk" path="res://dialogs/Act2/Ettore1.dialogue" id="2_d1k0a"]
+[ext_resource type="Resource" uid="uid://csdbt8rbe6jow" path="res://dialogs/Act1/change_act.dialogue" id="2_7uc5a"]
 [ext_resource type="Resource" uid="uid://83p8k0u6skes" path="res://dialogs/Act2/Jonny1.dialogue" id="3_y2lky"]
 [ext_resource type="Resource" uid="uid://d0d0j7acok55s" path="res://dialogs/Act2/Karen1.dialogue" id="4_jdyb6"]
 [ext_resource type="Resource" uid="uid://drdq47mk4fxw0" path="res://dialogs/Act2/Alibaba1.dialogue" id="5_ehm2j"]
@@ -12,7 +12,7 @@
 [resource]
 script = ExtResource("7_x555o")
 objective_label = "Manage the discussion between customers"
-ettore_dialog_interaction = ExtResource("2_d1k0a")
+ettore_dialog_interaction = ExtResource("2_7uc5a")
 wednesday_dialog_interaction = ExtResource("8_8rm28")
 mohamed_alibaba_dialog_interaction = ExtResource("5_ehm2j")
 jonny_bravo_dialog_interaction = ExtResource("3_y2lky")

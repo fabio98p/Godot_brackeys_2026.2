@@ -15,6 +15,7 @@ class_name	StoryInteractionResource
 @export var need_intercated_by: String
 @export var next_interaction: StoryInteractionResource
 
+
 @export var is_dialogue_interaction: bool = false:
 	set(value):
 		is_dialogue_interaction = value
@@ -33,5 +34,5 @@ func _get_property_list() -> Array:
 			"hint_string": "DialogueResource",
 			"usage": PROPERTY_USAGE_DEFAULT
 		})
-
+		
 	return properties

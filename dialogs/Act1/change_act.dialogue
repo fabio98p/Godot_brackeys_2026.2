@@ -1,0 +1,4 @@
+~ start
+
+do change_scene("res://Levels/Act2.tscn")
+=> END

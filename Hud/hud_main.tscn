@@ -2,7 +2,10 @@
 
 [ext_resource type="Script" uid="uid://dqgpdenvpcruv" path="res://Hud/hud_main.gd" id="1_iy6tr"]
 
-[node name="HudMain" type="Control" unique_id=448475395]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_es3ee"]
+bg_color = Color(1, 1, 1, 1)
+
+[node name="HudMain" type="Control" unique_id=448475395 groups=["hud"]]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -77,6 +80,17 @@ value = 0.005
 [node name="ReturnToGameButton" type="Button" parent="PauseMenu/VBoxContainer" unique_id=218478237]
 layout_mode = 2
 text = "Return to the game"
+
+[node name="Transition" type="Panel" parent="." unique_id=1607745523]
+modulate = Color(0, 0, 0, 1)
+self_modulate = Color(0.82606, 0.82606006, 0.82606, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_es3ee")
 
 [connection signal="drag_ended" from="PauseMenu/VBoxContainer/Sensitivity/SensitivitySlider" to="." method="_on_sensitivity_slider_drag_ended"]
 [connection signal="pressed" from="PauseMenu/VBoxContainer/ReturnToGameButton" to="." method="_on_return_to_game_button_pressed"]

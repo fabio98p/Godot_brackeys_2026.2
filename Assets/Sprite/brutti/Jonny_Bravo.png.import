@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4ovrmrglvgqx"
-path.s3tc="res://.godot/imported/Jonny_Bravo.png-d8878be85334c9c7b6b6b1a8dd8d1827.s3tc.ctex"
-path.etc2="res://.godot/imported/Jonny_Bravo.png-d8878be85334c9c7b6b6b1a8dd8d1827.etc2.ctex"
+path.s3tc="res://.godot/imported/Jonny_Bravo.png-84960174f2c43d5266dc54b27c7ce75a.s3tc.ctex"
+path.etc2="res://.godot/imported/Jonny_Bravo.png-84960174f2c43d5266dc54b27c7ce75a.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Sprite/Jonny_Bravo.png"
-dest_files=["res://.godot/imported/Jonny_Bravo.png-d8878be85334c9c7b6b6b1a8dd8d1827.s3tc.ctex", "res://.godot/imported/Jonny_Bravo.png-d8878be85334c9c7b6b6b1a8dd8d1827.etc2.ctex"]
+source_file="res://Assets/Sprite/brutti/Jonny_Bravo.png"
+dest_files=["res://.godot/imported/Jonny_Bravo.png-84960174f2c43d5266dc54b27c7ce75a.s3tc.ctex", "res://.godot/imported/Jonny_Bravo.png-84960174f2c43d5266dc54b27c7ce75a.etc2.ctex"]
 
 [params]
 

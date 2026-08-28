@@ -1,25 +1,25 @@
 [gd_scene format=3 uid="uid://hix13sq2goi5"]
 
 [ext_resource type="Script" uid="uid://byce0w8s3kddb" path="res://Interact/story_interact.gd" id="1_056qb"]
-[ext_resource type="Texture2D" uid="uid://y0bnnsje167r" path="res://Assets/Sprite/Ettore.png" id="2_opap1"]
+[ext_resource type="Texture2D" uid="uid://c5uxox3pw14xm" path="res://Assets/Sprite/Ettore.png" id="2_opap1"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k1h6f"]
 radius = 0.31835938
 
-[node name="Ettore" type="StaticBody3D" unique_id=668593638 groups=["npc"]]
+[node name="Ettore" type="StaticBody3D" unique_id=668593638 groups=["Ettore", "npc"]]
 collision_layer = 4352
 script = ExtResource("1_056qb")
 interact_identifier = "Ettore"
 int_name = "Ettore"
 
 [node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228]
-transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 1, 0)
+transform = Transform3D(0.17, 0, 0, 0, 0.17, 0, 0, 0, 0.17, 0, 1.0361594, 0)
 shaded = true
 double_sided = false
 texture = ExtResource("2_opap1")
 
 [node name="Sprite3D2" type="Sprite3D" parent="." unique_id=1542909899]
-transform = Transform3D(-0.4, 0, 3.4969112e-08, 0, 0.4, 0, -3.4969112e-08, 0, -0.4, 0, 1, 0)
+transform = Transform3D(-0.17, 0, 2.5669287e-08, 0, 0.17, 0, -2.5669287e-08, 0, -0.17, 0, 1.0361594, 0)
 modulate = Color(0, 0, 0, 1)
 double_sided = false
 texture = ExtResource("2_opap1")

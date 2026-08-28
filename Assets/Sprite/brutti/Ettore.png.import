@@ -2,9 +2,9 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://df7jp7befmrlm"
-path.s3tc="res://.godot/imported/Wednesday.png-9a744584c8b853a5e8b6f740ef864712.s3tc.ctex"
-path.etc2="res://.godot/imported/Wednesday.png-9a744584c8b853a5e8b6f740ef864712.etc2.ctex"
+uid="uid://y0bnnsje167r"
+path.s3tc="res://.godot/imported/Ettore.png-d4cb1aa5d11188cda267add67d9d01eb.s3tc.ctex"
+path.etc2="res://.godot/imported/Ettore.png-d4cb1aa5d11188cda267add67d9d01eb.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Sprite/Wednesday.png"
-dest_files=["res://.godot/imported/Wednesday.png-9a744584c8b853a5e8b6f740ef864712.s3tc.ctex", "res://.godot/imported/Wednesday.png-9a744584c8b853a5e8b6f740ef864712.etc2.ctex"]
+source_file="res://Assets/Sprite/brutti/Ettore.png"
+dest_files=["res://.godot/imported/Ettore.png-d4cb1aa5d11188cda267add67d9d01eb.s3tc.ctex", "res://.godot/imported/Ettore.png-d4cb1aa5d11188cda267add67d9d01eb.etc2.ctex"]
 
 [params]
 

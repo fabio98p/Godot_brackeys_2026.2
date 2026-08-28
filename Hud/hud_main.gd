@@ -6,6 +6,8 @@ extends Control
 
 @onready var objective_label: Label = %ObjectiveLabel
 
+@onready var transition: Panel = $Transition
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	sensitivity_slider.value = GS.mouse_sensitivity
@@ -46,3 +48,11 @@ func _on_return_to_game_button_pressed() -> void:
 	toggle_pause_menu()
 	get_tree().paused = false
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+
+func transition_to_black():
+	var tween = create_tween()
+	tween.tween_property(transition, "modulate:a", 1, 1.5)
+	
+func transition_to_white():
+	var tween = create_tween()
+	tween.tween_property(transition, "modulate:a", 0, 1.5)

@@ -6,6 +6,15 @@ func watch_to_npc(npc: String):
 	print("AAAA")
 	get_tree().get_first_node_in_group("player").head.watch_in_direction_of(npc)
 
+func change_scene(scene: String):
+	var hud = get_tree().get_first_node_in_group("hud")
+	hud.transition_to_black()
+	await get_tree().create_timer(1.5).timeout
+	get_tree().change_scene_to_file(scene)
+	
+func wait_until(second: float):
+	await get_tree().create_timer(second).timeout
+	
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	DialogueManager.connect("dialogue_started", Callable(self, "dialogue_started"))
@@ -15,10 +24,12 @@ func _ready() -> void:
 func manage_story_interaction(interacted_by: String):
 	print(interacted_by, current_story_interaction.need_intercated_by)
 	if interacted_by == current_story_interaction.need_intercated_by:
+		# IF there is a dialogue
 		if current_story_interaction.is_dialogue_interaction:
 			DialogueManager.show_dialogue_balloon(current_story_interaction.dialog_interaction)
 			if current_story_interaction.next_interaction:
 				current_story_interaction = current_story_interaction.next_interaction
+		
 	else:
 		manage_normal_interaction(interacted_by)
 

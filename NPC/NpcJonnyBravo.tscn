@@ -1,18 +1,18 @@
 [gd_scene format=3 uid="uid://dduq0vua4qci3"]
 
 [ext_resource type="Script" uid="uid://byce0w8s3kddb" path="res://Interact/story_interact.gd" id="1_l2qjg"]
-[ext_resource type="Texture2D" uid="uid://4ovrmrglvgqx" path="res://Assets/Sprite/Jonny_Bravo.png" id="2_l2qjg"]
+[ext_resource type="Texture2D" uid="uid://4ovrmrglvgqx" path="res://Assets/Sprite/brutti/Jonny_Bravo.png" id="2_l2qjg"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k1h6f"]
 radius = 0.32226563
 
-[node name="JonnyBravo" type="StaticBody3D" unique_id=668593638 groups=["npc"]]
+[node name="JonnyBravo" type="StaticBody3D" unique_id=668593638 groups=["Jonny", "npc"]]
 collision_layer = 4352
 script = ExtResource("1_l2qjg")
 interact_identifier = "Jonny_Bravo"
 int_name = "Jonny Bravo"
 
-[node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228]
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228 groups=["Jonny"]]
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 1, 0)
 shaded = true
 double_sided = false
