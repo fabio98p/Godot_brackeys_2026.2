@@ -8,6 +8,11 @@ var mouse_input: Vector2
 var is_watch_npc: bool
 var npc_position: Vector3
 
+func _ready() -> void:
+	input_rotation.y = player_controller.rotation.y
+	input_rotation.x = rotation.x
+	
+	
 func _input(event: InputEvent) -> void:
 	if GS.dialog_is_open:
 		return

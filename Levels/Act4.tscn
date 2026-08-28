@@ -5,6 +5,9 @@
 [ext_resource type="PackedScene" uid="uid://buyhyq3of31kf" path="res://Player/character_body_3d.tscn" id="2_b6r4w"]
 [ext_resource type="PackedScene" uid="uid://25l57ns5uehp" path="res://Hud/hud_main.tscn" id="3_2vgc8"]
 [ext_resource type="PackedScene" uid="uid://cpejv8setvbrc" path="res://props/assets/lavanery/lavanery.gltf" id="4_1v6q0"]
+[ext_resource type="PackedScene" uid="uid://bvb2sjtcktdcy" path="res://NPC/NpcKaren.tscn" id="6_1v6q0"]
+[ext_resource type="PackedScene" uid="uid://cb8qhjktnf6gg" path="res://NPC/NpcMohamedAlibaba.tscn" id="7_pcwah"]
+[ext_resource type="PackedScene" uid="uid://hix13sq2goi5" path="res://NPC/NpcEttore.tscn" id="8_pcwah"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_kbe2v"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -32,7 +35,7 @@ shadow_enabled = true
 sky_mode = 2
 
 [node name="Player" parent="." unique_id=1208725648 groups=["player"] instance=ExtResource("2_b6r4w")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.41566968, 0, -2.4752414)
+transform = Transform3D(0.091420926, 0, 0.99581236, 0, 1, 0, -0.99581236, 0, 0.091420926, 3.229818, 0, -0.69955015)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=429214620]
 layer = 100
@@ -81,3 +84,12 @@ shadow_opacity = 0.65
 shadow_blur = 2.645
 omni_range = 57.469
 omni_attenuation = 1.048
+
+[node name="Karen" parent="." unique_id=668593638 instance=ExtResource("6_1v6q0")]
+transform = Transform3D(-0.99447155, 0, 0.10500627, 0, 1, 0, -0.10500627, 0, -0.99447155, -1.2714403, 0, -0.096271515)
+
+[node name="MohamedAlibaba" parent="." unique_id=1142870142 instance=ExtResource("7_pcwah")]
+transform = Transform3D(-0.98430467, 0, -0.1764775, 0, 1, 0, 0.1764775, 0, -0.98430467, -0.03169769, 0, 0.071068764)
+
+[node name="Ettore" parent="." unique_id=1344552596 instance=ExtResource("8_pcwah")]
+transform = Transform3D(0.7174959, 0, 0.6965627, 0, 1, 0, -0.6965627, 0, 0.7174959, -3.3258157, 0, -3.791215)

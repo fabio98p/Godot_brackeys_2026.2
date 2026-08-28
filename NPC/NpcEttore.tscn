@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://y0bnnsje167r" path="res://Assets/Sprite/Ettore.png" id="2_opap1"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k1h6f"]
+radius = 0.31835938
 
 [node name="Ettore" type="StaticBody3D" unique_id=668593638 groups=["npc"]]
 collision_layer = 4352
@@ -13,7 +14,14 @@ int_name = "Ettore"
 
 [node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228]
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 1, 0)
-billboard = 1
+shaded = true
+double_sided = false
+texture = ExtResource("2_opap1")
+
+[node name="Sprite3D2" type="Sprite3D" parent="." unique_id=1542909899]
+transform = Transform3D(-0.4, 0, 3.4969112e-08, 0, 0.4, 0, -3.4969112e-08, 0, -0.4, 0, 1, 0)
+modulate = Color(0, 0, 0, 1)
+double_sided = false
 texture = ExtResource("2_opap1")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1090001112]
