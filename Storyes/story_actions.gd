@@ -2,6 +2,8 @@
 extends Resource
 class_name	StoryInteractionResource
 
+@export var objective_label: String
+
 # AROUD INTERATION dialogue
 @export var ettore_dialog_interaction: DialogueResource
 @export var wednesday_dialog_interaction: DialogueResource

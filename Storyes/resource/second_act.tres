@@ -1,11 +1,12 @@
 [gd_resource type="Resource" script_class="StoryInteractionResource" format=3 uid="uid://08rixts5ymv8"]
 
 [ext_resource type="Script" uid="uid://dcrevu1wvc1uq" path="res://Storyes/story_actions.gd" id="1_1gm7t"]
-[ext_resource type="Resource" uid="uid://22qjkqr0jjvt" path="res://dialogs/introduction/Jonny1.dialogue" id="1_ljg57"]
+[ext_resource type="Resource" uid="uid://22qjkqr0jjvt" path="res://dialogs/Act1/JonnyAct1.dialogue" id="1_bc8i7"]
 
 [resource]
 script = ExtResource("1_1gm7t")
+objective_label = "blaaa"
 need_intercated_by = "npc1"
 is_dialogue_interaction = true
-dialog_interaction = ExtResource("1_ljg57")
+dialog_interaction = ExtResource("1_bc8i7")
 metadata/_custom_type_script = "uid://dcrevu1wvc1uq"

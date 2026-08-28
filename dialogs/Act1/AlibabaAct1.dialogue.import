@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://bm2dnbted8per"
+path="res://.godot/imported/AlibabaAct1.dialogue-ce22010212811374fb13ad1e5312d5ce.tres"
+
+[deps]
+
+source_file="res://dialogs/Act1/AlibabaAct1.dialogue"
+dest_files=["res://.godot/imported/AlibabaAct1.dialogue-ce22010212811374fb13ad1e5312d5ce.tres"]
+
+[params]
+
+defaults=true

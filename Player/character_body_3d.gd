@@ -1,8 +1,8 @@
 extends CharacterBody3D
 class_name player
 
-const SPEED = 5.0
-const JUMP_VELOCITY = 4.5
+const SPEED = 2.5
+#const JUMP_VELOCITY = 4.5
 
 @onready var head: Node3D = %Head
 
@@ -14,9 +14,9 @@ func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 
-	# Handle jump
-	if Input.is_action_just_pressed("jump") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
+	## Handle jump
+	#if Input.is_action_just_pressed("jump") and is_on_floor():
+		#velocity.y = JUMP_VELOCITY
 
 	# Get the input direction and handle the movement/deceleration.
 	var input_dir := Input.get_vector("left", "right", "forward", "back")

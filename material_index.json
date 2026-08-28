@@ -1,7 +1,7 @@
 {
     "mat_b5473a41-507a-4239-b96a-6654176af812": {
-        "name": "Grass",
-        "relative_path": "props/materials/Grass/Grass.tres",
+        "name": "lavatory",
+        "relative_path": "props/materials/lavatory/lavatory.tres",
         "content_hash": "ef099032984865c1c630c059f4c630a89332622d8fa808894143df2297d53cbc",
         "material_ext": "TRES",
         "source_blend_file": "terrain.blend"
@@ -17,6 +17,34 @@
         "name": "tree_color_green",
         "relative_path": "props/materials/tree_color_green/tree_color_green.tres",
         "content_hash": "820bdad0a6dcac35d33e523ad9a560f84cc2af4f4237258a07100d0daddfd049",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_1abfa7a3-c3a8-4cd0-8827-e23d9d2efd4c": {
+        "name": "ground",
+        "relative_path": "props/materials/ground/ground.tres",
+        "content_hash": "94a08fab32c6f7ba972df19326752893b2e85fa430e7112f3e8214e2789a27fa",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_b2284dfe-0c52-42ac-8333-eaa09719fb0b": {
+        "name": "wall",
+        "relative_path": "props/materials/wall/wall.tres",
+        "content_hash": "8f30707092b38bd20dc7da4645f059ad98cef8cf37816acaef3e2a8bd754a459",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_1ecf9b94-b4f2-46f0-81b7-68f116eb786a": {
+        "name": "desk",
+        "relative_path": "props/materials/desk/desk.tres",
+        "content_hash": "c0883007451db471bedfa9a7694764da53ef38ed0ab609653b5b95d0f35c93f5",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_687e30ae-6e6c-4f63-858f-25aa71a0ddb0": {
+        "name": "door",
+        "relative_path": "props/materials/door/door.tres",
+        "content_hash": "06b7c9d1c94579f3b7e27b347e6fad12db60598853fee854889040b925f65fbb",
         "material_ext": "TRES",
         "source_blend_file": "terrain.blend"
     }

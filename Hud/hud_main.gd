@@ -4,12 +4,17 @@ extends Control
 
 @onready var sensitivity_slider: HSlider = $PauseMenu/VBoxContainer/Sensitivity/SensitivitySlider
 
+@onready var objective_label: Label = %ObjectiveLabel
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	sensitivity_slider.value = GS.mouse_sensitivity
+	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 func _process(delta: float) -> void:	
+	if Story.current_story_interaction.objective_label != null:
+		objective_label.text = Story.current_story_interaction.objective_label
+	
 		
 	# Handle Pause Menu
 	if Input.is_action_just_pressed("pause_menu"):

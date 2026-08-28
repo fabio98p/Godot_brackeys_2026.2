@@ -11,11 +11,16 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_iy6tr")
 
-[node name="Label" type="Label" parent="." unique_id=91472629]
+[node name="ObjectiveLabel" type="Label" parent="." unique_id=91472629]
+unique_name_in_owner = true
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-text = "L'hud E' attivo"
+offset_left = 538.0
+offset_top = 9.0
+offset_right = 1138.0
+offset_bottom = 62.0
+text = "Manage the discussion between customers"
+horizontal_alignment = 2
+autowrap_mode = 2
 
 [node name="PauseMenu" type="Panel" parent="." unique_id=2133788885]
 visible = false

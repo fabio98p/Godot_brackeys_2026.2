@@ -8,5 +8,10 @@
         "relative_path": "props/assets/maps/maps.gltf",
         "content_hash": "f3a2860c621604f80e3b711e257036791063f965bf31e709d2b41143a19ee706",
         "source_blend_file": "terrain.blend"
+    },
+    "asset_4d6f7bda-8e54-4a83-b2fc-f1bed27edc4c": {
+        "relative_path": "props/assets/lavanery/lavanery.gltf",
+        "content_hash": "1577c85bf6b99ebb49998d4f6e64a1cabfa1e91258e62fbd81c5c079b8006e45",
+        "source_blend_file": "terrain.blend"
     }
 }

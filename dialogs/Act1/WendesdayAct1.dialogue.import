@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://wpud1o67dxtb"
+path="res://.godot/imported/WendesdayAct1.dialogue-41acd7d1db9f849db8179b4ce24a512b.tres"
+
+[deps]
+
+source_file="res://dialogs/Act1/WendesdayAct1.dialogue"
+dest_files=["res://.godot/imported/WendesdayAct1.dialogue-41acd7d1db9f849db8179b4ce24a512b.tres"]
+
+[params]
+
+defaults=true

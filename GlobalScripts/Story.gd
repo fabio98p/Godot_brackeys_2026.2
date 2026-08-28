@@ -1,6 +1,6 @@
 extends Node
 
-var current_story_interaction: StoryInteractionResource
+var current_story_interaction: StoryInteractionResource = preload("uid://c6oefdswvr02i")
 
 func watch_to_npc(npc: String):
 	print("AAAA")
@@ -10,7 +10,6 @@ func watch_to_npc(npc: String):
 func _ready() -> void:
 	DialogueManager.connect("dialogue_started", Callable(self, "dialogue_started"))
 	DialogueManager.connect("dialogue_ended", Callable(self, "dialogue_ended"))
-	current_story_interaction = preload("uid://c4dpsbltexo8p")
 
 
 func manage_story_interaction(interacted_by: String):

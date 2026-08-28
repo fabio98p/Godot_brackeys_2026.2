@@ -16,8 +16,8 @@ func _input(event: InputEvent) -> void:
 		var relative_movement = event.screen_relative
 		
 		# accumula il movimento del mouse per poi applicarlo al prossimo frame
-		mouse_input.x += -relative_movement.x * GS.mouse_sensitivity
-		mouse_input.y += -relative_movement.y * GS.mouse_sensitivity
+		mouse_input.x += -relative_movement.x * (GS.mouse_sensitivity)
+		mouse_input.y += -relative_movement.y * (GS.mouse_sensitivity)
 
 
 func _process(_delta: float) -> void:
