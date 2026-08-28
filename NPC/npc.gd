@@ -1,4 +1,4 @@
-extends Node3D
+extends StoryInteractible
 #
 #@onready var sprite_3d: Sprite3D = $Sprite3D
 #

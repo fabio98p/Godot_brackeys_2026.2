@@ -1,6 +1,6 @@
 extends Node
 
-var current_story_interaction: StoryInteractionResource = preload("uid://c6oefdswvr02i")
+var current_story_interaction: StoryInteractionResource = preload("uid://7wa46nqruyb4")
 
 func watch_to_npc(npc: String):
 	print("AAAA")

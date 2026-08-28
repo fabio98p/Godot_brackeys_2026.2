@@ -5,8 +5,8 @@
 [ext_resource type="Resource" uid="uid://22qjkqr0jjvt" path="res://dialogs/Act1/JonnyAct1.dialogue" id="3_0stwk"]
 [ext_resource type="Resource" uid="uid://b6sldd7ikvqd" path="res://dialogs/Act1/KarenAct1.dialogue" id="4_ae3gl"]
 [ext_resource type="Resource" uid="uid://bm2dnbted8per" path="res://dialogs/Act1/AlibabaAct1.dialogue" id="5_gueu1"]
-[ext_resource type="Resource" uid="uid://c6oefdswvr02i" path="res://Storyes/resource/Act1/first_act.tres" id="6_puonv"]
-[ext_resource type="Script" uid="uid://dcrevu1wvc1uq" path="res://Storyes/story_actions.gd" id="7_iy8th"]
+[ext_resource type="Resource" uid="uid://c6oefdswvr02i" path="res://DStoryes/resource/Act1/first_act.tres" id="6_puonv"]
+[ext_resource type="Script" uid="uid://dcrevu1wvc1uq" path="res://DStoryes/story_actions.gd" id="7_iy8th"]
 [ext_resource type="Resource" uid="uid://wpud1o67dxtb" path="res://dialogs/Act1/WendesdayAct1.dialogue" id="8_iy8th"]
 
 [resource]

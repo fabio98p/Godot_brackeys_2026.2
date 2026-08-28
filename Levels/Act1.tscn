@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://b58uy8x4v63js" path="res://Levels/level.gd" id="1_ll1bl"]
 [ext_resource type="PackedScene" uid="uid://buyhyq3of31kf" path="res://Player/character_body_3d.tscn" id="2_arsda"]
-[ext_resource type="Resource" uid="uid://c6oefdswvr02i" path="res://Storyes/resource/Act1/first_act.tres" id="2_rxexn"]
+[ext_resource type="Resource" uid="uid://7wa46nqruyb4" path="res://DStoryes/resource/Act1/Act1_Part1.tres" id="2_rxexn"]
 [ext_resource type="PackedScene" uid="uid://25l57ns5uehp" path="res://Hud/hud_main.tscn" id="3_dgq3b"]
 [ext_resource type="PackedScene" uid="uid://cpejv8setvbrc" path="res://props/assets/lavanery/lavanery.gltf" id="4_dgq3b"]
 
@@ -43,12 +43,6 @@ process_mode = 3
 
 [node name="lavanery" parent="." unique_id=2144223918 instance=ExtResource("4_dgq3b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5327055)
-
-[node name="AreaLight3D" type="AreaLight3D" parent="." unique_id=1040464958]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0.99277925, 2.7188358, -2.3045502)
-visible = false
-light_energy = 3.075
-area_attenuation = 1.241
 
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=239791641]
 transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, 1, 2.779567, -2.3490806)

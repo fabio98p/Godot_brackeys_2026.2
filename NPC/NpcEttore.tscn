@@ -5,7 +5,7 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k1h6f"]
 
-[node name="Ettore" type="StaticBody3D" unique_id=668593638]
+[node name="Ettore" type="StaticBody3D" unique_id=668593638 groups=["npc"]]
 collision_layer = 4352
 script = ExtResource("1_056qb")
 interact_identifier = "Ettore"

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://qy8e4hp02mcv"]
+
+[ext_resource type="PackedScene" uid="uid://bsvmoh2407cfy" path="res://props/assets/Interogatory/Interogatory.gltf" id="1_74d33"]
+
+[node name="Interogatory" type="Node3D" unique_id=236605542]
+
+[node name="Interogatory" parent="." unique_id=217948846 instance=ExtResource("1_74d33")]

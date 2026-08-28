@@ -13,5 +13,10 @@
         "relative_path": "props/assets/lavanery/lavanery.gltf",
         "content_hash": "1577c85bf6b99ebb49998d4f6e64a1cabfa1e91258e62fbd81c5c079b8006e45",
         "source_blend_file": "terrain.blend"
+    },
+    "asset_bc25819f-dea5-435f-b807-b6ac9b02e2a9": {
+        "relative_path": "props/assets/Interogatory/Interogatory.gltf",
+        "content_hash": "43c76b0f44bf39ef26d0723cfee20aefbc2654eb3e9038c9df113d4c61482c52",
+        "source_blend_file": "terrain.blend"
     }
 }

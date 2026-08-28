@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cjsgiivemi2y4"]
 
 [ext_resource type="Script" uid="uid://b58uy8x4v63js" path="res://Levels/level.gd" id="1_n6je3"]
+[ext_resource type="Resource" uid="uid://drl6f7jx26m7h" path="res://DStoryes/resource/Act4/Act4_Part1.tres" id="2_2vgc8"]
 [ext_resource type="PackedScene" uid="uid://buyhyq3of31kf" path="res://Player/character_body_3d.tscn" id="2_b6r4w"]
 [ext_resource type="PackedScene" uid="uid://25l57ns5uehp" path="res://Hud/hud_main.tscn" id="3_2vgc8"]
 [ext_resource type="PackedScene" uid="uid://cpejv8setvbrc" path="res://props/assets/lavanery/lavanery.gltf" id="4_1v6q0"]
@@ -17,8 +18,9 @@ background_mode = 1
 background_energy_multiplier = 0.0
 sky = SubResource("Sky_arsda")
 
-[node name="Act1" type="Node3D" unique_id=2140224792 groups=["level"]]
+[node name="Act4" type="Node3D" unique_id=2140224792 groups=["level"]]
 script = ExtResource("1_n6je3")
+Story_point = ExtResource("2_2vgc8")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=961839162]
 environment = SubResource("Environment_dgq3b")
