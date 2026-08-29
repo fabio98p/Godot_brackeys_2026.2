@@ -17,6 +17,28 @@ func wait_until(second: float):
 	
 func start_animation(animation_name: String):
 	get_tree().get_first_node_in_group("level").animation_player.play(animation_name)
+
+var dialogue_with_ettore: bool = false
+var dialogue_with_karen: bool= false
+var dialogue_with_alibaba: bool= false
+func _process(delta: float) -> void:
+	if dialogue_with_ettore and dialogue_with_karen and dialogue_with_alibaba:
+		dialogue_with_ettore = false
+		dialogue_with_karen =  false
+		dialogue_with_alibaba= false
+		await get_tree().create_timer(5).timeout
+		var hud = get_tree().get_first_node_in_group("hud")
+		hud.light_to_black()
+		await get_tree().create_timer(0.5).timeout
+		DialogueManager.show_dialogue_balloon(preload("uid://b82gj71hyv888"))
+
+		
+func custom_act4_karen():
+	dialogue_with_karen = true
+func custom_act4_alibaba():
+	dialogue_with_alibaba = true
+func custom_act4_ettore():
+	dialogue_with_ettore = true
 	
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

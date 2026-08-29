@@ -8,6 +8,8 @@ extends Control
 
 @onready var transition: Panel = $Transition
 
+@onready var light_turn_off: Panel = $light_turn_off
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	sensitivity_slider.value = GS.mouse_sensitivity
@@ -56,3 +58,7 @@ func transition_to_black():
 func transition_to_white():
 	var tween = create_tween()
 	tween.tween_property(transition, "modulate:a", 0, 1.5)
+
+func light_to_black():
+	var tween = create_tween()
+	tween.tween_property(light_turn_off, "modulate:a", 1, 0.5)

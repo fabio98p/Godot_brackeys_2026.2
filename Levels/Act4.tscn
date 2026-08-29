@@ -4,7 +4,9 @@
 [ext_resource type="Resource" uid="uid://drl6f7jx26m7h" path="res://DStoryes/resource/Act4/Act4_Part1.tres" id="2_2vgc8"]
 [ext_resource type="PackedScene" uid="uid://buyhyq3of31kf" path="res://Player/character_body_3d.tscn" id="2_b6r4w"]
 [ext_resource type="PackedScene" uid="uid://25l57ns5uehp" path="res://Hud/hud_main.tscn" id="3_2vgc8"]
+[ext_resource type="Script" uid="uid://d0q30kl6ohvwi" path="res://Levels/act4.gd" id="3_dnbn1"]
 [ext_resource type="PackedScene" uid="uid://cpejv8setvbrc" path="res://props/assets/lavanery/lavanery.gltf" id="4_1v6q0"]
+[ext_resource type="Resource" uid="uid://d0cv8ypg4u0dv" path="res://dialogs/Eng/Act4/JonnyAct4Parte1.dialogue" id="4_7cnic"]
 [ext_resource type="PackedScene" uid="uid://bvb2sjtcktdcy" path="res://NPC/NpcKaren.tscn" id="6_1v6q0"]
 [ext_resource type="PackedScene" uid="uid://cb8qhjktnf6gg" path="res://NPC/NpcMohamedAlibaba.tscn" id="7_pcwah"]
 [ext_resource type="PackedScene" uid="uid://hix13sq2goi5" path="res://NPC/NpcEttore.tscn" id="8_pcwah"]
@@ -165,10 +167,10 @@ tracks/0/path = NodePath("JonnyBravo:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 1, 3),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(0, 1, 1.01, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
-"values": [Vector3(0.9328623, 0, -1.0113351), Vector3(0.9328623, 0, -1.0113351), Vector3(-2.0015535, 0, -3.7688227)]
+"values": [Vector3(0.9328623, 0, -1.0113351), Vector3(0.9328623, 0, -1.0113351), Vector3(0.91819024, 0, -1.0251225), Vector3(-2.0015535, 0, -3.7688227)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -177,10 +179,10 @@ tracks/1/path = NodePath("JonnyBravo:rotation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 1, 3),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(0, 1, 1.01, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
-"values": [Vector3(0, 1.5490963, 0), Vector3(0, 4.0142574, 0), Vector3(0, -1.362629, 0)]
+"values": [Vector3(0, 1.5490963, 0), Vector3(0, 4.0142574, 0), Vector3(0, -1.831677, 0), Vector3(0, -1.362629, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_e2wtv"]
@@ -223,6 +225,10 @@ _data = {
 [node name="Act4" type="Node3D" unique_id=2140224792 groups=["level"]]
 script = ExtResource("1_n6je3")
 Story_point = ExtResource("2_2vgc8")
+
+[node name="custom_act4" type="Node3D" parent="." unique_id=1700341427]
+script = ExtResource("3_dnbn1")
+dialogue = ExtResource("4_7cnic")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=961839162]
 environment = SubResource("Environment_dgq3b")
@@ -297,7 +303,7 @@ transform = Transform3D(0.7174959, 0, 0.6965627, 0, 1, 0, -0.6965627, 0, 0.71749
 libraries/ = SubResource("AnimationLibrary_e2wtv")
 
 [node name="JonnyBravo" parent="." unique_id=1774100400 instance=ExtResource("9_bdlko")]
-transform = Transform3D(-0.9035807, 0, 0.42841706, 0, 1, 0, -0.42841706, 0, -0.9035807, -2.7409387, 0, 0.4617324)
+transform = Transform3D(-0.9035809, 0, 0.42841715, 0, 1, 0, -0.42841715, 0, -0.9035809, -2.7409387, 0, 0.4617324)
 
 [node name="Wednesday" parent="." unique_id=2069580432 instance=ExtResource("10_qeh2j")]
 transform = Transform3D(-0.9511391, 0, 0.30876258, 0, 1, 0, -0.30876258, 0, -0.9511391, -2.7215295, 0.057264566, 0.33618867)

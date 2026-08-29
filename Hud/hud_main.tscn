@@ -2,6 +2,9 @@
 
 [ext_resource type="Script" uid="uid://dqgpdenvpcruv" path="res://Hud/hud_main.gd" id="1_iy6tr"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iy6tr"]
+bg_color = Color(0, 0, 0, 1)
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_es3ee"]
 bg_color = Color(1, 1, 1, 1)
 
@@ -13,6 +16,16 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_iy6tr")
+
+[node name="light_turn_off" type="Panel" parent="." unique_id=1338252840]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_iy6tr")
 
 [node name="ObjectiveLabel" type="Label" parent="." unique_id=91472629]
 unique_name_in_owner = true

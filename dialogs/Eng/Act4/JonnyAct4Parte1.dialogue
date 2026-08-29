@@ -8,7 +8,7 @@ do wait_until(3)
 Wednesday: Aspetta, che fai signore.
 Ettore: Se ti riferisci a quella troietta mi ha rovinato il vestito e mi ha pure tagliato.
 
-do start_animation("jonny_enter_ettore")
+do start_animation("jonny_to_ettore")
 do wait_until(3)
 
 Jonny Bravo: Ascolta bro, non ci si comporta cosi, e poi ha una certa eta lei
