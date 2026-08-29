@@ -1,7 +1,8 @@
 ~ start
-Ettore: aia, maledizione. Che cazzo fai son of a beach.
+
 Wednesday: Scusa sono incapata.
 Ettore: Incampata un cazzo. Sai quanto costa questo vestito troia del cazzo
 Wednesday: pinage.
 do start_animation("wednsday_to_exit")
+#do wait_until()
 => END

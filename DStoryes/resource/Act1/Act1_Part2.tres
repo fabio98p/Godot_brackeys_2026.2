@@ -1,14 +1,14 @@
 [gd_resource type="Resource" script_class="StoryInteractionResource" format=3 uid="uid://cj55j4b6v0o33"]
 
-[ext_resource type="Resource" uid="uid://bv275n7nqppnd" path="res://dialogs/Ita/Act1/EttoreAct1Part2.dialogue" id="2_h7utt"]
-[ext_resource type="Resource" uid="uid://b6sldd7ikvqd" path="res://dialogs/Ita/Act1/KarenAct1Part2.dialogue" id="3_36y3r"]
-[ext_resource type="Resource" uid="uid://d2qj8xww5kpvy" path="res://dialogs/Eng/Act1/end.dialogue" id="4_ph2ft"]
+[ext_resource type="Resource" uid="uid://bv275n7nqppnd" path="res://dialogs/Eng/Act1/EttoreAct1Part2.dialogue" id="1_ph2ft"]
+[ext_resource type="Resource" uid="uid://b6sldd7ikvqd" path="res://dialogs/Eng/Act1/KarenAct1Part2.dialogue" id="2_h7utt"]
+[ext_resource type="Resource" uid="uid://d2qj8xww5kpvy" path="res://dialogs/Eng/Act1/end.dialogue" id="4_36y3r"]
 [ext_resource type="Script" uid="uid://dcrevu1wvc1uq" path="res://DStoryes/story_actions.gd" id="6_uu5lu"]
 
 [resource]
 script = ExtResource("6_uu5lu")
 objective_label = "Wait undet the table"
-ettore_dialog_interaction = ExtResource("2_h7utt")
-karen_dialog_interaction = ExtResource("3_36y3r")
-table_dialog_interaction = ExtResource("4_ph2ft")
+ettore_dialog_interaction = ExtResource("1_ph2ft")
+karen_dialog_interaction = ExtResource("2_h7utt")
+table_dialog_interaction = ExtResource("4_36y3r")
 metadata/_custom_type_script = "uid://dcrevu1wvc1uq"

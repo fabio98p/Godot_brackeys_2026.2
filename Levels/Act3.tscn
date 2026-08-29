@@ -23,15 +23,120 @@ background_mode = 1
 background_energy_multiplier = 0.0
 sky = SubResource("Sky_arsda")
 
+[sub_resource type="Animation" id="Animation_fxjdd"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Wednesday:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.0047625, 0, -0.94593406)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Wednesday:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 1.5655593, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_qppci"]
+resource_name = "caduta"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Wednesday:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.49, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(-2.1284723, 0, -4.162797), Vector3(-2.1284723, 0, -4.162797), Vector3(-2.1284723, 0, -4.162797)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Wednesday:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.49, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, -0.10575688, 0), Vector3(0.028075188, -0.29341707, 0.26773548), Vector3(0, -0.10575688, 0)]
+}
+
 [sub_resource type="Animation" id="Animation_xxven"]
 resource_name = "wednsday_to_ettora"
 length = 4.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Wednesday:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 3.02, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(1.0047625, 0, -0.94593406), Vector3(1.0047625, 0, -0.94593406), Vector3(-1.8360151, 0, -3.8825605), Vector3(-2.1284723, 0, -4.162797)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Wednesday:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 3.02, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 1.5655593, 0), Vector3(0, -2.378859, 0), Vector3(0, -2.378859, 0), Vector3(0, -0.10575692, 0)]
+}
 
 [sub_resource type="Animation" id="Animation_k1yrx"]
 resource_name = "wednsday_to_exit"
+length = 2.9666667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Wednesday:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.96),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-2.1284723, 0, -4.162797), Vector3(-2.757097, 0, 0.8302388)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Wednesday:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 2.96),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, -0.10575688, 0), Vector3(0, -0.10575688, 0)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_k1yrx"]
 _data = {
+&"RESET": SubResource("Animation_fxjdd"),
+&"caduta": SubResource("Animation_qppci"),
 &"wednsday_to_ettora": SubResource("Animation_xxven"),
 &"wednsday_to_exit": SubResource("Animation_k1yrx")
 }
@@ -101,7 +206,7 @@ transform = Transform3D(-0.9919808, 0, 0.12638856, 0, 1, 0, -0.12638856, 0, -0.9
 transform = Transform3D(-0.99986273, 0, 0.0165702, 0, 1, 0, -0.0165702, 0, -0.99986273, -0.0020185113, 0, -0.059354067)
 
 [node name="Wednesday" parent="." unique_id=1219093219 instance=ExtResource("8_k1yrx")]
-transform = Transform3D(0.005237035, 0, 0.9999863, 0, 1, 0, -0.9999863, 0, 0.005237035, 1.0047625, 0, -0.94593406)
+transform = Transform3D(0.0052370345, 0, 0.99998623, 0, 0.99999994, 0, -0.99998623, 0, 0.0052370345, 1.0047625, 0, -0.94593406)
 
 [node name="Ettore" parent="." unique_id=814567493 instance=ExtResource("9_xxven")]
 transform = Transform3D(0.6795503, 0, 0.7336289, 0, 1, 0, -0.7336289, 0, 0.6795503, -3.3927534, 0, -4.0362167)

@@ -1,3 +1,9 @@
 ~ start
-Karen: ahahahah.
+Giordano: Ecco a lei i gettoni, puo andare
+Karen: Grazie.
+do start_animation("wednsday_to_ettora")
+do wait_until(4)
+do start_animation("caduta")
+do wait_until(1)
+Ettore: aia, maledizione. Che cazzo fai son of a beach.
 => END
