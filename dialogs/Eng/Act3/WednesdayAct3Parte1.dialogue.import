@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://cn50elfpf8rcw"
+path="res://.godot/imported/WednesdayAct3Parte1.dialogue-277fd9726aa3c62632e76c79dfa04b2c.tres"
+
+[deps]
+
+source_file="res://dialogs/Eng/Act3/WednesdayAct3Parte1.dialogue"
+dest_files=["res://.godot/imported/WednesdayAct3Parte1.dialogue-277fd9726aa3c62632e76c79dfa04b2c.tres"]
+
+[params]
+
+defaults=true

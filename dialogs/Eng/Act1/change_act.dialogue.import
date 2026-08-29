@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://csdbt8rbe6jow"
+path="res://.godot/imported/change_act.dialogue-f2967a73428247aee88ba91d6e970085.tres"
+
+[deps]
+
+source_file="res://dialogs/Eng/Act1/change_act.dialogue"
+dest_files=["res://.godot/imported/change_act.dialogue-f2967a73428247aee88ba91d6e970085.tres"]
+
+[params]
+
+defaults=true

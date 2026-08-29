@@ -15,6 +15,9 @@ func change_scene(scene: String):
 func wait_until(second: float):
 	await get_tree().create_timer(second).timeout
 	
+func start_animation(animation_name: String):
+	get_tree().get_first_node_in_group("level").animation_player.play(animation_name)
+	
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	DialogueManager.connect("dialogue_started", Callable(self, "dialogue_started"))

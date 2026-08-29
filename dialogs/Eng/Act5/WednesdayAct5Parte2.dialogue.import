@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://b3btbp4u0ed76"
+path="res://.godot/imported/WednesdayAct5Parte2.dialogue-404e27472fcf912ea005b64359373f5e.tres"
+
+[deps]
+
+source_file="res://dialogs/Eng/Act5/WednesdayAct5Parte2.dialogue"
+dest_files=["res://.godot/imported/WednesdayAct5Parte2.dialogue-404e27472fcf912ea005b64359373f5e.tres"]
+
+[params]
+
+defaults=true

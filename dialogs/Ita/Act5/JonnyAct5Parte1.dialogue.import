@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://7kg20cckontb"
+path="res://.godot/imported/JonnyAct5Parte1.dialogue-a67671d0537840fcbf269f78ab5ef6bf.tres"
+
+[deps]
+
+source_file="res://dialogs/Ita/Act5/JonnyAct5Parte1.dialogue"
+dest_files=["res://.godot/imported/JonnyAct5Parte1.dialogue-a67671d0537840fcbf269f78ab5ef6bf.tres"]
+
+[params]
+
+defaults=true

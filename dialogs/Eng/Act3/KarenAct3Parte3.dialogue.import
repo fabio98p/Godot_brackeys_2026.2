@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://dpraohph8g6sb"
+path="res://.godot/imported/KarenAct3Parte3.dialogue-76a1a2740bb83d6f2fd4c23479077987.tres"
+
+[deps]
+
+source_file="res://dialogs/Eng/Act3/KarenAct3Parte3.dialogue"
+dest_files=["res://.godot/imported/KarenAct3Parte3.dialogue-76a1a2740bb83d6f2fd4c23479077987.tres"]
+
+[params]
+
+defaults=true

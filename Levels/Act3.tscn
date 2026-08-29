@@ -22,6 +22,19 @@ background_mode = 1
 background_energy_multiplier = 0.0
 sky = SubResource("Sky_arsda")
 
+[sub_resource type="Animation" id="Animation_xxven"]
+resource_name = "wednsday_to_ettora"
+length = 4.0
+
+[sub_resource type="Animation" id="Animation_k1yrx"]
+resource_name = "wednsday_to_exit"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_k1yrx"]
+_data = {
+&"wednsday_to_ettora": SubResource("Animation_xxven"),
+&"wednsday_to_exit": SubResource("Animation_k1yrx")
+}
+
 [node name="Act3" type="Node3D" unique_id=2140224792 groups=["level"]]
 script = ExtResource("1_i046u")
 Story_point = ExtResource("2_kkx6c")
@@ -93,3 +106,4 @@ transform = Transform3D(0.005237035, 0, 0.9999863, 0, 1, 0, -0.9999863, 0, 0.005
 transform = Transform3D(0.6795503, 0, 0.7336289, 0, 1, 0, -0.7336289, 0, 0.6795503, -3.3927534, 0, -4.0362167)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=617071902]
+libraries/ = SubResource("AnimationLibrary_k1yrx")

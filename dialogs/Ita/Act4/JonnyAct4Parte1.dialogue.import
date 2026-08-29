@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://d0cv8ypg4u0dv"
+path="res://.godot/imported/JonnyAct4Parte1.dialogue-97667cef9c74f7d1ca767341b45a1b3f.tres"
+
+[deps]
+
+source_file="res://dialogs/Ita/Act4/JonnyAct4Parte1.dialogue"
+dest_files=["res://.godot/imported/JonnyAct4Parte1.dialogue-97667cef9c74f7d1ca767341b45a1b3f.tres"]
+
+[params]
+
+defaults=true

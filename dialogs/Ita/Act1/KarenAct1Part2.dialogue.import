@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://b6sldd7ikvqd"
+path="res://.godot/imported/KarenAct1Part2.dialogue-6a05cb0b309562c3fc4395e16030b3ef.tres"
+
+[deps]
+
+source_file="res://dialogs/Ita/Act1/KarenAct1Part2.dialogue"
+dest_files=["res://.godot/imported/KarenAct1Part2.dialogue-6a05cb0b309562c3fc4395e16030b3ef.tres"]
+
+[params]
+
+defaults=true

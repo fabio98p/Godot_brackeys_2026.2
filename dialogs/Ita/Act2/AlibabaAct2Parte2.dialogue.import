@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://drdq47mk4fxw0"
+path="res://.godot/imported/AlibabaAct2Parte2.dialogue-9a3f750e6026f390e44ad0e46176d66c.tres"
+
+[deps]
+
+source_file="res://dialogs/Ita/Act2/AlibabaAct2Parte2.dialogue"
+dest_files=["res://.godot/imported/AlibabaAct2Parte2.dialogue-9a3f750e6026f390e44ad0e46176d66c.tres"]
+
+[params]
+
+defaults=true

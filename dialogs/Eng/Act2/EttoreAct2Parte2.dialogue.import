@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://cf12xods5fke6"
+path="res://.godot/imported/EttoreAct2Parte2.dialogue-d19109cdba749cf0a94d93359999d1c5.tres"
+
+[deps]
+
+source_file="res://dialogs/Eng/Act2/EttoreAct2Parte2.dialogue"
+dest_files=["res://.godot/imported/EttoreAct2Parte2.dialogue-d19109cdba749cf0a94d93359999d1c5.tres"]
+
+[params]
+
+defaults=true

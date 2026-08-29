@@ -294,10 +294,9 @@ transform = Transform3D(0.7174959, 0, 0.6965627, 0, 1, 0, -0.6965627, 0, 0.71749
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=150504703]
 libraries/ = SubResource("AnimationLibrary_e2wtv")
-autoplay = &"jonny_enter_shop"
 
 [node name="JonnyBravo" parent="." unique_id=1774100400 instance=ExtResource("9_bdlko")]
-transform = Transform3D(-0.9035808, 0, 0.42841712, 0, 1, 0, -0.42841712, 0, -0.9035808, -2.7409387, 0, 0.4617324)
+transform = Transform3D(-0.9035807, 0, 0.4284171, 0, 1, 0, -0.4284171, 0, -0.9035807, -2.7409387, 0, 0.4617324)
 
 [node name="Wednesday" parent="." unique_id=2069580432 instance=ExtResource("10_qeh2j")]
 transform = Transform3D(-0.9511391, 0, 0.30876258, 0, 1, 0, -0.30876258, 0, -0.9511391, -2.7215295, 0.057264566, 0.33618867)

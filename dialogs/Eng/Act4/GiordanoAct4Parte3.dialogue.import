@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://b82gj71hyv888"
+path="res://.godot/imported/GiordanoAct4Parte3.dialogue-4a6d80d3566f849f75a5f6d4e6692bbb.tres"
+
+[deps]
+
+source_file="res://dialogs/Eng/Act4/GiordanoAct4Parte3.dialogue"
+dest_files=["res://.godot/imported/GiordanoAct4Parte3.dialogue-4a6d80d3566f849f75a5f6d4e6692bbb.tres"]
+
+[params]
+
+defaults=true
