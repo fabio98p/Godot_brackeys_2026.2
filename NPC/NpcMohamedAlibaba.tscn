@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cb8qhjktnf6gg"]
 
 [ext_resource type="Script" uid="uid://byce0w8s3kddb" path="res://Interact/story_interact.gd" id="1_tvn25"]
-[ext_resource type="Texture2D" uid="uid://4lvp33ak5ilu" path="res://Assets/Sprite/brutti/Mohamed_Alibaba.png" id="2_tvn25"]
+[ext_resource type="Texture2D" uid="uid://wyqp68ht86wk" path="res://Assets/Sprite/mohammedalibaba.png" id="2_tvn25"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k1h6f"]
 radius = 0.29003906
@@ -13,13 +13,14 @@ interact_identifier = "Mohamed_Alibaba"
 int_name = "Mohamed Alibaba"
 
 [node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228 groups=["Alibaba", "npc"]]
-transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 1, 0)
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0.9173862, 0)
 shaded = true
 double_sided = false
 texture = ExtResource("2_tvn25")
 
 [node name="Sprite3D2" type="Sprite3D" parent="." unique_id=140760693]
-transform = Transform3D(-0.4, 0, -3.4969112e-08, 0, 0.4, 0, 3.4969112e-08, 0, -0.4, 0, 1, 0)
+transform = Transform3D(-0.15, 0, -2.2649372e-08, 0, 0.15, 0, 2.2649372e-08, 0, -0.15, 0, 0.9173862, 0)
+flip_h = true
 modulate = Color(0, 0, 0, 1)
 double_sided = false
 texture = ExtResource("2_tvn25")

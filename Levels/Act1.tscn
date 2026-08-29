@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://cvl8l0c50qawg" path="res://Interact/rock.tscn" id="8_uktx4"]
 [ext_resource type="PackedScene" uid="uid://b4skf7ix2x4kf" path="res://props/assets/lavatrice/lavatrice.gltf" id="9_ur0lo"]
 [ext_resource type="PackedScene" uid="uid://c3op8f7pr84vc" path="res://props/assets/door/door.gltf" id="10_ugcal"]
+[ext_resource type="LightmapGIData" uid="uid://bvg1xpfmlswtc" path="res://Levels/Act1.lmbake" id="11_85wqx"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_kbe2v"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -52,12 +53,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0045856833, 1.1920929e-07, 
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=239791641]
 transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, -1.749454, 2.779567, -2.3490806)
 light_color = Color(0.99607843, 0.7019608, 0.8039216, 1)
-light_energy = 0.903
+light_energy = 0.746
 light_indirect_energy = 1.747
 light_volumetric_fog_energy = 1.611
 light_size = 0.15
+light_bake_mode = 1
 shadow_enabled = true
-shadow_bias = 0.0
+shadow_bias = 1.532
 shadow_normal_bias = 3.349
 shadow_transmittance_bias = -2.456
 shadow_opacity = 0.65
@@ -68,12 +70,13 @@ omni_attenuation = 1.723
 [node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=1896966425]
 transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, 1.5495473, 2.779567, -2.3490806)
 light_color = Color(0.99607843, 0.7019608, 0.8039216, 1)
-light_energy = 0.614
+light_energy = 0.739
 light_indirect_energy = 1.747
 light_volumetric_fog_energy = 1.611
 light_size = 0.15
+light_bake_mode = 1
 shadow_enabled = true
-shadow_bias = 0.0
+shadow_bias = 0.75
 shadow_normal_bias = 3.349
 shadow_transmittance_bias = -2.456
 shadow_opacity = 0.65
@@ -82,19 +85,20 @@ omni_range = 7.101
 omni_attenuation = 1.723
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=1131440565]
-transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, 6.307884, 2.779567, -1.0149093)
+transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, 6.307884, 2.7116501, -1.0149093)
 light_color = Color(0.99607843, 0.7019608, 0.8039216, 1)
-light_energy = 1.095
+light_energy = 0.695
 light_indirect_energy = 1.747
 light_volumetric_fog_energy = 1.611
 light_size = 0.15
+light_bake_mode = 1
 shadow_enabled = true
 shadow_bias = 0.0
 shadow_normal_bias = 3.349
 shadow_transmittance_bias = -2.456
 shadow_opacity = 0.65
 shadow_blur = 2.645
-omni_range = 57.469
+omni_range = 11.543
 omni_attenuation = 1.048
 
 [node name="Ettore" parent="." unique_id=668593638 instance=ExtResource("6_cpo8k")]
@@ -127,3 +131,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.81832707, 0, -4.979833)
 
 [node name="door" parent="props" unique_id=600892882 instance=ExtResource("10_ugcal")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6735642, -0.009578049, 0.35802168)
+
+[node name="LightmapGI" type="LightmapGI" parent="." unique_id=1102354050]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1935979, -2.083305)
+quality = 2
+bounces = 4
+interior = true
+light_data = ExtResource("11_85wqx")
