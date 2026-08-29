@@ -1,9 +1,9 @@
 ~ start
-Giordano: Ecco a lei i gettoni, puo andare
-Karen: Grazie.
+Giordano: Here are your tokens; you can go now.
+Karen: Thank you.
 do start_animation("wednsday_to_ettora")
 do wait_until(4)
 do start_animation("caduta")
 do wait_until(1)
-Ettore: aia, maledizione. Che cazzo fai son of a beach.
+Ettore: Ouch, damn it. What the hell are you doing, you son of a bitch?
 => END

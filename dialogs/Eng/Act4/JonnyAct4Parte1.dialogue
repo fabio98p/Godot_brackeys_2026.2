@@ -1,17 +1,19 @@
 ~ start
 do start_animation("jonny_enter_shop")
 do wait_until(5)
-Jonny Bravo: Hei Bro, cosa e' successo qua fuori, ho visto una sventola qua fuori che piangeva, cosa e' successo?
+
+Jonny Bravo: Hey, bro, what happened out there? I saw a hottie out there crying. What happened?
+
 do start_animation("wednesday_enter_the_shop")
 do wait_until(3)
 
-Wednesday: Aspetta, che fai signore.
-Ettore: Se ti riferisci a quella troietta mi ha rovinato il vestito e mi ha pure tagliato.
+Wednesday: Wait, what are you doing, sir?
+Ettore: If you’re talking about that little slut, she ruined my suit and even cut me.
 
 do start_animation("jonny_to_ettore")
 do wait_until(3)
 
-Jonny Bravo: Ascolta bro, non ci si comporta cosi, e poi ha una certa eta lei
+Jonny Bravo: Listen, bro, you don’t act like that—and besides, she’s a certain age.
 
 Mohamed Alibaba: ...
 do start_animation("Alibaba_to_corner")

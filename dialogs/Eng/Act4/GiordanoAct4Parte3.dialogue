@@ -1,9 +1,9 @@
 ~ start
-Ettore: Ci mancava solo questo, e' saltata la luce.
-Jonny Bravo: Preparati bro, appena torna la luce te la faro vedere io.
+Ettore: That's all we needed—the power went out.
+Jonny Bravo: Get ready, bro. As soon as the power comes back on, I'll show you.
 
-Giordano: Vado a accendere le luci
+Giordano: I'm going to turn on the lights.
 
-Rumore: tonf... sclap....
+Noise: thud... clap....
 do change_scene("res://Levels/Act5.tscn")
 => END

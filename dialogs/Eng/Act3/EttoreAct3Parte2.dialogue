@@ -1,8 +1,8 @@
 ~ start
 
-Wednesday: Scusa sono incapata.
-Ettore: Incampata un cazzo. Sai quanto costa questo vestito troia del cazzo
-Wednesday: pinage.
+Wednesday: Sorry, I'm clueless.
+Ettore: Clueless my ass. Do you know how much this fucking slutty dress costs?
+Wednesday: (She's crying).
 do start_animation("wednsday_to_exit")
 #do wait_until()
 => END

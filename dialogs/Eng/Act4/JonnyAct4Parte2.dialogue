@@ -1,8 +1,8 @@
 ~ start
-Ettore: Abbassa la cresta, ragazzino, fatti i cazzi tuoi.
-Jonny Bravo: Ascolta bro, io non me ne vado da qua fino a che non ti sarai scusato con la mia futura ragazza.
-Ettore: Futura ragazza, forse anche te potresti riusciri con una troia del genere.
-Jonny Bravo: Geleoso perche non rimorchi? o forse sei finocchio.
-Ettore: ma come ti permetti (Tira un pugno in faccia a Jonny).
+Ettore: Tone it down, kid—mind your own business.
+Jonny Bravo: Listen, bro, I’m not leaving here until you apologize to my future girlfriend.
+Ettore: Future girlfriend? Maybe even you could land a slut like that.
+Jonny Bravo: Jealous because you can’t get any? Or maybe you’re gay.
+Ettore: How dare you? (He punches Jonny in the face.)
 do custom_act4_ettore()         
 => END
