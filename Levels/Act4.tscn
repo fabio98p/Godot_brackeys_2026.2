@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://hix13sq2goi5" path="res://NPC/NpcEttore.tscn" id="8_pcwah"]
 [ext_resource type="PackedScene" uid="uid://dduq0vua4qci3" path="res://NPC/NpcJonnyBravo.tscn" id="9_bdlko"]
 [ext_resource type="PackedScene" uid="uid://ballgcmlwbmqo" path="res://NPC/NpcWednesday.tscn" id="10_qeh2j"]
+[ext_resource type="PackedScene" uid="uid://cvl8l0c50qawg" path="res://Interact/rock.tscn" id="11_e2wtv"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_kbe2v"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -296,7 +297,10 @@ transform = Transform3D(0.7174959, 0, 0.6965627, 0, 1, 0, -0.6965627, 0, 0.71749
 libraries/ = SubResource("AnimationLibrary_e2wtv")
 
 [node name="JonnyBravo" parent="." unique_id=1774100400 instance=ExtResource("9_bdlko")]
-transform = Transform3D(-0.9035807, 0, 0.4284171, 0, 1, 0, -0.4284171, 0, -0.9035807, -2.7409387, 0, 0.4617324)
+transform = Transform3D(-0.9035807, 0, 0.42841706, 0, 1, 0, -0.42841706, 0, -0.9035807, -2.7409387, 0, 0.4617324)
 
 [node name="Wednesday" parent="." unique_id=2069580432 instance=ExtResource("10_qeh2j")]
 transform = Transform3D(-0.9511391, 0, 0.30876258, 0, 1, 0, -0.30876258, 0, -0.9511391, -2.7215295, 0.057264566, 0.33618867)
+
+[node name="Rock" parent="." unique_id=2128398662 instance=ExtResource("11_e2wtv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2269182, 0.9772757, -0.16161239)

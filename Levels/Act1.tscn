@@ -102,6 +102,6 @@ transform = Transform3D(0.92360795, 0, 0.38333872, 0, 1, 0, -0.38333872, 0, 0.92
 transform = Transform3D(-0.5767743, 0, 0.8169035, 0, 1, 0, -0.8169035, 0, -0.5767743, -3.6431594, 0, -2.35174)
 
 [node name="Rock" parent="." unique_id=2128398662 instance=ExtResource("8_uktx4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9170535, 0.77217126, -0.5114471)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2269182, 0.9772757, -0.16161239)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1310081415]

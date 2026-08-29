@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bvb2sjtcktdcy" path="res://NPC/NpcKaren.tscn" id="8_53p06"]
 [ext_resource type="PackedScene" uid="uid://cb8qhjktnf6gg" path="res://NPC/NpcMohamedAlibaba.tscn" id="9_5i6gh"]
 [ext_resource type="PackedScene" uid="uid://ballgcmlwbmqo" path="res://NPC/NpcWednesday.tscn" id="10_h7moo"]
+[ext_resource type="PackedScene" uid="uid://cvl8l0c50qawg" path="res://Interact/rock.tscn" id="11_6ctlm"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_kbe2v"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -103,3 +104,6 @@ transform = Transform3D(0.6691276, 0, -0.7431476, 0, 1, 0, 0.7431476, 0, 0.66912
 transform = Transform3D(-0.5394628, 0, -0.8420094, 0, 1, 0, 0.8420094, 0, -0.5394628, 0.4931221, 0, -1.3139802)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=66543547]
+
+[node name="Rock" parent="." unique_id=2128398662 instance=ExtResource("11_6ctlm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2269182, 0.9772757, -0.16161239)

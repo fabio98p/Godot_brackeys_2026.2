@@ -6,7 +6,7 @@
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k1h6f"]
 radius = 0.27441406
 
-[node name="Karen" type="StaticBody3D" unique_id=668593638]
+[node name="Karen" type="StaticBody3D" unique_id=668593638 groups=["Karen", "npc"]]
 collision_layer = 4352
 script = ExtResource("1_crthb")
 interact_identifier = "Karen"
