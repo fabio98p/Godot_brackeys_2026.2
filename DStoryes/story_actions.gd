@@ -10,6 +10,7 @@ class_name	StoryInteractionResource
 @export var mohamed_alibaba_dialog_interaction: DialogueResource
 @export var jonny_bravo_dialog_interaction: DialogueResource
 @export var karen_dialog_interaction: DialogueResource
+@export var table_dialog_interaction: DialogueResource
 
 # For keep going with the story
 @export var need_intercated_by: String

@@ -1,9 +1,0 @@
-~ start
-Ettore: Ci mancava solo questo, e' saltata la luce.
-Jonny Bravo: Preparati bro, appena torna la luce te la faro vedere io.
-
-Giordano: Vado a accendere le luci
-
-Rumore: tonf... sclap....
-do change_scene("res://Levels/Act5.tscn")
-=> END

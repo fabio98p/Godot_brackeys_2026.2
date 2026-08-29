@@ -1,24 +1,8 @@
 [gd_resource type="Resource" script_class="StoryInteractionResource" format=3 uid="uid://c18hd68pwm2ya"]
 
-[ext_resource type="Resource" uid="uid://ce31cdhm3uuex" path="res://dialogs/Act2/rook.dialogue" id="1_e2akn"]
-[ext_resource type="Resource" uid="uid://c1dhtye6cj1sk" path="res://dialogs/Act2/EttoreAct2Parte1.dialogue" id="2_63nn1"]
-[ext_resource type="Resource" path="res://dialogs/Act2/Jonny1.dialogue" id="3_es7mt"]
-[ext_resource type="Resource" uid="uid://d0d0j7acok55s" path="res://dialogs/Act2/KarenAct2Parte2.dialogue" id="4_bqdgb"]
-[ext_resource type="Resource" uid="uid://drdq47mk4fxw0" path="res://dialogs/Act2/AlibabaAct2Parte2.dialogue" id="5_y0egw"]
-[ext_resource type="Resource" uid="uid://08rixts5ymv8" path="res://DStoryes/resource/second_act.tres" id="6_6sdw7"]
 [ext_resource type="Script" uid="uid://dcrevu1wvc1uq" path="res://DStoryes/story_actions.gd" id="7_tln7c"]
-[ext_resource type="Resource" path="res://dialogs/Act2/Wendesday1.dialogue" id="8_mjvge"]
 
 [resource]
 script = ExtResource("7_tln7c")
 objective_label = "Manage the discussion between customers"
-ettore_dialog_interaction = ExtResource("2_63nn1")
-wednesday_dialog_interaction = ExtResource("8_mjvge")
-mohamed_alibaba_dialog_interaction = ExtResource("5_y0egw")
-jonny_bravo_dialog_interaction = ExtResource("3_es7mt")
-karen_dialog_interaction = ExtResource("4_bqdgb")
-need_intercated_by = "rock"
-next_interaction = ExtResource("6_6sdw7")
-is_dialogue_interaction = true
-dialog_interaction = ExtResource("1_e2akn")
 metadata/_custom_type_script = "uid://dcrevu1wvc1uq"

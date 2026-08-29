@@ -47,6 +47,8 @@ func manage_normal_interaction(interacted_by: String):
 		DialogueManager.show_dialogue_balloon(current_story_interaction.mohamed_alibaba_dialog_interaction)
 	if interacted_by == "Jonny_Bravo":
 		DialogueManager.show_dialogue_balloon(current_story_interaction.jonny_bravo_dialog_interaction)
+	if interacted_by == "table":
+		DialogueManager.show_dialogue_balloon(current_story_interaction.table_dialog_interaction)
 
 
 func dialogue_started(resource: DialogueResource):
