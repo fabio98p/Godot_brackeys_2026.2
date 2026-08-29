@@ -11,12 +11,22 @@
     },
     "asset_4d6f7bda-8e54-4a83-b2fc-f1bed27edc4c": {
         "relative_path": "props/assets/lavanery/lavanery.gltf",
-        "content_hash": "1577c85bf6b99ebb49998d4f6e64a1cabfa1e91258e62fbd81c5c079b8006e45",
+        "content_hash": "b72170182a2264e57b950abcd6c1766f0f6aba088da94ea095df1ad95f76b3c5",
         "source_blend_file": "terrain.blend"
     },
     "asset_bc25819f-dea5-435f-b807-b6ac9b02e2a9": {
         "relative_path": "props/assets/Interogatory/Interogatory.gltf",
         "content_hash": "43c76b0f44bf39ef26d0723cfee20aefbc2654eb3e9038c9df113d4c61482c52",
+        "source_blend_file": "terrain.blend"
+    },
+    "asset_e5e8da27-ffb8-49f1-8b48-c46217c32e50": {
+        "relative_path": "props/assets/lavatrice/lavatrice.gltf",
+        "content_hash": "ebfad496fca20de9b5be71cfa64b4fcd86b9ae4dd774ffce64b699047b050d99",
+        "source_blend_file": "terrain.blend"
+    },
+    "asset_37054535-8b13-48d8-b885-ae4a0182cb78": {
+        "relative_path": "props/assets/door/door.gltf",
+        "content_hash": "605bc51bf7107220ed15eeacb25626c24cc98f0ef77cad2199befe0df581f10d",
         "source_blend_file": "terrain.blend"
     }
 }

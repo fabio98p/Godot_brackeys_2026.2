@@ -28,8 +28,8 @@
         "source_blend_file": "terrain.blend"
     },
     "mat_b2284dfe-0c52-42ac-8333-eaa09719fb0b": {
-        "name": "wall",
-        "relative_path": "props/materials/wall/wall.tres",
+        "name": "wallInterogatory",
+        "relative_path": "props/materials/wallInterogatory/wallInterogatory.tres",
         "content_hash": "8f30707092b38bd20dc7da4645f059ad98cef8cf37816acaef3e2a8bd754a459",
         "material_ext": "TRES",
         "source_blend_file": "terrain.blend"
@@ -44,7 +44,35 @@
     "mat_687e30ae-6e6c-4f63-858f-25aa71a0ddb0": {
         "name": "door",
         "relative_path": "props/materials/door/door.tres",
-        "content_hash": "06b7c9d1c94579f3b7e27b347e6fad12db60598853fee854889040b925f65fbb",
+        "content_hash": "0bbdead81f6c354a74acde5880af756b02f3573d9b8e0bf2bee85cbd1bfb7004",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_0c04c9fa-f728-4d19-b74a-491bf141691e": {
+        "name": "wall",
+        "relative_path": "props/materials/wall/wall.tres",
+        "content_hash": "8d8b12cbb1659d0805dc8f3569eac5bebbc90060fad8e8ff74d41edec5919422",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_34d1da92-4bcb-4626-a8e2-a73d1d0fb7e0": {
+        "name": "lavatory_transparent",
+        "relative_path": "props/materials/lavatory_transparent/lavatory_transparent.tres",
+        "content_hash": "64c0500a101ac7bee4638064131e35fc4edbfbe63fa1c124b01a511126cb8184",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_745bf037-5ce0-4bcb-a002-d9f56a7f7438": {
+        "name": "door_corner",
+        "relative_path": "props/materials/door_corner/door_corner.tres",
+        "content_hash": "da77075379fab6b5da506a774a7f80f6e110c8f5422276780730514bedd959f9",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_3dbe5a9c-82a0-43ba-8db3-4ae4ac4f7058": {
+        "name": "pomello",
+        "relative_path": "props/materials/pomello/pomello.tres",
+        "content_hash": "e794763f15092539f0d36b3319bab95c651bcbe966c37f2ceac23b3989c77b13",
         "material_ext": "TRES",
         "source_blend_file": "terrain.blend"
     }

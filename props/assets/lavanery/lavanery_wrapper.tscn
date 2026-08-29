@@ -2,6 +2,6 @@
 
 [ext_resource type="PackedScene" uid="uid://cpejv8setvbrc" path="res://props/assets/lavanery/lavanery.gltf" id="1_7lx4d"]
 
-[node name="lavanery" type="Node3D" unique_id=844238592]
+[node name="lavanery" type="Node3D" unique_id=2118229560]
 
-[node name="lavanery" parent="." unique_id=2144223918 instance=ExtResource("1_7lx4d")]
+[node name="lavanery" parent="." unique_id=662904520 instance=ExtResource("1_7lx4d")]

@@ -1,8 +1,16 @@
 [gd_resource type="Resource" script_class="StoryInteractionResource" format=3 uid="uid://c18hd68pwm2ya"]
 
+[ext_resource type="Resource" uid="uid://bfhy730x518ll" path="res://dialogs/Eng/Act5/JonnyAct5Parte2.dialogue" id="1_id3f3"]
+[ext_resource type="Resource" uid="uid://c2fom2lobgdve" path="res://dialogs/Eng/Act5/KarenAct5Parte2.dialogue" id="2_ib2kb"]
+[ext_resource type="Resource" uid="uid://bfx6th6pp0377" path="res://dialogs/Eng/Act5/AlibabaAct5Parte2.dialogue" id="3_ksfcq"]
+[ext_resource type="Resource" uid="uid://b3btbp4u0ed76" path="res://dialogs/Eng/Act5/WednesdayAct5Parte2.dialogue" id="5_bw8po"]
 [ext_resource type="Script" uid="uid://dcrevu1wvc1uq" path="res://DStoryes/story_actions.gd" id="7_tln7c"]
 
 [resource]
 script = ExtResource("7_tln7c")
 objective_label = "Manage the discussion between customers"
+wednesday_dialog_interaction = ExtResource("5_bw8po")
+mohamed_alibaba_dialog_interaction = ExtResource("3_ksfcq")
+jonny_bravo_dialog_interaction = ExtResource("1_id3f3")
+karen_dialog_interaction = ExtResource("2_ib2kb")
 metadata/_custom_type_script = "uid://dcrevu1wvc1uq"

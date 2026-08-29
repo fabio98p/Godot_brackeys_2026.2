@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://byu7d6re8q4eu"]
+
+[ext_resource type="PackedScene" uid="uid://c3op8f7pr84vc" path="res://props/assets/door/door.gltf" id="1_lnfhr"]
+
+[node name="door" unique_id=600892882 instance=ExtResource("1_lnfhr")]

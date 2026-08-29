@@ -1,7 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://dvgegch0elurq"]
 
 [resource]
-albedo_color = Color(0.0007, 0.0006, 0.0003, 1)
-roughness = 0.5
+albedo_color = Color(0.5463, 0.1812, 0.0005, 1)
+metallic = 0.1409
+roughness = 0.4909
 metadata/nexus_created = true
 metadata/nexus_material_id = "mat_687e30ae-6e6c-4f63-858f-25aa71a0ddb0"

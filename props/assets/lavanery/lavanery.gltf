@@ -110,9 +110,9 @@
 			"mesh":0,
 			"name":"Desk",
 			"translation":[
-				1.8800075054168701,
+				1.875626564025879,
 				0.4583478271961212,
-				2.4815711975097656
+				2.4810612201690674
 			]
 		},
 		{
@@ -127,11 +127,30 @@
 					"height":0.0,
 					"offset_x":0.0,
 					"offset_y":0.5000000596046448,
-					"offset_z":-0.0
+					"offset_z":-0.0,
+					"is_preview_mesh":0,
+					"discard_mesh":1,
+					"collision_margin":1.0,
+					"apply_scale":1,
+					"preserve_origin":1,
+					"is_bone_attachment":0,
+					"bone_name":"",
+					"is_godot_placeholder":0,
+					"lod_max_distance":50.0,
+					"lod_fade_percent":0.10000000149011612,
+					"lod_distribution":1.0,
+					"physics_surface_override":"",
+					"is_animation_anchor":0,
+					"is_origin_pivot":0,
+					"export_as_path":0,
+					"separation_ray_slide_on_slope":0,
+					"separation_ray_custom_solver_bias":0.0,
+					"separation_ray_shape_margin":0.03999999910593033,
+					"placeholder_path":""
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_f998cd31-9eb1-44cd-8848-ab45a9c4da71",
-					"discard_mesh":false,
+					"discard_mesh":true,
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
@@ -165,9 +184,9 @@
 				"exporter_obj_props":{
 					"uuid":"obj_2b182d30-2cd9-4bd9-a6f3-1953503bd60a",
 					"collision_shape":1,
-					"size_x":3.9999990463256836,
-					"size_y":0.5,
-					"size_z":3.0,
+					"size_x":7.999998092651367,
+					"size_y":1.0,
+					"size_z":6.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
@@ -180,9 +199,9 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":4.0,
-						"size_y":0.5,
-						"size_z":3.0,
+						"size_x":8.0,
+						"size_y":1.0,
+						"size_z":6.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -199,6 +218,11 @@
 			},
 			"mesh":2,
 			"name":"Ground",
+			"scale":[
+				0.5,
+				0.5,
+				0.5
+			],
 			"translation":[
 				0,
 				-0.5,
@@ -210,14 +234,14 @@
 				"exporter_obj_props":{
 					"uuid":"obj_dcfff25c-baed-4ba6-a0bf-36ed013122a1",
 					"collision_shape":1,
-					"size_x":2.0,
-					"size_y":0.5,
-					"size_z":1.5,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":0.75,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
 					"offset_y":0.0,
-					"offset_z":-0.5
+					"offset_z":-0.25
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_dcfff25c-baed-4ba6-a0bf-36ed013122a1",
@@ -225,14 +249,14 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":2.0,
-						"size_y":0.5,
-						"size_z":1.5,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":0.75,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
 						"offset_y":0.0,
-						"offset_z":-0.5
+						"offset_z":-0.25
 					},
 					"nexus_uv_layers":[
 						{
@@ -244,6 +268,11 @@
 			},
 			"mesh":3,
 			"name":"ground2",
+			"scale":[
+				2,
+				0.5,
+				2
+			],
 			"translation":[
 				5.995344638824463,
 				-0.5,
@@ -253,14 +282,14 @@
 		{
 			"extras":{
 				"exporter_obj_props":{
-					"uuid":"obj_2b182d30-2cd9-4bd9-a6f3-1953503bd60a",
+					"uuid":"obj_bad57410-b156-44d8-b243-0932249ff5f9",
 					"collision_shape":1,
-					"size_x":6.3042731285095215,
-					"size_y":0.5,
-					"size_z":3.0,
+					"size_x":12.608546257019043,
+					"size_y":1.0,
+					"size_z":6.0,
 					"radius":0.0,
 					"height":0.0,
-					"offset_x":2.304274082183838,
+					"offset_x":4.608548164367676,
 					"offset_y":0.0,
 					"offset_z":-0.0
 				},
@@ -270,12 +299,12 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":6.3043,
-						"size_y":0.5,
-						"size_z":3.0,
+						"size_x":12.6085,
+						"size_y":1.0,
+						"size_z":6.0,
 						"radius":0.0,
 						"height":0.0,
-						"offset_x":2.3043,
+						"offset_x":4.6085,
 						"offset_y":0.0,
 						"offset_z":-0.0
 					},
@@ -289,6 +318,11 @@
 			},
 			"mesh":4,
 			"name":"Ground.001",
+			"scale":[
+				0.5,
+				0.5,
+				0.5
+			],
 			"translation":[
 				0,
 				3.3335351943969727,
@@ -300,9 +334,9 @@
 				"exporter_obj_props":{
 					"uuid":"obj_5f83ee9e-8b4f-4037-96a4-c2bf22009c60",
 					"collision_shape":1,
-					"size_x":0.19999998807907104,
-					"size_y":2.999999761581421,
-					"size_z":2.999999761581421,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":1.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
@@ -315,9 +349,9 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.2,
-						"size_y":3.0,
-						"size_z":3.0,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -334,6 +368,11 @@
 			},
 			"mesh":5,
 			"name":"Wall1",
+			"scale":[
+				0.19999998807907104,
+				2.999999761581421,
+				2.999999761581421
+			],
 			"translation":[
 				-4.199999809265137,
 				0,
@@ -345,9 +384,9 @@
 				"exporter_obj_props":{
 					"uuid":"obj_98343771-fce0-49a7-9e71-ee5dfcdc6bef",
 					"collision_shape":1,
-					"size_x":0.19999998807907104,
-					"size_y":2.999999761581421,
-					"size_z":2.999999761581421,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":1.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
@@ -360,9 +399,9 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.2,
-						"size_y":3.0,
-						"size_z":3.0,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -379,6 +418,11 @@
 			},
 			"mesh":6,
 			"name":"Wall1.001",
+			"scale":[
+				0.19999998807907104,
+				2.999999761581421,
+				2.999999761581421
+			],
 			"translation":[
 				8.185616493225098,
 				0,
@@ -390,14 +434,14 @@
 				"exporter_obj_props":{
 					"uuid":"obj_5a5788dc-ad24-4065-afa8-cb8236be98b5",
 					"collision_shape":1,
-					"size_x":0.19999998807907104,
-					"size_y":2.999999761581421,
-					"size_z":2.171104907989502,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":0.7237017154693604,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
 					"offset_y":0.0,
-					"offset_z":-0.828894853591919
+					"offset_z":-0.27629828453063965
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_5a5788dc-ad24-4065-afa8-cb8236be98b5",
@@ -405,14 +449,14 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.2,
-						"size_y":3.0,
-						"size_z":2.1711,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":0.7237,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
 						"offset_y":0.0,
-						"offset_z":-0.8289
+						"offset_z":-0.2763
 					},
 					"nexus_uv_layers":[
 						{
@@ -424,6 +468,11 @@
 			},
 			"mesh":7,
 			"name":"Wall2",
+			"scale":[
+				0.19999998807907104,
+				2.999999761581421,
+				2.999999761581421
+			],
 			"translation":[
 				4.199999809265137,
 				2.9381279945373535,
@@ -435,14 +484,14 @@
 				"exporter_obj_props":{
 					"uuid":"obj_f506c6ee-f906-41f1-b453-f1146ca55203",
 					"collision_shape":1,
-					"size_x":0.19999998807907104,
-					"size_y":2.999999761581421,
-					"size_z":2.171104907989502,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":0.7237017154693604,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
 					"offset_y":0.0,
-					"offset_z":-0.828894853591919
+					"offset_z":-0.27629828453063965
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_f506c6ee-f906-41f1-b453-f1146ca55203",
@@ -450,14 +499,14 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.2,
-						"size_y":3.0,
-						"size_z":2.1711,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":0.7237,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
 						"offset_y":0.0,
-						"offset_z":-0.8289
+						"offset_z":-0.2763
 					},
 					"nexus_uv_layers":[
 						{
@@ -469,6 +518,11 @@
 			},
 			"mesh":8,
 			"name":"Wall2.001",
+			"scale":[
+				0.19999998807907104,
+				2.999999761581421,
+				2.999999761581421
+			],
 			"translation":[
 				4.199999809265137,
 				2.9381279945373535,
@@ -480,14 +534,14 @@
 				"exporter_obj_props":{
 					"uuid":"obj_f438faa1-3afc-49e5-8c81-fa7436303b26",
 					"collision_shape":1,
-					"size_x":0.19999998807907104,
-					"size_y":1.8566776514053345,
-					"size_z":0.5905206799507141,
+					"size_x":1.0,
+					"size_y":0.6188926100730896,
+					"size_z":0.19684025645256042,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
-					"offset_y":-1.1433221101760864,
-					"offset_z":-0.9240433573722839
+					"offset_y":-0.3811074197292328,
+					"offset_z":-0.30801448225975037
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_f438faa1-3afc-49e5-8c81-fa7436303b26",
@@ -495,14 +549,14 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.2,
-						"size_y":1.8567,
-						"size_z":0.5905,
+						"size_x":1.0,
+						"size_y":0.6189,
+						"size_z":0.1968,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
-						"offset_y":-1.1433,
-						"offset_z":-0.924
+						"offset_y":-0.3811,
+						"offset_z":-0.308
 					},
 					"nexus_uv_layers":[
 						{
@@ -514,6 +568,11 @@
 			},
 			"mesh":9,
 			"name":"Wall2.002",
+			"scale":[
+				0.19999998807907104,
+				2.999999761581421,
+				2.999999761581421
+			],
 			"translation":[
 				4.199999809265137,
 				5.215763568878174,
@@ -525,9 +584,9 @@
 				"exporter_obj_props":{
 					"uuid":"obj_21f6fb48-18a9-4043-b91b-e3ac7d784b81",
 					"collision_shape":1,
-					"size_x":0.2799999713897705,
-					"size_y":4.199999809265137,
-					"size_z":4.199999809265137,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":1.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
@@ -540,9 +599,9 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.28,
-						"size_y":4.2,
-						"size_z":4.2,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -565,6 +624,11 @@
 				0,
 				0.7071068286895752
 			],
+			"scale":[
+				0.2799999713897705,
+				4.199999809265137,
+				4.199999809265137
+			],
 			"translation":[
 				0,
 				0,
@@ -576,9 +640,9 @@
 				"exporter_obj_props":{
 					"uuid":"obj_aee78a18-20ab-42aa-a53e-773e8f235851",
 					"collision_shape":1,
-					"size_x":0.2799999713897705,
-					"size_y":4.199999809265137,
-					"size_z":4.199999809265137,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":1.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
@@ -591,9 +655,9 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.28,
-						"size_y":4.2,
-						"size_z":4.2,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -616,6 +680,11 @@
 				0,
 				0.7071068286895752
 			],
+			"scale":[
+				0.2799999713897705,
+				4.199999809265137,
+				4.199999809265137
+			],
 			"translation":[
 				8.451448440551758,
 				0,
@@ -627,14 +696,14 @@
 				"exporter_obj_props":{
 					"uuid":"obj_433a3b47-0105-4a31-8f1d-5244df1c32d2",
 					"collision_shape":1,
-					"size_x":0.28000009059906006,
-					"size_y":4.199999809265137,
-					"size_z":6.242285251617432,
+					"size_x":1.0000003576278687,
+					"size_y":1.0,
+					"size_z":1.4862585067749023,
 					"radius":0.0,
 					"height":0.0,
-					"offset_x":-1.043081283569336e-07,
+					"offset_x":-3.5762786865234375e-07,
 					"offset_y":0.0,
-					"offset_z":2.042285442352295
+					"offset_z":0.48625850677490234
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_433a3b47-0105-4a31-8f1d-5244df1c32d2",
@@ -642,14 +711,14 @@
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.28,
-						"size_y":4.2,
-						"size_z":6.2423,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.4863,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":-0.0,
 						"offset_y":0.0,
-						"offset_z":2.0423
+						"offset_z":0.4863
 					},
 					"nexus_uv_layers":[
 						{
@@ -667,6 +736,11 @@
 				0,
 				0.7071068286895752
 			],
+			"scale":[
+				0.2799999713897705,
+				4.199999809265137,
+				4.199999809265137
+			],
 			"translation":[
 				0,
 				0,
@@ -678,24 +752,43 @@
 				"exporter_obj_props":{
 					"uuid":"obj_d6e32ba4-780c-40b7-8373-b3acec9c2825",
 					"collision_shape":1,
-					"size_x":0.5,
-					"size_y":0.5,
-					"size_z":0.5,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":1.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
 					"offset_y":0.0,
-					"offset_z":-0.0
+					"offset_z":-0.0,
+					"is_preview_mesh":0,
+					"discard_mesh":1,
+					"collision_margin":1.0,
+					"apply_scale":1,
+					"preserve_origin":1,
+					"is_bone_attachment":0,
+					"bone_name":"",
+					"is_godot_placeholder":0,
+					"lod_max_distance":50.0,
+					"lod_fade_percent":0.10000000149011612,
+					"lod_distribution":1.0,
+					"physics_surface_override":"",
+					"is_animation_anchor":0,
+					"is_origin_pivot":0,
+					"export_as_path":0,
+					"separation_ray_slide_on_slope":0,
+					"separation_ray_custom_solver_bias":0.0,
+					"separation_ray_shape_margin":0.03999999910593033,
+					"placeholder_path":""
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_d6e32ba4-780c-40b7-8373-b3acec9c2825",
-					"discard_mesh":false,
+					"discard_mesh":true,
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.5,
-						"size_y":0.5,
-						"size_z":0.5,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -712,6 +805,11 @@
 			},
 			"mesh":13,
 			"name":"Whasshing_macchine",
+			"scale":[
+				0.5,
+				0.5,
+				0.5
+			],
 			"translation":[
 				-2.3888752460479736,
 				0.5199960470199585,
@@ -723,24 +821,43 @@
 				"exporter_obj_props":{
 					"uuid":"obj_b1f22872-867a-4f4b-883d-47ba5629807f",
 					"collision_shape":1,
-					"size_x":0.5,
-					"size_y":0.5,
-					"size_z":0.5,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":1.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
 					"offset_y":0.0,
-					"offset_z":-0.0
+					"offset_z":-0.0,
+					"is_preview_mesh":0,
+					"discard_mesh":1,
+					"collision_margin":1.0,
+					"apply_scale":1,
+					"preserve_origin":1,
+					"is_bone_attachment":0,
+					"bone_name":"",
+					"is_godot_placeholder":0,
+					"lod_max_distance":50.0,
+					"lod_fade_percent":0.10000000149011612,
+					"lod_distribution":1.0,
+					"physics_surface_override":"",
+					"is_animation_anchor":0,
+					"is_origin_pivot":0,
+					"export_as_path":0,
+					"separation_ray_slide_on_slope":0,
+					"separation_ray_custom_solver_bias":0.0,
+					"separation_ray_shape_margin":0.03999999910593033,
+					"placeholder_path":""
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_b1f22872-867a-4f4b-883d-47ba5629807f",
-					"discard_mesh":false,
+					"discard_mesh":true,
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.5,
-						"size_y":0.5,
-						"size_z":0.5,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -757,6 +874,11 @@
 			},
 			"mesh":14,
 			"name":"Whasshing_macchine.001",
+			"scale":[
+				0.5,
+				0.5,
+				0.5
+			],
 			"translation":[
 				-3.4788472652435303,
 				0.5199960470199585,
@@ -768,24 +890,43 @@
 				"exporter_obj_props":{
 					"uuid":"obj_8cdc29b2-c5dd-4ffb-ab87-0bd5d6529c76",
 					"collision_shape":1,
-					"size_x":0.5,
-					"size_y":0.5,
-					"size_z":0.5,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":1.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
 					"offset_y":0.0,
-					"offset_z":-0.0
+					"offset_z":-0.0,
+					"is_preview_mesh":0,
+					"discard_mesh":1,
+					"collision_margin":1.0,
+					"apply_scale":1,
+					"preserve_origin":1,
+					"is_bone_attachment":0,
+					"bone_name":"",
+					"is_godot_placeholder":0,
+					"lod_max_distance":50.0,
+					"lod_fade_percent":0.10000000149011612,
+					"lod_distribution":1.0,
+					"physics_surface_override":"",
+					"is_animation_anchor":0,
+					"is_origin_pivot":0,
+					"export_as_path":0,
+					"separation_ray_slide_on_slope":0,
+					"separation_ray_custom_solver_bias":0.0,
+					"separation_ray_shape_margin":0.03999999910593033,
+					"placeholder_path":""
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_8cdc29b2-c5dd-4ffb-ab87-0bd5d6529c76",
-					"discard_mesh":false,
+					"discard_mesh":true,
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.5,
-						"size_y":0.5,
-						"size_z":0.5,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -802,6 +943,11 @@
 			},
 			"mesh":15,
 			"name":"Whasshing_macchine.002",
+			"scale":[
+				0.5,
+				0.5,
+				0.5
+			],
 			"translation":[
 				-1.2898703813552856,
 				0.5199960470199585,
@@ -813,24 +959,43 @@
 				"exporter_obj_props":{
 					"uuid":"obj_1864475f-a6de-4a65-ab3e-89b7c29b4570",
 					"collision_shape":1,
-					"size_x":0.5,
-					"size_y":0.5,
-					"size_z":0.5,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":1.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
 					"offset_y":0.0,
-					"offset_z":-0.0
+					"offset_z":-0.0,
+					"is_preview_mesh":0,
+					"discard_mesh":1,
+					"collision_margin":1.0,
+					"apply_scale":1,
+					"preserve_origin":1,
+					"is_bone_attachment":0,
+					"bone_name":"",
+					"is_godot_placeholder":0,
+					"lod_max_distance":50.0,
+					"lod_fade_percent":0.10000000149011612,
+					"lod_distribution":1.0,
+					"physics_surface_override":"",
+					"is_animation_anchor":0,
+					"is_origin_pivot":0,
+					"export_as_path":0,
+					"separation_ray_slide_on_slope":0,
+					"separation_ray_custom_solver_bias":0.0,
+					"separation_ray_shape_margin":0.03999999910593033,
+					"placeholder_path":""
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_1864475f-a6de-4a65-ab3e-89b7c29b4570",
-					"discard_mesh":false,
+					"discard_mesh":true,
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.5,
-						"size_y":0.5,
-						"size_z":0.5,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -847,6 +1012,11 @@
 			},
 			"mesh":16,
 			"name":"Whasshing_macchine.003",
+			"scale":[
+				0.5,
+				0.5,
+				0.5
+			],
 			"translation":[
 				-0.20688319206237793,
 				0.5199960470199585,
@@ -858,24 +1028,43 @@
 				"exporter_obj_props":{
 					"uuid":"obj_688924a3-b507-4346-8586-ce79c74c20f2",
 					"collision_shape":1,
-					"size_x":0.5,
-					"size_y":0.5,
-					"size_z":0.5,
+					"size_x":1.0,
+					"size_y":1.0,
+					"size_z":1.0,
 					"radius":0.0,
 					"height":0.0,
 					"offset_x":0.0,
 					"offset_y":0.0,
-					"offset_z":-0.0
+					"offset_z":-0.0,
+					"is_preview_mesh":0,
+					"discard_mesh":1,
+					"collision_margin":1.0,
+					"apply_scale":1,
+					"preserve_origin":1,
+					"is_bone_attachment":0,
+					"bone_name":"",
+					"is_godot_placeholder":0,
+					"lod_max_distance":50.0,
+					"lod_fade_percent":0.10000000149011612,
+					"lod_distribution":1.0,
+					"physics_surface_override":"",
+					"is_animation_anchor":0,
+					"is_origin_pivot":0,
+					"export_as_path":0,
+					"separation_ray_slide_on_slope":0,
+					"separation_ray_custom_solver_bias":0.0,
+					"separation_ray_shape_margin":0.03999999910593033,
+					"placeholder_path":""
 				},
 				"NEXUS_NODE_METADATA":{
 					"uuid":"obj_688924a3-b507-4346-8586-ce79c74c20f2",
-					"discard_mesh":false,
+					"discard_mesh":true,
 					"nexus_collision_dims":{
 						"shape":"BOX",
 						"margin":1.0,
-						"size_x":0.5,
-						"size_y":0.5,
-						"size_z":0.5,
+						"size_x":1.0,
+						"size_y":1.0,
+						"size_z":1.0,
 						"radius":0.0,
 						"height":0.0,
 						"offset_x":0.0,
@@ -892,6 +1081,11 @@
 			},
 			"mesh":17,
 			"name":"Whasshing_macchine.004",
+			"scale":[
+				0.5,
+				0.5,
+				0.5
+			],
 			"translation":[
 				0.9214544296264648,
 				0.5199960470199585,
@@ -955,8 +1149,7 @@
 		{
 			"doubleSided":true,
 			"extras":{
-				"nexus_material_id":"mat_b2284dfe-0c52-42ac-8333-eaa09719fb0b",
-				"exporter_mat_props":{}
+				"nexus_material_id":"mat_0c04c9fa-f728-4d19-b74a-491bf141691e"
 			},
 			"name":"DUMMY_wall_mat_",
 			"pbrMetallicRoughness":{
@@ -973,8 +1166,7 @@
 		{
 			"doubleSided":true,
 			"extras":{
-				"nexus_material_id":"mat_b5473a41-507a-4239-b96a-6654176af812",
-				"exporter_mat_props":{}
+				"nexus_material_id":"mat_b5473a41-507a-4239-b96a-6654176af812"
 			},
 			"name":"DUMMY_lavatory_mat_",
 			"pbrMetallicRoughness":{
@@ -1311,14 +1503,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				3.9999990463256836,
-				0.5,
-				3
+				7.999998092651367,
+				1,
+				6
 			],
 			"min":[
-				-3.9999990463256836,
-				-0.5,
-				-3
+				-7.999998092651367,
+				-1,
+				-6
 			],
 			"type":"VEC3"
 		},
@@ -1339,14 +1531,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				2,
-				0.5,
-				1
+				1,
+				1,
+				0.5
 			],
 			"min":[
-				-2,
-				-0.5,
-				-2
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1367,14 +1559,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				8.60854721069336,
-				0.5,
-				3
+				17.21709442138672,
+				1,
+				6
 			],
 			"min":[
-				-3.9999990463256836,
-				-0.5,
-				-3
+				-7.999998092651367,
+				-1,
+				-6
 			],
 			"type":"VEC3"
 		},
@@ -1395,14 +1587,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.19999998807907104,
-				2.999999761581421,
-				2.999999761581421
+				1,
+				1,
+				1
 			],
 			"min":[
-				-0.19999998807907104,
-				-2.999999761581421,
-				-2.999999761581421
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1423,14 +1615,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.19999998807907104,
-				2.999999761581421,
-				2.999999761581421
+				1,
+				1,
+				1
 			],
 			"min":[
-				-0.19999998807907104,
-				-2.999999761581421,
-				-2.999999761581421
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1451,14 +1643,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.19999998807907104,
-				2.999999761581421,
-				1.342210054397583
+				1,
+				1,
+				0.4474034011363983
 			],
 			"min":[
-				-0.19999998807907104,
-				-2.999999761581421,
-				-2.999999761581421
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1479,14 +1671,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.19999998807907104,
-				2.999999761581421,
-				1.342210054397583
+				1,
+				1,
+				0.4474034011363983
 			],
 			"min":[
-				-0.19999998807907104,
-				-2.999999761581421,
-				-2.999999761581421
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1507,14 +1699,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.19999998807907104,
-				0.713355541229248,
-				-0.33352264761924744
+				1,
+				0.237785205245018,
+				-0.11117422580718994
 			],
 			"min":[
-				-0.19999998807907104,
-				-2.999999761581421,
-				-1.514564037322998
+				-1,
+				-1,
+				-0.5048547387123108
 			],
 			"type":"VEC3"
 		},
@@ -1535,14 +1727,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.2799999713897705,
-				4.199999809265137,
-				4.199999809265137
+				1,
+				1,
+				1
 			],
 			"min":[
-				-0.2799999713897705,
-				-4.199999809265137,
-				-4.199999809265137
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1563,14 +1755,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.2799999713897705,
-				4.199999809265137,
-				4.199999809265137
+				1,
+				1,
+				1
 			],
 			"min":[
-				-0.2799999713897705,
-				-4.199999809265137,
-				-4.199999809265137
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1591,14 +1783,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.2799999713897705,
-				4.199999809265137,
-				8.284570693969727
+				1,
+				1,
+				1.9725170135498047
 			],
 			"min":[
-				-0.2800001800060272,
-				-4.199999809265137,
-				-4.199999809265137
+				-1.0000007152557373,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1619,14 +1811,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.5,
-				0.5,
-				0.5
+				1,
+				1,
+				1
 			],
 			"min":[
-				-0.5,
-				-0.5,
-				-0.5
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1647,14 +1839,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.5,
-				0.5,
-				0.5
+				1,
+				1,
+				1
 			],
 			"min":[
-				-0.5,
-				-0.5,
-				-0.5
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1675,14 +1867,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.5,
-				0.5,
-				0.5
+				1,
+				1,
+				1
 			],
 			"min":[
-				-0.5,
-				-0.5,
-				-0.5
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1703,14 +1895,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.5,
-				0.5,
-				0.5
+				1,
+				1,
+				1
 			],
 			"min":[
-				-0.5,
-				-0.5,
-				-0.5
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},
@@ -1731,14 +1923,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				0.5,
-				0.5,
-				0.5
+				1,
+				1,
+				1
 			],
 			"min":[
-				-0.5,
-				-0.5,
-				-0.5
+				-1,
+				-1,
+				-1
 			],
 			"type":"VEC3"
 		},

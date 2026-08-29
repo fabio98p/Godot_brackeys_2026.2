@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://ciia15q0oruc0"]
+
+[ext_resource type="Script" uid="uid://byce0w8s3kddb" path="res://Interact/story_interact.gd" id="1_g5eau"]
+[ext_resource type="Texture2D" uid="uid://d4kqotubka07d" path="res://Assets/Sprite/brutti/NPC1.png" id="2_g5eau"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k1h6f"]
+radius = 0.23144531
+
+[node name="Wednesday" type="StaticBody3D" unique_id=668593638 groups=["npc"]]
+collision_layer = 4352
+script = ExtResource("1_g5eau")
+interact_identifier = "Giordano"
+int_name = "Giordano"
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228 groups=["Wednesday", "npc"]]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0.9539354, 0)
+shaded = true
+double_sided = false
+texture = ExtResource("2_g5eau")
+
+[node name="Sprite3D2" type="Sprite3D" parent="." unique_id=557593095]
+transform = Transform3D(-0.4, 0, -6.039832e-08, 0, 0.4, 0, 6.039832e-08, 0, -0.4, 0, 0.9539354, 0)
+modulate = Color(0, 0, 0, 1)
+shaded = true
+double_sided = false
+texture = ExtResource("2_g5eau")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1090001112]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_k1h6f")

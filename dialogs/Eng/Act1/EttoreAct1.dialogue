@@ -1,20 +1,29 @@
 ~ start
 do watch_to_npc("Karen")
-Karen: Hei, senti. puo abbassare la voce che sta disturbando tutti con le tue inutili chaccere.
+Karen: Hey, listen. Can you keep your voice down? You’re bothering everyone with your pointless chatter.
 
 do watch_to_npc("Ettore")
-Ettore: stai zitta, sono in mezzo a una chiamata importante.
+Ettore: Shut up, I’m in the middle of an important call.
 
 do watch_to_npc("Karen")
-Karen: Stai zitta lo dici a tua madre pezzo di merda, e ora chiudi il becco stronzo.
+Karen: “Shut up”—say that to your mom, you piece of shit, and now shut the hell up, asshole.
 
-Giordano: Hei hei voi 2, calmatevi per favore, signiora le chiedo di tornare al suo posto e signore se puo abbassare un po la voce, grazie.
+Giordano: Hey, hey, you two, please calm down. Ma’am, could you please return to your seat? And sir, could you lower your voice a little? Thank you.
 
 do watch_to_npc("Ettore")
-Ettore: Voi 2 get fuck away e lasciatemi in pace.
+Ettore: You two, get the fuck away and leave me alone.
 
-Ettore: Si si come le dicevo stiamo preparando quel contratto..
+Ettore: Yeah, yeah, like I was saying, we’re working on that contract…
 do watch_to_npc("Karen")
-Karen, Giordano: ....
-
+Karen, Giordano: ...
 => END
+
+
+
+
+
+
+
+
+
+

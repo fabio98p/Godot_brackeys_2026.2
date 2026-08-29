@@ -1,4 +1,5 @@
 ~ start
 Jonny Bravo: Pronto, abbiamo bisogno di un ambulanza alla lavanderia Giordano.
 Giordano: ...
+do change_scene("res://Levels/Act6.tscn")
 => END

@@ -3,8 +3,10 @@
 [ext_resource type="Script" uid="uid://b58uy8x4v63js" path="res://Levels/level.gd" id="1_0gfw1"]
 [ext_resource type="PackedScene" uid="uid://buyhyq3of31kf" path="res://Player/character_body_3d.tscn" id="2_wupx4"]
 [ext_resource type="Resource" uid="uid://2pvu8sh0kfgw" path="res://DStoryes/resource/Act6/Act6_Part1.tres" id="2_yjjxm"]
+[ext_resource type="Script" uid="uid://bv6slwmwref4t" path="res://Levels/act6.gd" id="3_ctohi"]
 [ext_resource type="PackedScene" uid="uid://25l57ns5uehp" path="res://Hud/hud_main.tscn" id="3_yjjxm"]
 [ext_resource type="PackedScene" uid="uid://bsvmoh2407cfy" path="res://props/assets/Interogatory/Interogatory.gltf" id="4_0gfw1"]
+[ext_resource type="Resource" uid="uid://cxxi7dngxpqo1" path="res://dialogs/Eng/Act6/DetectiveAct6Parte1.dialogue" id="4_ucmvh"]
 [ext_resource type="PackedScene" uid="uid://dduq0vua4qci3" path="res://NPC/NpcJonnyBravo.tscn" id="6_1n3r0"]
 [ext_resource type="PackedScene" uid="uid://bvb2sjtcktdcy" path="res://NPC/NpcKaren.tscn" id="7_krqa3"]
 [ext_resource type="PackedScene" uid="uid://cb8qhjktnf6gg" path="res://NPC/NpcMohamedAlibaba.tscn" id="8_ctohi"]
@@ -25,6 +27,10 @@ sky = SubResource("Sky_arsda")
 [node name="Act6" type="Node3D" unique_id=2140224792 groups=["level"]]
 script = ExtResource("1_0gfw1")
 Story_point = ExtResource("2_yjjxm")
+
+[node name="custom" type="Node3D" parent="." unique_id=1447236003]
+script = ExtResource("3_ctohi")
+dialogue = ExtResource("4_ucmvh")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=961839162]
 environment = SubResource("Environment_dgq3b")
