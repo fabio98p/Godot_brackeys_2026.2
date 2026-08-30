@@ -26,7 +26,7 @@ func _process(delta: float) -> void:
 		dialogue_with_ettore = false
 		dialogue_with_karen =  false
 		dialogue_with_alibaba= false
-		await get_tree().create_timer(5).timeout
+		#await get_tree().create_timer(5).timeout
 		var hud = get_tree().get_first_node_in_group("hud")
 		hud.light_to_black()
 		await get_tree().create_timer(0.5).timeout

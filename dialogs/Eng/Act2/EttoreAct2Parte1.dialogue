@@ -1,6 +1,6 @@
 ~ start
 do watch_to_npc("Ettore")
-Ettore: Ugh... what's that stench? Get away from me, and don't you dare touch me.
+Ettore: Ugh... what's that smell? Get away from me, and don't you dare touch me.
 do watch_to_npc("Mohamed_Alibaba")
 Mohamed Alibaba: Look, it's the food that stinks, not me.
 do watch_to_npc("Ettore")

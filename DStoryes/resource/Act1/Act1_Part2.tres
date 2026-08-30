@@ -8,7 +8,7 @@
 
 [resource]
 script = ExtResource("6_uu5lu")
-objective_label = "Wait undet the table"
+objective_label = "Came back to your desk"
 ettore_dialog_interaction = ExtResource("1_ph2ft")
 wednesday_dialog_interaction = ExtResource("2_36y3r")
 mohamed_alibaba_dialog_interaction = ExtResource("2_36y3r")

@@ -2,6 +2,7 @@
 
 [ext_resource type="Resource" uid="uid://dgbsj8jvtf3f" path="res://dialogs/empty.dialogue" id="1_ib2kb"]
 [ext_resource type="Resource" uid="uid://bfhy730x518ll" path="res://dialogs/Eng/Act5/JonnyAct5Parte2.dialogue" id="1_id3f3"]
+[ext_resource type="Resource" uid="uid://debd7q3wg5hki" path="res://dialogs/Eng/Act5/EttoreAct5Parte2.dialogue" id="1_ksfcq"]
 [ext_resource type="Resource" uid="uid://c2fom2lobgdve" path="res://dialogs/Eng/Act5/KarenAct5Parte2.dialogue" id="2_ib2kb"]
 [ext_resource type="Resource" uid="uid://bfx6th6pp0377" path="res://dialogs/Eng/Act5/AlibabaAct5Parte2.dialogue" id="3_ksfcq"]
 [ext_resource type="Resource" uid="uid://b3btbp4u0ed76" path="res://dialogs/Eng/Act5/WednesdayAct5Parte2.dialogue" id="5_bw8po"]
@@ -9,8 +10,8 @@
 
 [resource]
 script = ExtResource("7_tln7c")
-objective_label = "Manage the discussion between customers"
-ettore_dialog_interaction = ExtResource("1_ib2kb")
+objective_label = "Talk with Jonny"
+ettore_dialog_interaction = ExtResource("1_ksfcq")
 wednesday_dialog_interaction = ExtResource("5_bw8po")
 mohamed_alibaba_dialog_interaction = ExtResource("3_ksfcq")
 jonny_bravo_dialog_interaction = ExtResource("1_id3f3")

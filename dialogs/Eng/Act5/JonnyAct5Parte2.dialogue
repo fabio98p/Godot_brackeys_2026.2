@@ -1,5 +1,5 @@
 ~ start
-Jonny Bravo: Hello, we need an ambulance at Giordano's Laundromat.
+Jonny Bravo: Hello, we need an ambulance at Cold Wash Laundromat.
 Giordano: ...
 do change_scene("res://Levels/Act6.tscn")
 => END

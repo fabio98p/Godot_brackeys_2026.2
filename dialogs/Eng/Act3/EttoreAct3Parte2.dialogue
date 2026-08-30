@@ -1,10 +1,10 @@
 ~ start
 do watch_to_npc("Wednesday")
-Wednesday: Sorry, I'm clueless.
+Wednesday: Sorry, I'm sorry. it wasn't on purpose.
 do watch_to_npc("Ettore")
-Ettore: Clueless my ass. Do you know how much this fucking slutty dress costs?
+Ettore: I'm sorry my ass. Do you know how much this fucking slutty dress costs?
 do watch_to_npc("Wednesday")
-Wednesday: (She's crying).
+Wednesday: (Start crying).
 do start_animation("wednsday_to_exit")
 #do wait_until()
 => END

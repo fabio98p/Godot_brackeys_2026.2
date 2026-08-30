@@ -64,8 +64,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0042045116, -0.0055298805, 
 
 [node name="EttoreMorto" parent="." unique_id=668593638 instance=ExtResource("8_yowao")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1042154, 0, -2.4016726)
-interact_identifier = ""
-int_name = ""
+int_name = "Ettore Dead"
 
 [node name="JonnyBravo" parent="." unique_id=953509906 instance=ExtResource("7_6ctlm")]
 transform = Transform3D(0.4501377, 0, 0.89295924, 0, 1, 0, -0.89295924, 0, 0.4501377, -2.5838518, -1.1920929e-07, -2.3401399)

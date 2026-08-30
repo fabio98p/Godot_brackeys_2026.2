@@ -1,6 +1,6 @@
 ~ start
 Giordano: Here are your tokens; you can go now.
-Karen: Thank you.
+Wednesday: Thank you.
 do start_animation("wednsday_to_ettora")
 do wait_until(4)
 do start_animation("caduta")

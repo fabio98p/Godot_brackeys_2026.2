@@ -9,7 +9,7 @@
 
 [resource]
 script = ExtResource("3_6sb52")
-objective_label = "Manage the discussion between customers again"
+objective_label = "Came back to your desk"
 ettore_dialog_interaction = ExtResource("2_6sb52")
 wednesday_dialog_interaction = ExtResource("2_exwl4")
 mohamed_alibaba_dialog_interaction = ExtResource("4_d26vh")
