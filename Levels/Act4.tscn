@@ -71,7 +71,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-2.7409387, 0, 0.4617324)]
+"values": [Vector3(-2.7409387, 0, 3.6550038)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -95,7 +95,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-2.7215295, 0.057264566, 0.33618867)]
+"values": [Vector3(-2.7215295, 0.057264566, 2.5374026)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
@@ -131,7 +131,7 @@ tracks/5/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, -2.964186, 0)]
+"values": [Vector3(0, 2.8281274, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_qeh2j"]
@@ -261,7 +261,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5327055)
 transform = Transform3D(0.9937134, 0, -0.11195393, 0, 1, 0, 0.11195393, 0, 0.9937134, -0.13237464, 0, -4.0360126)
 
 [node name="MohamedAlibaba" parent="." unique_id=1142870142 instance=ExtResource("7_pcwah")]
-transform = Transform3D(-0.9843046, 0, -0.17647755, 0, 1, 0, 0.17647755, 0, -0.9843046, -0.9553435, 0, 0.071068764)
+transform = Transform3D(-0.9512707, 0, 0.30835685, 0, 1, 0, -0.30835685, 0, -0.9512707, -0.9553435, 0, 0.071068764)
 
 [node name="Ettore" parent="." unique_id=1344552596 instance=ExtResource("8_pcwah")]
 transform = Transform3D(0.7174959, 0, 0.6965627, 0, 1, 0, -0.6965627, 0, 0.7174959, -3.3258157, 0, -3.791215)
@@ -270,10 +270,10 @@ transform = Transform3D(0.7174959, 0, 0.6965627, 0, 1, 0, -0.6965627, 0, 0.71749
 libraries/ = SubResource("AnimationLibrary_e2wtv")
 
 [node name="JonnyBravo" parent="." unique_id=1774100400 instance=ExtResource("9_bdlko")]
-transform = Transform3D(-0.9035807, 0, 0.4284171, 0, 1, 0, -0.4284171, 0, -0.9035807, -2.7409387, 0, 0.4617324)
+transform = Transform3D(-0.9035807, 0, 0.42841706, 0, 1, 0, -0.42841706, 0, -0.9035807, -2.7409387, 0, 3.6550038)
 
 [node name="Wednesday" parent="." unique_id=2069580432 instance=ExtResource("10_qeh2j")]
-transform = Transform3D(-0.9511391, 0, 0.30876258, 0, 1, 0, -0.30876258, 0, -0.9511391, -2.7215295, 0.057264566, 0.33618867)
+transform = Transform3D(-0.9511391, 0, 0.30876258, 0, 1, 0, -0.30876258, 0, -0.9511391, -2.7215295, 0.057264566, 2.5374026)
 
 [node name="Rock" parent="." unique_id=2128398662 instance=ExtResource("11_e2wtv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2269182, 0.9772757, -0.16161239)

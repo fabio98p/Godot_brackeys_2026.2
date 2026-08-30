@@ -12,7 +12,7 @@ script = ExtResource("1_yhteu")
 interact_identifier = "Wednesday"
 int_name = "Wednesday"
 
-[node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228 groups=["Wednesday", "npc"]]
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228]
 transform = Transform3D(0.145, 0, 0, 0, 0.145, 0, 0, 0, 0.145, 0, 0.89404285, 0)
 modulate = Color(0.8132577, 0.8132577, 0.81325763, 1)
 double_sided = false

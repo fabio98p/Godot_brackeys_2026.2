@@ -12,7 +12,7 @@ script = ExtResource("1_tvn25")
 interact_identifier = "Mohamed_Alibaba"
 int_name = "Mohamed Alibaba"
 
-[node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228 groups=["Alibaba", "npc"]]
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228]
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0.9173862, 0)
 modulate = Color(0.7919991, 0.79199916, 0.7919991, 1)
 double_sided = false
