@@ -83,5 +83,6 @@ func transition_to_white():
 	tween.tween_property(transition, "modulate:a", 0, 1.5)
 
 func light_to_black():
+	#get_parent().layer = 0
 	var tween = create_tween()
 	tween.tween_property(light_turn_off, "modulate:a", 1, 0.5)

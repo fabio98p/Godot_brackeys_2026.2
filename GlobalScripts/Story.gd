@@ -26,11 +26,12 @@ func _process(delta: float) -> void:
 		dialogue_with_ettore = false
 		dialogue_with_karen =  false
 		dialogue_with_alibaba= false
-		#await get_tree().create_timer(5).timeout
+		#await get_tree().create_timer(0.1).timeout
 		var hud = get_tree().get_first_node_in_group("hud")
 		hud.light_to_black()
 		await get_tree().create_timer(0.5).timeout
 		DialogueManager.show_dialogue_balloon(preload("uid://b82gj71hyv888"))
+		hud.get_parent().layer = 0
 
 		
 func custom_act4_karen():
