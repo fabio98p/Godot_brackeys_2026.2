@@ -10,10 +10,23 @@ extends Control
 
 @onready var light_turn_off: Panel = $light_turn_off
 
+@onready var volume_slider: HSlider = $PauseMenu/VBoxContainer/Volume/VolumeSlider
+var master_bus_index := 0
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	sensitivity_slider.value = GS.mouse_sensitivity
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	
+	master_bus_index = AudioServer.get_bus_index("Master")
+	# Set initial value with actual value using linear
+	volume_slider.value = db_to_linear(AudioServer.get_bus_volume_db(master_bus_index)) * 100.0
+	volume_slider.connect("value_changed", Callable(self, "_on_master_volume_changed"))
+
+func _on_master_volume_changed(value: float) -> void:
+	var db = linear_to_db(value / 100.0)
+	AudioServer.set_bus_volume_db(master_bus_index, db)
+
 
 func _process(delta: float) -> void:	
 	if Story.current_story_interaction.objective_label != null:
@@ -50,6 +63,15 @@ func _on_return_to_game_button_pressed() -> void:
 	toggle_pause_menu()
 	get_tree().paused = false
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+
+
+
+
+
+
+
+
+
 
 func transition_to_black():
 	var tween = create_tween()
