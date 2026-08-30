@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://bvb2sjtcktdcy" path="res://NPC/NpcKaren.tscn" id="7_krqa3"]
 [ext_resource type="PackedScene" uid="uid://cb8qhjktnf6gg" path="res://NPC/NpcMohamedAlibaba.tscn" id="8_ctohi"]
 [ext_resource type="PackedScene" uid="uid://ballgcmlwbmqo" path="res://NPC/NpcWednesday.tscn" id="9_ucmvh"]
+[ext_resource type="PackedScene" uid="uid://ciia15q0oruc0" path="res://NPC/NpcGiordano.tscn" id="12_ucmvh"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_kbe2v"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -42,7 +43,7 @@ shadow_enabled = true
 sky_mode = 2
 
 [node name="Player" parent="." unique_id=1208725648 groups=["player"] instance=ExtResource("2_wupx4")]
-transform = Transform3D(-0.0012717681, 0, -0.99999917, 0, 1, 0, 0.99999917, 0, -0.0012717681, -1.6377707, 0, 0.027547121)
+transform = Transform3D(-0.0012717681, 0, -0.99999917, 0, 1, 0, 0.99999917, 0, -0.0012717681, -0.15063685, -0.11967802, 0.027547121)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=429214620]
 layer = 100
@@ -76,18 +77,18 @@ omni_range = 7.101
 omni_attenuation = 1.723
 
 [node name="JonnyBravo" parent="." unique_id=668593638 instance=ExtResource("6_1n3r0")]
-transform = Transform3D(0.54803807, 0, -0.83645344, 0, 1, 0, 0.83645344, 0, 0.54803807, 1.2395084, 0, -2.0037062)
+transform = Transform3D(0.25870845, 0, -0.96595556, 0, 1, 0, 0.96595556, 0, 0.25870845, 1.0896144, 0, -0.9204538)
 
 [node name="Karen" parent="." unique_id=1340823145 instance=ExtResource("7_krqa3")]
-transform = Transform3D(0.27671736, 0, -0.9609514, 0, 1, 0, 0.9609514, 0, 0.27671736, 1.9177194, 0, -0.9881155)
+transform = Transform3D(-0.43748602, 0, -0.8992252, 0, 1, 0, 0.8992252, 0, -0.43748602, 0.8719928, 0, 1.639204)
 
 [node name="MohamedAlibaba" parent="." unique_id=1659661269 instance=ExtResource("8_ctohi")]
-transform = Transform3D(-0.2648934, 0, -0.9642777, 0, 1, 0, 0.9642777, 0, -0.2648934, 1.9299288, 0, 1.1682684)
-
-[node name="MohamedAlibaba2" parent="." unique_id=812707930 instance=ExtResource("8_ctohi")]
-transform = Transform3D(0.018699259, 0, -0.9998253, 0, 1, 0, 0.9998253, 0, 0.018699259, 2.0702882, 0, 0.18331826)
+transform = Transform3D(-0.2648934, 0, -0.9642777, 0, 1, 0, 0.9642777, 0, -0.2648934, 1.1639414, 0, 0.82856905)
 
 [node name="Wednesday" parent="." unique_id=1522759635 instance=ExtResource("9_ucmvh")]
-transform = Transform3D(-0.5626764, 0, -0.8266772, 0, 1, 0, 0.8266772, 0, -0.5626764, 1.5571656, 0, 2.2674794)
+transform = Transform3D(0.5037246, 0, -0.8638643, 0, 1, 0, 0.8638643, 0, 0.5037246, 0.6708807, 0, -1.580424)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1131519001]
+
+[node name="Wednesday2" parent="." unique_id=348582260 instance=ExtResource("12_ucmvh")]
+transform = Transform3D(0.032803446, 0, -0.9994618, 0, 1, 0, 0.9994618, 0, 0.032803446, 1.0354619, 0.084929824, -0.06177332)
