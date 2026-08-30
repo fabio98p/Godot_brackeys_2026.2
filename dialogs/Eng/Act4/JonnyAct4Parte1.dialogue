@@ -2,19 +2,24 @@
 do start_animation("jonny_enter_shop")
 do wait_until(5)
 
+do watch_to_npc("Jonny_Bravo")
 Jonny Bravo: Hey, bro, what happened out there? I saw a hottie out there crying. What happened?
 
 do start_animation("wednesday_enter_the_shop")
 do wait_until(3)
 
+do watch_to_npc("Wednesday")
 Wednesday: Wait, what are you doing, sir?
+do watch_to_npc("Ettore")
 Ettore: If you’re talking about that little slut, she ruined my suit and even cut me.
 
 do start_animation("jonny_to_ettore")
 do wait_until(3)
 
+do watch_to_npc("Jonny_Bravo")
 Jonny Bravo: Listen, bro, you don’t act like that—and besides, she’s a certain age.
 
+do watch_to_npc("Mohamed_Alibaba")
 Mohamed Alibaba: ...
 do start_animation("Alibaba_to_corner")
 

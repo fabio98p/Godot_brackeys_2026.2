@@ -6,14 +6,14 @@ do watch_to_npc("Ettore")
 Ettore: Shut up, I’m in the middle of an important call.
 
 do watch_to_npc("Karen")
-Karen: “Shut up”—say that to your mom, you piece of shit, and now shut the hell up, asshole.
+Karen: “Shut up” say that to your mom, you piece of shit, and now shut the hell up, asshole.
 
 Giordano: Hey, hey, you two, please calm down. Ma’am, could you please return to your seat? And sir, could you lower your voice a little? Thank you.
 
 do watch_to_npc("Ettore")
 Ettore: You two, get the fuck away and leave me alone.
 
-Ettore: Yeah, yeah, like I was saying, we’re working on that contract…
+Ettore: (answer to telephone) Yeah, yeah, like I was saying, we’re working on that contract…
 do watch_to_npc("Karen")
 Karen, Giordano: ...
 => END

@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dfhpoqbm2uibq"]
+
+[ext_resource type="Script" uid="uid://byce0w8s3kddb" path="res://Interact/story_interact.gd" id="1_xmxxy"]
+[ext_resource type="Texture2D" uid="uid://qnxdjsi0vunf" path="res://Assets/Sprite/ettmorto.png" id="2_xmxxy"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k1h6f"]
+radius = 0.328125
+
+[node name="EttoreMorto" type="StaticBody3D" unique_id=668593638 groups=["Ettore", "npc"]]
+collision_layer = 4352
+script = ExtResource("1_xmxxy")
+interact_identifier = "Ettore"
+int_name = "Ettore"
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228]
+transform = Transform3D(0.17, 0, 0, 0, -7.430936e-09, 0.17, 0, -0.17, -7.430936e-09, 0, 0.04222977, 0)
+modulate = Color(0.8175215, 0.81752115, 0.81752115, 1)
+double_sided = false
+texture = ExtResource("2_xmxxy")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1090001112]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_k1h6f")

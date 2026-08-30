@@ -16,7 +16,6 @@ var master_bus_index := 0
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	sensitivity_slider.value = GS.mouse_sensitivity
-	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 	
 	master_bus_index = AudioServer.get_bus_index("Master")
 	# Set initial value with actual value using linear
@@ -28,14 +27,12 @@ func _on_master_volume_changed(value: float) -> void:
 	AudioServer.set_bus_volume_db(master_bus_index, db)
 
 
-func _process(delta: float) -> void:	
-	if Story.current_story_interaction.objective_label != null:
-		objective_label.text = Story.current_story_interaction.objective_label
-	
+func _input(event: InputEvent) -> void:
+	if event is InputEventMouseButton and event.pressed:
+		if pause_menu.visible == false:
+			Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 		
-	# Handle Pause Menu
-	if Input.is_action_just_pressed("pause_menu"):
-
+	if event.is_action_pressed("pause_menu"):
 		if pause_menu.visible == false:
 			toggle_pause_menu()
 			Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
@@ -46,6 +43,10 @@ func _process(delta: float) -> void:
 			Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 		if GS.dialog_is_open:
 			Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+
+func _process(delta: float) -> void:
+	if Story.current_story_interaction.objective_label != null:
+		objective_label.text = Story.current_story_interaction.objective_label
 
 func toggle_pause_menu():
 	if pause_menu.visible == true:

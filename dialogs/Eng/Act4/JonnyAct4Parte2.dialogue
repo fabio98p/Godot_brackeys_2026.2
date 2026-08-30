@@ -1,8 +1,13 @@
 ~ start
+do watch_to_npc("Ettore")
 Ettore: Tone it down, kid—mind your own business.
+do watch_to_npc("Jonny_Bravo")
 Jonny Bravo: Listen, bro, I’m not leaving here until you apologize to my future girlfriend.
+do watch_to_npc("Ettore")
 Ettore: Future girlfriend? Maybe even you could land a slut like that.
+do watch_to_npc("Jonny_Bravo")
 Jonny Bravo: Jealous because you can’t get any? Or maybe you’re gay.
+do watch_to_npc("Ettore")
 Ettore: How dare you? (He punches Jonny in the face.)
 do custom_act4_ettore()         
 => END

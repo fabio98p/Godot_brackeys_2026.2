@@ -13,6 +13,11 @@
 [ext_resource type="PackedScene" uid="uid://dduq0vua4qci3" path="res://NPC/NpcJonnyBravo.tscn" id="9_bdlko"]
 [ext_resource type="PackedScene" uid="uid://ballgcmlwbmqo" path="res://NPC/NpcWednesday.tscn" id="10_qeh2j"]
 [ext_resource type="PackedScene" uid="uid://cvl8l0c50qawg" path="res://Interact/rock.tscn" id="11_e2wtv"]
+[ext_resource type="PackedScene" uid="uid://b4skf7ix2x4kf" path="res://props/assets/lavatrice/lavatrice.gltf" id="14_mvjoc"]
+[ext_resource type="PackedScene" uid="uid://c3op8f7pr84vc" path="res://props/assets/door/door.gltf" id="15_ny1ui"]
+[ext_resource type="PackedScene" uid="uid://bufoa610e0e2q" path="res://props/assets/flacone/flacone.gltf" id="16_yb4bi"]
+[ext_resource type="PackedScene" uid="uid://djw2tf2nk7njb" path="res://props/assets/Contatore/Contatore.gltf" id="17_cddxv"]
+[ext_resource type="LightmapGIData" uid="uid://bvg1xpfmlswtc" path="res://Levels/Act1.lmbake" id="18_6rpiq"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_kbe2v"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -51,7 +56,7 @@ tracks/1/keys = {
 "times": PackedFloat32Array(0, 2.03, 3, 4),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
-"values": [Vector3(0, 2.9100847, 0), Vector3(0, 2.3604054, 0), Vector3(0, 2.3604057, 0), Vector3(0, -0.9930142, 0)]
+"values": [Vector3(0, 2.9100845, 0), Vector3(0, 2.3604054, 0), Vector3(0, 2.3604057, 0), Vector3(0, -0.9930142, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_bdlko"]
@@ -142,7 +147,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 1.97, 2.99, 5),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
-"values": [Vector3(-2.7409387, 0, 0.4617324), Vector3(-1.8463302, 0, -1.0113351), Vector3(-1.8463302, 0, -1.0113351), Vector3(0.9328623, 0, -1.0113351)]
+"values": [Vector3(-2.7409387, 0, 0.7719488), Vector3(-1.8463302, 0, -1.0113351), Vector3(-1.8463302, 0, -1.0113351), Vector3(0.9328623, 0, -1.0113351)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -198,7 +203,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 1.18, 3),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector3(-2.7215295, 0.057264566, 0.33618867), Vector3(-2.4286036, 0.057264566, -0.8510684), Vector3(-0.15002441, 0.057264566, -0.73790634)]
+"values": [Vector3(-2.7215295, 0.057264566, 0.61352), Vector3(-2.4286036, 0.057264566, -0.8510684), Vector3(-0.15002441, 0.057264566, -0.73790634)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -252,44 +257,6 @@ process_mode = 3
 [node name="lavanery" parent="." unique_id=2144223918 instance=ExtResource("4_1v6q0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5327055)
 
-[node name="AreaLight3D" type="AreaLight3D" parent="." unique_id=1040464958]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0.99277925, 2.7188358, -2.3045502)
-visible = false
-light_energy = 3.075
-area_attenuation = 1.241
-
-[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=239791641]
-transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, 1, 2.779567, -2.3490806)
-light_color = Color(0.99607843, 0.7019608, 0.8039216, 1)
-light_energy = 3.023
-light_indirect_energy = 1.747
-light_volumetric_fog_energy = 1.611
-light_size = 0.15
-shadow_enabled = true
-shadow_bias = 0.0
-shadow_normal_bias = 3.349
-shadow_transmittance_bias = -2.456
-shadow_opacity = 0.65
-shadow_blur = 2.645
-omni_range = 7.101
-omni_attenuation = 1.723
-
-[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=1131440565]
-transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, 6.307884, 2.779567, -1.0149093)
-light_color = Color(0.99607843, 0.7019608, 0.8039216, 1)
-light_energy = 1.095
-light_indirect_energy = 1.747
-light_volumetric_fog_energy = 1.611
-light_size = 0.15
-shadow_enabled = true
-shadow_bias = 0.0
-shadow_normal_bias = 3.349
-shadow_transmittance_bias = -2.456
-shadow_opacity = 0.65
-shadow_blur = 2.645
-omni_range = 57.469
-omni_attenuation = 1.048
-
 [node name="Karen" parent="." unique_id=668593638 instance=ExtResource("6_1v6q0")]
 transform = Transform3D(0.9937134, 0, -0.11195393, 0, 1, 0, 0.11195393, 0, 0.9937134, -0.13237464, 0, -4.0360126)
 
@@ -303,10 +270,163 @@ transform = Transform3D(0.7174959, 0, 0.6965627, 0, 1, 0, -0.6965627, 0, 0.71749
 libraries/ = SubResource("AnimationLibrary_e2wtv")
 
 [node name="JonnyBravo" parent="." unique_id=1774100400 instance=ExtResource("9_bdlko")]
-transform = Transform3D(-0.9035809, 0, 0.42841715, 0, 1, 0, -0.42841715, 0, -0.9035809, -2.7409387, 0, 0.4617324)
+transform = Transform3D(-0.9035807, 0, 0.4284171, 0, 1, 0, -0.4284171, 0, -0.9035807, -2.7409387, 0, 0.4617324)
 
 [node name="Wednesday" parent="." unique_id=2069580432 instance=ExtResource("10_qeh2j")]
 transform = Transform3D(-0.9511391, 0, 0.30876258, 0, 1, 0, -0.30876258, 0, -0.9511391, -2.7215295, 0.057264566, 0.33618867)
 
 [node name="Rock" parent="." unique_id=2128398662 instance=ExtResource("11_e2wtv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2269182, 0.9772757, -0.16161239)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1425555595]
+transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, -1.749454, 2.779567, -2.3490806)
+light_color = Color(0.99607843, 0.7019608, 0.8039216, 1)
+light_energy = 0.746
+light_indirect_energy = 1.747
+light_volumetric_fog_energy = 1.611
+light_size = 0.15
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 1.532
+shadow_normal_bias = 3.349
+shadow_transmittance_bias = -2.456
+shadow_opacity = 0.65
+shadow_blur = 2.645
+omni_range = 7.101
+omni_attenuation = 1.723
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=625112995]
+transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, 1.5495473, 2.779567, -2.3490806)
+light_color = Color(0.99607843, 0.7019608, 0.8039216, 1)
+light_energy = 0.739
+light_indirect_energy = 1.747
+light_volumetric_fog_energy = 1.611
+light_size = 0.15
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.75
+shadow_normal_bias = 3.349
+shadow_transmittance_bias = -2.456
+shadow_opacity = 0.65
+shadow_blur = 2.645
+omni_range = 7.101
+omni_attenuation = 1.723
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=1914101271]
+transform = Transform3D(-0.9659258, 0, -0.25881907, 0, 1, 0, 0.25881907, 0, -0.9659258, 6.307884, 2.7116501, -1.0149093)
+light_color = Color(0.99607843, 0.7019608, 0.8039216, 1)
+light_energy = 0.695
+light_indirect_energy = 1.747
+light_volumetric_fog_energy = 1.611
+light_size = 0.15
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.0
+shadow_normal_bias = 3.349
+shadow_transmittance_bias = -2.456
+shadow_opacity = 0.65
+shadow_blur = 2.645
+omni_range = 11.543
+omni_attenuation = 1.048
+
+[node name="props" type="Node3D" parent="." unique_id=1816714766]
+
+[node name="lavatrice" parent="props" unique_id=173054426 instance=ExtResource("14_mvjoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.4810345, 0, -4.979833)
+
+[node name="lavatrice2" parent="props" unique_id=1548975657 instance=ExtResource("14_mvjoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3676727, 0, -4.979833)
+
+[node name="lavatrice3" parent="props" unique_id=254555836 instance=ExtResource("14_mvjoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3043746, 0, -4.979833)
+
+[node name="lavatrice4" parent="props" unique_id=935146183 instance=ExtResource("14_mvjoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.23631704, 0, -4.979833)
+
+[node name="lavatrice5" parent="props" unique_id=376588117 instance=ExtResource("14_mvjoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.81832707, 0, -4.979833)
+
+[node name="door" parent="props" unique_id=600892882 instance=ExtResource("15_ny1ui")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6735642, -0.009578049, 0.35802168)
+
+[node name="flacone" parent="props" unique_id=1981849868 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5297782, 0.071261406, -5.119358)
+
+[node name="flacone2" parent="props" unique_id=313160773 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5297782, 0.071261406, -5.119358)
+
+[node name="flacone3" parent="props" unique_id=1362963344 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5297782, -0.019205213, -5.119358)
+
+[node name="flacone4" parent="props" unique_id=1061386841 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.680121, 5.9604645e-08, -4.685984)
+
+[node name="flacone5" parent="props" unique_id=974706252 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1788013, 1.1920929e-07, -5.077239)
+
+[node name="flacone6" parent="props" unique_id=2074345634 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8944538, 1.1920929e-07, -5.311349)
+
+[node name="flacone7" parent="props" unique_id=13056632 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(0.2514911, 0.9678596, 0, -0.9678596, 0.2514911, 0, 0, 0, 1, 3.2457035, 0.06452188, -5.1002502)
+
+[node name="flacone8" parent="props" unique_id=295743679 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(0.21086103, 0.3185587, -0.9241526, -0.9775162, 0.068716675, -0.19934998, -9.044676e-09, 0.9454091, 0.32588586, 2.6045747, 0.12058589, -5.2056675)
+
+[node name="flacone9" parent="props" unique_id=1171487128 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8195262, 1.1920929e-07, -4.509884)
+
+[node name="flacone10" parent="props" unique_id=1275093361 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3039026, 1.1920929e-07, -4.5764656)
+
+[node name="flacone11" parent="props" unique_id=2051777493 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6186533, 1.1920929e-07, -2.2205675)
+
+[node name="flacone12" parent="props" unique_id=599614473 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.652623, 2.3841858e-07, -1.749251)
+
+[node name="flacone13" parent="props" unique_id=1957511932 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9153833, 2.3841858e-07, -2.2001228)
+
+[node name="flacone14" parent="props" unique_id=684037360 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.934617, 1.1920929e-07, -1.7426738)
+
+[node name="flacone15" parent="props" unique_id=311980131 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.187948, 1.1920929e-07, -2.2182112)
+
+[node name="flacone16" parent="props" unique_id=458367707 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.191309, 2.3841858e-07, -1.7395693)
+
+[node name="flacone17" parent="props" unique_id=1621334225 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(0.12918462, -0.99162066, 0, 0.99162066, 0.12918462, 0, 0, 0, 1, 7.8977237, 0.08309358, -2.2735078)
+
+[node name="flacone18" parent="props" unique_id=1728809792 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(-0.11642113, -0.18587473, -0.9756521, 0.98951674, 0.06281356, -0.13004234, 0.0854557, -0.98056364, 0.17661336, 7.161246, 0.1106447, -1.9215171)
+
+[node name="flacone19" parent="props" unique_id=1710569344 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(-0.1076821, 0.9209369, -0.37453932, 0.98951674, 0.06281356, -0.13004234, -0.09623472, -0.38461614, -0.9180466, 7.4038067, 0.12916034, -1.6358957)
+
+[node name="flacone20" parent="props" unique_id=1161363199 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(-0.049804192, 0.9936408, 0.10098222, -0.9779005, -0.027958568, -0.20719369, -0.20305271, -0.109069586, 0.97307444, 6.871432, 0.10630655, -1.5825076)
+
+[node name="flacone21" parent="props" unique_id=72594886 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(-0.5392433, 0, 0.8421502, 0, 1, 0, -0.8421502, 0, -0.5392433, -2.0353312, 1.0199962, -4.8236637)
+
+[node name="Contatore" parent="props" unique_id=52127326 instance=ExtResource("17_cddxv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.098813, 1.1021304, -2.4697568)
+
+[node name="flacone22" parent="props" unique_id=1429957207 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(0.8612047, 0, -0.5082583, 0, 1, 0, 0.5082583, 0, 0.8612047, -0.99153084, 1.0199962, -5.2450438)
+
+[node name="flacone23" parent="props" unique_id=809030531 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(0.68430585, 0, -0.7291952, 0, 1, 0, 0.7291952, 0, 0.68430585, 0.97108424, 1.0199962, -4.764043)
+
+[node name="flacone24" parent="props" unique_id=633907397 instance=ExtResource("16_yb4bi")]
+transform = Transform3D(0.14514986, 0, -0.9894097, 0, 1, 0, 0.9894097, 0, 0.14514986, -3.8068357, 1.0199962, -5.1710973)
+
+[node name="LightmapGI" type="LightmapGI" parent="." unique_id=95701992]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1935979, -2.083305)
+quality = 2
+bounces = 4
+interior = true
+light_data = ExtResource("18_6rpiq")

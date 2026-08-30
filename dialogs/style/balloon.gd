@@ -90,38 +90,39 @@ func _ready() -> void:
 		start()
 
 func _on_dialogue_label_spoke(letter: String, myindex:int, _speed: float) -> void:
-	if letter.strip_edges() == "" or letter in [".", ",", "!", "?", ";", ":"]:
-		return
-
-	var stream := AudioStreamGenerator.new()
-	stream.mix_rate = 44100
-	stream.buffer_length = 0.05
-
-	audio_stream_player.stream = stream
-	if character_label.text == "Karen":
-		audio_stream_player.pitch_scale = randf_range(1.30, 1.40)
-	if character_label.text == "Wednesday":
-		audio_stream_player.pitch_scale = randf_range(1.20, 1.30)
-	elif character_label.text == "Ettore":
-		audio_stream_player.pitch_scale = randf_range(1.10, 1.20)
-	elif character_label.text == "Mohamed Alibaba":
-		audio_stream_player.pitch_scale = randf_range(1.0, 1.10)
-	elif character_label.text == "Giordano":
-		audio_stream_player.pitch_scale = randf_range(0.90, 1.0)
-	elif character_label.text == "Detective":
-		audio_stream_player.pitch_scale = randf_range(0.80, 0.90)
-	elif character_label.text == "Jonny Bravo":
-		audio_stream_player.pitch_scale = randf_range(0.70, 0.80)
-	else:
-		audio_stream_player.pitch_scale = randf_range(0.70, 0.80)
-	audio_stream_player.play()
-
-	var playback = audio_stream_player.get_stream_playback()
-	var frequency = randf_range(300.0, 500.0)
-	var frames = int(stream.mix_rate * 0.05)
-	for i in frames:
-		var value = sin(frequency * TAU * i / stream.mix_rate) * 0.3
-		playback.push_frame(Vector2(value, value))
+	pass
+	#if letter.strip_edges() == "" or letter in [".", ",", "!", "?", ";", ":"]:
+		#return
+#
+	#var stream := AudioStreamGenerator.new()
+	#stream.mix_rate = 44100
+	#stream.buffer_length = 0.05
+#
+	#audio_stream_player.stream = stream
+	#if character_label.text == "Karen":
+		#audio_stream_player.pitch_scale = randf_range(1.30, 1.40)
+	#if character_label.text == "Wednesday":
+		#audio_stream_player.pitch_scale = randf_range(1.20, 1.30)
+	#elif character_label.text == "Ettore":
+		#audio_stream_player.pitch_scale = randf_range(1.10, 1.20)
+	#elif character_label.text == "Mohamed Alibaba":
+		#audio_stream_player.pitch_scale = randf_range(1.0, 1.10)
+	#elif character_label.text == "Giordano":
+		#audio_stream_player.pitch_scale = randf_range(0.90, 1.0)
+	#elif character_label.text == "Detective":
+		#audio_stream_player.pitch_scale = randf_range(0.80, 0.90)
+	#elif character_label.text == "Jonny Bravo":
+		#audio_stream_player.pitch_scale = randf_range(0.70, 0.80)
+	#else:
+		#audio_stream_player.pitch_scale = randf_range(0.70, 0.80)
+	#audio_stream_player.play()
+#
+	#var playback = audio_stream_player.get_stream_playback()
+	#var frequency = randf_range(300.0, 500.0)
+	#var frames = int(stream.mix_rate * 0.05)
+	#for i in frames:
+		#var value = sin(frequency * TAU * i / stream.mix_rate) * 0.3
+		#playback.push_frame(Vector2(value, value))
 
 func _process(_delta: float) -> void:
 	if is_instance_valid(dialogue_line):
