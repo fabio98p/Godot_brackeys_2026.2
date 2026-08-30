@@ -11,6 +11,8 @@
 [ext_resource type="PackedScene" uid="uid://b4skf7ix2x4kf" path="res://props/assets/lavatrice/lavatrice.gltf" id="9_ur0lo"]
 [ext_resource type="PackedScene" uid="uid://c3op8f7pr84vc" path="res://props/assets/door/door.gltf" id="10_ugcal"]
 [ext_resource type="LightmapGIData" uid="uid://bvg1xpfmlswtc" path="res://Levels/Act1.lmbake" id="11_85wqx"]
+[ext_resource type="PackedScene" uid="uid://djw2tf2nk7njb" path="res://props/assets/Contatore/Contatore.gltf" id="12_0mlq8"]
+[ext_resource type="PackedScene" uid="uid://bufoa610e0e2q" path="res://props/assets/flacone/flacone.gltf" id="12_uo32c"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_kbe2v"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -131,6 +133,81 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.81832707, 0, -4.979833)
 
 [node name="door" parent="props" unique_id=600892882 instance=ExtResource("10_ugcal")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6735642, -0.009578049, 0.35802168)
+
+[node name="flacone" parent="props" unique_id=1439727260 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5297782, 0.071261406, -5.119358)
+
+[node name="flacone2" parent="props" unique_id=549700895 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5297782, 0.071261406, -5.119358)
+
+[node name="flacone3" parent="props" unique_id=777475273 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5297782, -0.019205213, -5.119358)
+
+[node name="flacone4" parent="props" unique_id=1940614543 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.680121, 5.9604645e-08, -4.685984)
+
+[node name="flacone5" parent="props" unique_id=1646584705 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1788013, 1.1920929e-07, -5.077239)
+
+[node name="flacone6" parent="props" unique_id=1687053491 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8944538, 1.1920929e-07, -5.311349)
+
+[node name="flacone7" parent="props" unique_id=1514401348 instance=ExtResource("12_uo32c")]
+transform = Transform3D(0.2514911, 0.9678596, 0, -0.9678596, 0.2514911, 0, 0, 0, 1, 3.2457035, 0.06452188, -5.1002502)
+
+[node name="flacone8" parent="props" unique_id=175145194 instance=ExtResource("12_uo32c")]
+transform = Transform3D(0.21086103, 0.3185587, -0.9241526, -0.9775162, 0.068716675, -0.19934998, -9.044676e-09, 0.9454091, 0.32588586, 2.6045747, 0.12058589, -5.2056675)
+
+[node name="flacone9" parent="props" unique_id=115557394 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8195262, 1.1920929e-07, -4.509884)
+
+[node name="flacone10" parent="props" unique_id=36163719 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3039026, 1.1920929e-07, -4.5764656)
+
+[node name="flacone11" parent="props" unique_id=718832034 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6186533, 1.1920929e-07, -2.2205675)
+
+[node name="flacone12" parent="props" unique_id=908169372 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.652623, 2.3841858e-07, -1.749251)
+
+[node name="flacone13" parent="props" unique_id=1141626483 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9153833, 2.3841858e-07, -2.2001228)
+
+[node name="flacone14" parent="props" unique_id=27887241 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.934617, 1.1920929e-07, -1.7426738)
+
+[node name="flacone15" parent="props" unique_id=174631980 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.187948, 1.1920929e-07, -2.2182112)
+
+[node name="flacone16" parent="props" unique_id=1132230400 instance=ExtResource("12_uo32c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.191309, 2.3841858e-07, -1.7395693)
+
+[node name="flacone17" parent="props" unique_id=2121712338 instance=ExtResource("12_uo32c")]
+transform = Transform3D(0.12918462, -0.99162066, 0, 0.99162066, 0.12918462, 0, 0, 0, 1, 7.8977237, 0.08309358, -2.2735078)
+
+[node name="flacone18" parent="props" unique_id=363024041 instance=ExtResource("12_uo32c")]
+transform = Transform3D(-0.11642113, -0.18587473, -0.9756521, 0.98951674, 0.06281356, -0.13004234, 0.0854557, -0.98056364, 0.17661336, 7.161246, 0.1106447, -1.9215171)
+
+[node name="flacone19" parent="props" unique_id=1295569300 instance=ExtResource("12_uo32c")]
+transform = Transform3D(-0.1076821, 0.9209369, -0.37453932, 0.98951674, 0.06281356, -0.13004234, -0.09623472, -0.38461614, -0.9180466, 7.4038067, 0.12916034, -1.6358957)
+
+[node name="flacone20" parent="props" unique_id=271419549 instance=ExtResource("12_uo32c")]
+transform = Transform3D(-0.049804192, 0.9936408, 0.10098222, -0.9779005, -0.027958568, -0.20719369, -0.20305271, -0.109069586, 0.97307444, 6.871432, 0.10630655, -1.5825076)
+
+[node name="flacone21" parent="props" unique_id=1981849868 instance=ExtResource("12_uo32c")]
+transform = Transform3D(-0.5392433, 0, 0.8421502, 0, 1, 0, -0.8421502, 0, -0.5392433, -2.0353312, 1.0199962, -4.8236637)
+
+[node name="Contatore" parent="props" unique_id=174171878 instance=ExtResource("12_0mlq8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.098813, 1.1021304, -2.4697568)
+
+[node name="flacone22" parent="props" unique_id=511776037 instance=ExtResource("12_uo32c")]
+transform = Transform3D(0.8612047, 0, -0.5082583, 0, 1, 0, 0.5082583, 0, 0.8612047, -0.99153084, 1.0199962, -5.2450438)
+
+[node name="flacone23" parent="props" unique_id=1969379691 instance=ExtResource("12_uo32c")]
+transform = Transform3D(0.68430585, 0, -0.7291952, 0, 1, 0, 0.7291952, 0, 0.68430585, 0.97108424, 1.0199962, -4.764043)
+
+[node name="flacone24" parent="props" unique_id=197220640 instance=ExtResource("12_uo32c")]
+transform = Transform3D(0.14514986, 0, -0.9894097, 0, 1, 0, 0.9894097, 0, 0.14514986, -3.8068357, 1.0199962, -5.1710973)
 
 [node name="LightmapGI" type="LightmapGI" parent="." unique_id=1102354050]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1935979, -2.083305)

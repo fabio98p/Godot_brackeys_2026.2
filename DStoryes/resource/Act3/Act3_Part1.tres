@@ -9,6 +9,7 @@
 script = ExtResource("7_1cmu7")
 objective_label = "Talk with the girl"
 ettore_dialog_interaction = ExtResource("2_acl6i")
+wednesday_dialog_interaction = ExtResource("2_acl6i")
 mohamed_alibaba_dialog_interaction = ExtResource("2_acl6i")
 jonny_bravo_dialog_interaction = ExtResource("2_acl6i")
 karen_dialog_interaction = ExtResource("2_acl6i")

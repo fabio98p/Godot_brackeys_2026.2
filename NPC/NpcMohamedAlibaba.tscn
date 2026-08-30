@@ -14,7 +14,7 @@ int_name = "Mohamed Alibaba"
 
 [node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228 groups=["Alibaba", "npc"]]
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0.9173862, 0)
-shaded = true
+modulate = Color(0.7919991, 0.79199916, 0.7919991, 1)
 double_sided = false
 texture = ExtResource("2_tvn25")
 

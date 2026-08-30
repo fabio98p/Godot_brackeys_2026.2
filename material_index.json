@@ -2,7 +2,7 @@
     "mat_b5473a41-507a-4239-b96a-6654176af812": {
         "name": "lavatory",
         "relative_path": "props/materials/lavatory/lavatory.tres",
-        "content_hash": "ef099032984865c1c630c059f4c630a89332622d8fa808894143df2297d53cbc",
+        "content_hash": "59b2c3f2a3452120f3474051ab6dfe05faa79c48c03205906cdc848ba21b4951",
         "material_ext": "TRES",
         "source_blend_file": "terrain.blend"
     },
@@ -35,16 +35,16 @@
         "source_blend_file": "terrain.blend"
     },
     "mat_1ecf9b94-b4f2-46f0-81b7-68f116eb786a": {
-        "name": "desk",
-        "relative_path": "props/materials/desk/desk.tres",
+        "name": "button2",
+        "relative_path": "props/materials/button2/button2.tres",
         "content_hash": "c0883007451db471bedfa9a7694764da53ef38ed0ab609653b5b95d0f35c93f5",
         "material_ext": "TRES",
         "source_blend_file": "terrain.blend"
     },
     "mat_687e30ae-6e6c-4f63-858f-25aa71a0ddb0": {
-        "name": "door",
-        "relative_path": "props/materials/door/door.tres",
-        "content_hash": "0bbdead81f6c354a74acde5880af756b02f3573d9b8e0bf2bee85cbd1bfb7004",
+        "name": "button",
+        "relative_path": "props/materials/button/button.tres",
+        "content_hash": "b08309da6ebc67bdfbcff60a19b46bea44fca3c2cef09686a4d47cfd5fa0ced3",
         "material_ext": "TRES",
         "source_blend_file": "terrain.blend"
     },
@@ -73,6 +73,34 @@
         "name": "pomello",
         "relative_path": "props/materials/pomello/pomello.tres",
         "content_hash": "e794763f15092539f0d36b3319bab95c651bcbe966c37f2ceac23b3989c77b13",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_a385f5a4-d628-4a79-aaac-45030a5d1e2f": {
+        "name": "Material",
+        "relative_path": "props/materials/Material/Material.tres",
+        "content_hash": "c3316aa39bd6398e00d37fd32400107c2096bbdb119551ed62d2cbca0e217d78",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_322e0a23-3991-4920-bf31-7967a1e6f613": {
+        "name": "campanello",
+        "relative_path": "props/materials/campanello/campanello.tres",
+        "content_hash": "636787a320c3793e45874c46697dfe8c9b21a79d0cde715671c16f7d4d8de634",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_fda000d5-78c3-4d44-b97f-0c295aa4e836": {
+        "name": "desk",
+        "relative_path": "props/materials/desk/desk.tres",
+        "content_hash": "8dec01bcee83b616ffb09080153297d4f3b721a95364956f07a3ad07eb983ed5",
+        "material_ext": "TRES",
+        "source_blend_file": "terrain.blend"
+    },
+    "mat_9901a23d-a6cd-46c1-99b1-4e67891d4f53": {
+        "name": "door",
+        "relative_path": "props/materials/door/door.tres",
+        "content_hash": "9a7f254e3680290a1461280f16b4824d2a7bee4304f710ec10d075630cbcf1b3",
         "material_ext": "TRES",
         "source_blend_file": "terrain.blend"
     }

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://durbo5ov6i1xq"]
+
+[ext_resource type="Script" uid="uid://bsrr7vwt2yepp" path="res://paricles/particles.gd" id="1_ri8om"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ddqmr"]
+albedo_color = Color(1, 0.4745098, 0.14117648, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_es3ee"]
+material = SubResource("StandardMaterial3D_ddqmr")
+size = Vector3(0.05, 0.05, 0.05)
+
+[node name="Particles" type="Node3D" unique_id=1394800986]
+script = ExtResource("1_ri8om")
+
+[node name="CPUParticles3D" type="CPUParticles3D" parent="." unique_id=712640607]
+emitting = false
+lifetime = 0.2
+mesh = SubResource("BoxMesh_es3ee")
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = 4.89
+initial_velocity_max = 4.89

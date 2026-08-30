@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://bhqie2qj5ih1m"]
+
+[ext_resource type="PackedScene" uid="uid://bufoa610e0e2q" path="res://props/assets/flacone/flacone.gltf" id="1_d8sc0"]
+
+[node name="flacone" unique_id=362775721 instance=ExtResource("1_d8sc0")]

@@ -8,8 +8,12 @@
 [resource]
 script = ExtResource("7_wg02e")
 objective_label = "Manage the discussion between customers again"
+ettore_dialog_interaction = ExtResource("2_exgs0")
+wednesday_dialog_interaction = ExtResource("2_exgs0")
 mohamed_alibaba_dialog_interaction = ExtResource("2_exgs0")
+jonny_bravo_dialog_interaction = ExtResource("2_exgs0")
 karen_dialog_interaction = ExtResource("2_exgs0")
+table_dialog_interaction = ExtResource("2_exgs0")
 need_intercated_by = "Ettore"
 next_interaction = ExtResource("3_ylg0v")
 is_dialogue_interaction = true

@@ -2,6 +2,6 @@
 
 [resource]
 albedo_color = Color(0.8148, 0.9462, 1, 1)
-roughness = 0.5
+roughness = 0.8091
 metadata/nexus_created = true
 metadata/nexus_material_id = "mat_b5473a41-507a-4239-b96a-6654176af812"

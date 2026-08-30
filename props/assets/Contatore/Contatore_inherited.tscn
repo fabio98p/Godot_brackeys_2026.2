@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://cif32jqh36bfw"]
+
+[ext_resource type="PackedScene" uid="uid://djw2tf2nk7njb" path="res://props/assets/Contatore/Contatore.gltf" id="1_akrvu"]
+
+[node name="Contatore" unique_id=174171878 instance=ExtResource("1_akrvu")]

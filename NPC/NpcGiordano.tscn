@@ -14,15 +14,14 @@ int_name = "Giordano"
 
 [node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228 groups=["Wednesday", "npc"]]
 transform = Transform3D(0.16, 0, 0, 0, 0.16, 0, 0, 0, 0.16, 0, 0.96026075, 0)
-shaded = true
+modulate = Color(0.8047426, 0.80474263, 0.8047426, 1)
 double_sided = false
 texture = ExtResource("2_g5eau")
 
 [node name="Sprite3D2" type="Sprite3D" parent="." unique_id=557593095]
 transform = Transform3D(-0.16, 0, -2.4159327e-08, 0, 0.16, 0, 2.4159327e-08, 0, -0.16, 0, 0.96026075, 0)
 flip_h = true
-modulate = Color(0, 0, 0, 1)
-shaded = true
+modulate = Color(0.8047426, 0.80474263, 0.8047426, 1)
 double_sided = false
 texture = ExtResource("2_g5eau")
 

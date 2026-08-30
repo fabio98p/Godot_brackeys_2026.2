@@ -1,11 +1,9 @@
 [gd_scene format=3 uid="uid://cvl8l0c50qawg"]
 
 [ext_resource type="Script" uid="uid://byce0w8s3kddb" path="res://Interact/story_interact.gd" id="1_mfhal"]
+[ext_resource type="PackedScene" uid="uid://17phe7fns5jp" path="res://props/assets/campanello/campanello.gltf" id="2_wvdwp"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_es3ee"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_es3ee"]
-albedo_color = Color(0.5132329, 0.5132329, 0.5132329, 1)
 
 [node name="Rock" type="StaticBody3D" unique_id=2128398662]
 collision_layer = 4097
@@ -15,9 +13,8 @@ interact_identifier = "table"
 int_name = "Interact"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=367381162]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, -0.025926173, 0)
 shape = SubResource("SphereShape3D_es3ee")
 
-[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=558271486]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
-material = SubResource("StandardMaterial3D_es3ee")
+[node name="campanello" parent="." unique_id=1172726379 instance=ExtResource("2_wvdwp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0053868815, -0.02256073, -0.016354587)

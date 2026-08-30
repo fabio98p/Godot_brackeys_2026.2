@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://5qq0tsimn4l4"]
+
+[ext_resource type="PackedScene" uid="uid://17phe7fns5jp" path="res://props/assets/campanello/campanello.gltf" id="1_nmvjj"]
+
+[node name="campanello" unique_id=1172726379 instance=ExtResource("1_nmvjj")]

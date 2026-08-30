@@ -1,8 +1,15 @@
 [gd_resource type="Resource" script_class="StoryInteractionResource" format=3 uid="uid://2q4ule7ybkn6"]
 
+[ext_resource type="Resource" uid="uid://dgbsj8jvtf3f" path="res://dialogs/empty.dialogue" id="1_krxb5"]
 [ext_resource type="Script" uid="uid://dcrevu1wvc1uq" path="res://DStoryes/story_actions.gd" id="1_nrd3l"]
 
 [resource]
 script = ExtResource("1_nrd3l")
 objective_label = "Wait until the next customers"
+ettore_dialog_interaction = ExtResource("1_krxb5")
+wednesday_dialog_interaction = ExtResource("1_krxb5")
+mohamed_alibaba_dialog_interaction = ExtResource("1_krxb5")
+jonny_bravo_dialog_interaction = ExtResource("1_krxb5")
+karen_dialog_interaction = ExtResource("1_krxb5")
+table_dialog_interaction = ExtResource("1_krxb5")
 metadata/_custom_type_script = "uid://dcrevu1wvc1uq"

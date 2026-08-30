@@ -28,5 +28,20 @@
         "relative_path": "props/assets/door/door.gltf",
         "content_hash": "605bc51bf7107220ed15eeacb25626c24cc98f0ef77cad2199befe0df581f10d",
         "source_blend_file": "terrain.blend"
+    },
+    "asset_e71ee8ae-dea2-40ad-bc26-06f268ec7061": {
+        "relative_path": "props/assets/flacone/flacone.gltf",
+        "content_hash": "6b853a5a44222e1ae1d5e48200198ed890e1240f8c97639437e0a5d792cf79a9",
+        "source_blend_file": "terrain.blend"
+    },
+    "asset_ce4a24ef-66e8-4fe3-83f7-05752ddf7c76": {
+        "relative_path": "props/assets/campanello/campanello.gltf",
+        "content_hash": "5e8c649f7ddfd9e9b9798a7ca1138f3e80e76b003e96ba88d988403fc426a549",
+        "source_blend_file": "terrain.blend"
+    },
+    "asset_068eb6b4-fa93-4ae7-bb63-dd0537dc47da": {
+        "relative_path": "props/assets/Contatore/Contatore.gltf",
+        "content_hash": "6a3d55d99f7aa2c80edd891997b4e7dd4d937ffd6cebb0dadb50cb0e5e04356b",
+        "source_blend_file": "terrain.blend"
     }
 }

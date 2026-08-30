@@ -14,7 +14,7 @@ int_name = "Jonny Bravo"
 
 [node name="Sprite3D" type="Sprite3D" parent="." unique_id=436976228 groups=["Jonny", "npc"]]
 transform = Transform3D(0.16, 0, 0, 0, 0.16, 0, 0, 0, 0.16, 0, 0.9875779, 0)
-shaded = true
+modulate = Color(0.8175213, 0.8175213, 0.81752115, 1)
 double_sided = false
 texture = ExtResource("2_l2qjg")
 
