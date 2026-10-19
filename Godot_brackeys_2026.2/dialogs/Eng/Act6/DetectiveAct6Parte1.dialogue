@@ -98,4 +98,5 @@ Giordano: No, you idiot, we wanted to knock you out while we took care of Ettore
 
 Detective: I can only imagine what Ettore put you through, but a crime is always a crime, and now you'll have to pay.
 Detective: The case is closed.
+do change_scene("res://Levels/fine.tscn")
 => END

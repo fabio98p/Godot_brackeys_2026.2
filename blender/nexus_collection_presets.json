@@ -1,0 +1,36 @@
+{
+    "presets": [
+        {
+            "name": "Static Prop",
+            "data": "{\"export_type\":\"ASSET\",\"root_type\":\"STATIC\",\"script_path\":\"\",\"group_name\":\"\",\"scene_style\":\"wrapper\",\"collision_layer\":2,\"collision_mask\":131,\"rigid_sleeping\":false,\"rigid_lock_rotation\":false,\"rigid_freeze\":false,\"rigid_freeze_mode\":\"STATIC\",\"vehicle_brake\":0.0,\"vehicle_engine_force\":0.0,\"vehicle_steering_deg\":0.0,\"vehicle_mass\":40.0,\"animatable_sync_to_physics\":false,\"physics_material_path\":\"\",\"metadata_entries\":[],\"export_animations\":false,\"target_asset_id\":\"\",\"multimesh_generate_collisions\":false}"
+        },
+        {
+            "name": "Rigid Prop",
+            "data": "{\"export_type\":\"ASSET\",\"root_type\":\"RIGID\",\"script_path\":\"\",\"group_name\":\"\",\"scene_style\":\"inherited\",\"collision_layer\":4,\"collision_mask\":135,\"rigid_sleeping\":false,\"rigid_lock_rotation\":false,\"rigid_freeze\":false,\"rigid_freeze_mode\":\"STATIC\",\"vehicle_brake\":0.0,\"vehicle_engine_force\":0.0,\"vehicle_steering_deg\":0.0,\"vehicle_mass\":40.0,\"animatable_sync_to_physics\":false,\"physics_material_path\":\"\",\"metadata_entries\":[],\"export_animations\":false,\"target_asset_id\":\"\",\"multimesh_generate_collisions\":false}"
+        },
+        {
+            "name": "Area Trigger",
+            "data": "{\"export_type\":\"ASSET\",\"root_type\":\"AREA\",\"script_path\":\"\",\"group_name\":\"\",\"scene_style\":\"inherited\",\"collision_layer\":8,\"collision_mask\":140,\"rigid_sleeping\":false,\"rigid_lock_rotation\":false,\"rigid_freeze\":false,\"rigid_freeze_mode\":\"STATIC\",\"vehicle_brake\":0.0,\"vehicle_engine_force\":0.0,\"vehicle_steering_deg\":0.0,\"vehicle_mass\":40.0,\"animatable_sync_to_physics\":false,\"physics_material_path\":\"\",\"metadata_entries\":[],\"export_animations\":false,\"target_asset_id\":\"\",\"multimesh_generate_collisions\":false}"
+        },
+        {
+            "name": "Animatable Prop",
+            "data": "{\"export_type\":\"ASSET\",\"root_type\":\"ANIMATABLE\",\"script_path\":\"\",\"group_name\":\"\",\"scene_style\":\"wrapper\",\"collision_layer\":2,\"collision_mask\":134,\"rigid_sleeping\":false,\"rigid_lock_rotation\":false,\"rigid_freeze\":false,\"rigid_freeze_mode\":\"STATIC\",\"vehicle_brake\":0.0,\"vehicle_engine_force\":0.0,\"vehicle_steering_deg\":0.0,\"vehicle_mass\":40.0,\"animatable_sync_to_physics\":false,\"physics_material_path\":\"\",\"metadata_entries\":[],\"export_animations\":false,\"target_asset_id\":\"\",\"multimesh_generate_collisions\":false}"
+        },
+        {
+            "name": "Character",
+            "data": "{\"export_type\":\"SKELETAL_ASSET\",\"root_type\":\"CHARACTER_BODY\",\"script_path\":\"\",\"group_name\":\"\",\"scene_style\":\"inherited\",\"collision_layer\":128,\"collision_mask\":159,\"rigid_sleeping\":false,\"rigid_lock_rotation\":false,\"rigid_freeze\":false,\"rigid_freeze_mode\":\"STATIC\",\"vehicle_brake\":0.0,\"vehicle_engine_force\":0.0,\"vehicle_steering_deg\":0.0,\"vehicle_mass\":40.0,\"animatable_sync_to_physics\":false,\"physics_material_path\":\"\",\"metadata_entries\":[],\"export_animations\":false,\"target_asset_id\":\"\",\"multimesh_generate_collisions\":false}"
+        },
+        {
+            "name": "Vehicle",
+            "data": "{\"export_type\":\"COMBINED_ASSET\",\"root_type\":\"VEHICLE\",\"script_path\":\"\",\"group_name\":\"\",\"scene_style\":\"inherited\",\"collision_layer\":16,\"collision_mask\":151,\"rigid_sleeping\":false,\"rigid_lock_rotation\":false,\"rigid_freeze\":false,\"rigid_freeze_mode\":\"STATIC\",\"vehicle_brake\":0.0,\"vehicle_engine_force\":0.0,\"vehicle_steering_deg\":0.0,\"vehicle_mass\":40.0,\"animatable_sync_to_physics\":false,\"physics_material_path\":\"\",\"metadata_entries\":[],\"export_animations\":false,\"target_asset_id\":\"\",\"multimesh_generate_collisions\":false}"
+        },
+        {
+            "name": "",
+            "data": "{}"
+        },
+        {
+            "name": "",
+            "data": "{}"
+        }
+    ]
+}

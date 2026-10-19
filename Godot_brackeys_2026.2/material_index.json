@@ -103,5 +103,19 @@
         "content_hash": "9a7f254e3680290a1461280f16b4824d2a7bee4304f710ec10d075630cbcf1b3",
         "material_ext": "TRES",
         "source_blend_file": "terrain.blend"
+    },
+    "mat_1d6af800-0b10-4310-aabc-46144aea47b4": {
+        "name": "Wood1",
+        "relative_path": "props/materials/Wood1/Wood1.tres",
+        "content_hash": "0df1c430a9f290d597bc5867bd010b4be8e46b36c2e1e392b4686ab349a59570",
+        "material_ext": "TRES",
+        "source_blend_file": "props.blend"
+    },
+    "mat_dcf4d5b9-f9f3-455b-a680-df48a7ff4ef5": {
+        "name": "stone1",
+        "relative_path": "props/materials/stone1/stone1.tres",
+        "content_hash": "cb46b42693c0d826c889f06d1b7f3c5d092c4bb23e75be156ac37aca38adb927",
+        "material_ext": "TRES",
+        "source_blend_file": "props.blend"
     }
 }
